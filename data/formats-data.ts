@@ -1706,7 +1706,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC UU",
 	},
 	magcargo: {
-		tier: "(PU)",
+		tier: "PU",
 	},
 	swinub: {
 		tier: "LC UU",

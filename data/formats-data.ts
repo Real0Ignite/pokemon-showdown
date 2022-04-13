@@ -969,7 +969,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	kangaskhanvengeful: {
-		tier: "UU",
+		tier: "PU",
 	},
 	kangaskhanmega: {
 		isNonstandard: "PastMEGA",
@@ -1587,10 +1587,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	honchkrow: {
 		tier: "RU",
 	},
-	murkrowdelorean: {
+	murkrowdelorea: {
 		tier: "LC UBER",
 	},
-	honchkrowdelorean: {
+	honchkrowdelorea: {
 		tier: "NU",
 	},
 	misdreavus: {
@@ -2887,7 +2887,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 84,
 		randomDoubleBattleMoves: ["allyswitch", "bodypress", "explosion", "ironhead", "trickroom"],
 		randomDoubleBattleLevel: 88,
-		tier: "RU",
+		tier: "NU",
 		doublesTier: "DUU",
 	},
 	chatot: {
@@ -3435,7 +3435,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["encore", "energyball", "helpinghand", "moonblast", "tailwind", "taunt"],
 		randomDoubleBattleLevel: 82,
 		randomBattleNoDynamaxMoves: ["defog", "encore", "energyball", "leechseed", "moonblast", "stunspore", "taunt", "uturn"],
-		tier: "NU",
+		tier: "PU",
 		doublesTier: "DOU",
 	},
 	petilil: {
@@ -3907,7 +3907,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 86,
 		randomDoubleBattleMoves: ["firepunch", "glare", "gunkshot", "protect", "scaleshot", "suckerpunch"],
 		randomDoubleBattleLevel: 86,
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	golett: {
@@ -4912,7 +4912,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["closecombat", "gunkshot", "knockoff", "rockslide", "uturn"],
 		randomDoubleBattleLevel: 84,
-		tier: "RU",
+		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	wimpod: {
@@ -6595,7 +6595,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	woopaunbound: {
-		tier: "OU",
+		tier: "UU",
 	},
 	sparrende: {
 		tier: "NU",

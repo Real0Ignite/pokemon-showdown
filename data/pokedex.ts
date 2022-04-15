@@ -19606,3 +19606,5 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: ["Shimmerse"],
 		eggGroups: ["Bug"],
 		newmeta: "true",
+	},
+},

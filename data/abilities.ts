@@ -1497,6 +1497,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifyWeight(weighthg) {
 			return weighthg * 2;
 		},
+		onModifySpe(spe) {
+			return this.trunc(spe *0.75);
+		},
+		onModifyDef(def) {
+			return this.trunc(def *1.25);
+		},
+		onModifySpD(spd) {
+			return this.trunc(spd *1.25);
+		},
 		isBreakable: true,
 		name: "Heavy Metal",
 		rating: 0,
@@ -1913,6 +1922,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	lightmetal: {
 		onModifyWeight(weighthg) {
 			return this.trunc(weighthg / 2);
+		},
+		onModifySpe(spe) {
+			return this.trunc(spe *1.25);
+		},
+		onModifyDef(def) {
+			return this.trunc(def *0.75);
+		},
+		onModifySpD(spd) {
+			return this.trunc(spd *0.75);
 		},
 		isBreakable: true,
 		name: "Light Metal",

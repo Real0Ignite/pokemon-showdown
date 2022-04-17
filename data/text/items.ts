@@ -2417,14 +2417,17 @@ export const ItemsText: {[k: string]: ItemText} = {
 	lightgem: {
 		name: "Light Gem",
 		desc: "Holder's first successful Light-type attack will have 1.3x power. Single use.",
-		descGen5: "Holder's first successful Light-type attack will have 1.5x power. Single use.",
+		gen5: {
+			desc: "Holder's first successful Light-type attack will have 1.5x power. Single use.",
+		},
 		newmeta: "true",
 	},
 	cosmicgem: {
 		name: "Cosmic Gem",
 		desc: "Holder's first successful Cosmic-type attack will have 1.3x power. Single use.",
-		descGen5: "Holder's first successful Cosmic-type attack will have 1.5x power. Single use.",
-		newmeta: "true",
+		gen5: {
+			desc:  "Holder's first successful Cosmic-type attack will have 1.5x power. Single use.",
+		},
 	},
 	solarpanel: {
 		name: "Solar Panel",
@@ -2460,9 +2463,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Fog Machine",
 		desc: "Holder is protected from critical strikes. Single use.",
 		newmeta: "true",
-		
 		end: "  [POKEMON] blocked a crit thanks to its Fog Machine!",
-		newmeta: "true",
 	},
 	crawshell: {
 		name: "Craw Shell",
@@ -2493,7 +2494,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Shame Card",
 		desc: "If holder is statused, attacker is taunted. Single use.",
 		newmeta: "true",
-
 		end: "  [POKEMON] held up its Shame Card against [TARGET]!",
 	},
 

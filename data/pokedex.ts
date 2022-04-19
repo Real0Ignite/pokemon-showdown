@@ -19519,7 +19519,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Gladiduo",
 		types: ["Water", "Steel"],
 		baseStats: {hp: 80, atk: 75, def: 70, spa: 55, spd: 65, spe: 75},
-		abilities: {0: "Backstabber", 1:"Light Metal", H: "Vitality Drain"},
+		abilities: {0: "Backstabber", 1: "Light Metal", H: "Vitality Drain"},
 		heightm: 0.7,
 		weightkg: 42,
 		color: "Blue",

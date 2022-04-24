@@ -6789,4 +6789,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	reflettle:{
 		tier: "PU"
 	},
+	scarcane:{
+		tier: "UU"
+	},
 };

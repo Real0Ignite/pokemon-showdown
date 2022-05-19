@@ -1992,6 +1992,7 @@ export class Pokemon {
 
 	runStatusImmunity(type: string, message?: string) {
 		if (this.fainted) return false;
+		if(this.hasAbility("runaway")) return false;
 		if (!type) return true;
 
 		if (!this.battle.dex.getImmunity(type, this)) {

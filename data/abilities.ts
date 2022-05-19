@@ -148,14 +148,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	arenatrap: {
 		onFoeTrapPokemon(pokemon) {
 			if (!pokemon.isAdjacent(this.effectState.target)) return;
-			if (pokemon.isGrounded()) {
+			if (pokemon.isGrounded() && !pokemon.hasAbility('runaway')) {
 				pokemon.tryTrap(true);
 			}
 		},
 		onFoeMaybeTrapPokemon(pokemon, source) {
 			if (!source) source = this.effectState.target;
 			if (!source || !pokemon.isAdjacent(source)) return;
-			if (pokemon.isGrounded(!pokemon.knownType)) { // Negate immunity if the type is unknown
+			if (pokemon.isGrounded(!pokemon.knownType) && !pokemon.hasAbility('runaway')) { // Negate immunity if the type is unknown
 				pokemon.maybeTrapped = true;
 			}
 		},
@@ -2107,7 +2107,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	magnetpull: {
 		onFoeTrapPokemon(pokemon) {
-			if (pokemon.hasType('Steel') && pokemon.isAdjacent(this.effectState.target)) {
+			if (pokemon.hasType('Steel') && !pokemon.hasAbility("runaway") && pokemon.isAdjacent(this.effectState.target)) {
 				pokemon.tryTrap(true);
 			}
 		},
@@ -3396,14 +3396,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	shadowtag: {
 		onFoeTrapPokemon(pokemon) {
-			if (!pokemon.hasAbility('shadowtag') && pokemon.isAdjacent(this.effectState.target)) {
+			if (!pokemon.hasAbility('shadowtag') && !pokemon.hasAbility('runaway') && pokemon.isAdjacent(this.effectState.target)) {
 				pokemon.tryTrap(true);
 			}
 		},
 		onFoeMaybeTrapPokemon(pokemon, source) {
 			if (!source) source = this.effectState.target;
 			if (!source || !pokemon.isAdjacent(source)) return;
-			if (!pokemon.hasAbility('shadowtag')) {
+			if (!pokemon.hasAbility('shadowtag') && !pokemon.hasAbility('runaway')) {
 				pokemon.maybeTrapped = true;
 			}
 		},

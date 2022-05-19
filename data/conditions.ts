@@ -251,6 +251,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 		name: 'trapped',
 		noCopy: true,
 		onTrapPokemon(pokemon) {
+			if(!pokemon.hasAbility("runaway"))
 			pokemon.tryTrap();
 		},
 		onStart(target) {

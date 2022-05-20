@@ -2233,4 +2233,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "This pokemon's aura causes opposing pokemon's status moves to be delayed. Will not activate against multiple foes.",
 		newmeta: "true",
 	},
+	elastic: {
+		name: "Elastic",
+		desc: "The first of the users moves to lose all it's PP, gets 10 PP back. Only works one time.",
+		shortDesc: "The first of the users moves to lose all it's PP, gets 10 PP back. Only works one time.",
+		newmeta: "true",
+	},
 };

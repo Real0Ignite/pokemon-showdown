@@ -5974,4 +5974,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			pokemon.addVolatile("suppression");
 		}
 	},
+	elastic: {
+		name: "Elastic",
+		rating: 0,
+		num: 1084,
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Elastic');
+		},
+		onDeductPP(target, source) {
+			if (!target.isAlly(source)) return;
+			if(!source.hasAbility("noability")) {
+				console.log(source);
+				for (var moveslot = 0; moveslot < source.baseMoveSlots.length; moveslot++){
+					if(source.lastMoveUsed && source.lastMoveUsed.id)
+					if ( source.baseMoveSlots[moveslot].id == source.lastMoveUsed.id){
+						const move = source.baseMoveSlots[moveslot];
+						if(move.pp ==1){
+							source.deductPP(move.id, -9)
+							this.add('-ability', source, 'noability');
+							return;
+						}
+					}
+				}
+			}
+			return
+		},
+	},
 };

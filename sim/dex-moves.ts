@@ -46,6 +46,7 @@ interface MoveFlags {
 	reflectable?: 1; // Bounced back to the original user by Magic Coat or the Ability Magic Bounce.
 	snatch?: 1; // Can be stolen from the original user and instead used by another Pokemon using Snatch.
 	sound?: 1; // Has no effect on Pokemon with the Ability Soundproof.
+	unsuppressable?: 1; //moves which are not affected by teh Abilty Suppression
 }
 
 export interface HitEffect {

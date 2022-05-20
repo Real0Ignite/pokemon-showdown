@@ -29,6 +29,7 @@ kick: Power is multiplied by 1.2 when used by a Pokemon with the Kicker Ability.
 blade: Power is multiplied by 1.2 when used by a Pokemon with the Blade Master Ability.
 expert: Power is multiplied by 1.3 when used by a Pokemon with the Expert Ability.
 pivot: Pivoting moves, avoided by Fluffy Bond users.
+unsuppressable: not affected by the ability suppress
 
 */
 
@@ -918,7 +919,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Baneful Bunker",
 		pp: 10,
 		priority: 4,
-		flags: {},
+		flags: {unsuppressable: 1,},
 		stallingMove: true,
 		volatileStatus: 'banefulbunker',
 		onPrepareHit(pokemon) {
@@ -2797,7 +2798,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Crafty Shield",
 		pp: 10,
 		priority: 3,
-		flags: {},
+		flags: {unsuppressable: 1,},
 		sideCondition: 'craftyshield',
 		onTry() {
 			return !!this.queue.willAct();
@@ -3188,7 +3189,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Detect",
 		pp: 10,
 		priority: 4,
-		flags: {},
+		flags: {unsuppressable: 1, },
 		stallingMove: true,
 		volatileStatus: 'protect',
 		onPrepareHit(pokemon) {
@@ -9289,7 +9290,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "King's Shield",
 		pp: 10,
 		priority: 4,
-		flags: {},
+		flags: {unsuppressable: 1,},
 		stallingMove: true,
 		volatileStatus: 'kingsshield',
 		onPrepareHit(pokemon) {
@@ -10429,7 +10430,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Max Guard",
 		pp: 10,
 		priority: 4,
-		flags: {},
+		flags: {unsuppressable: 1,},
 		isMax: true,
 		stallingMove: true,
 		volatileStatus: 'maxguard',
@@ -12023,7 +12024,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Obstruct",
 		pp: 10,
 		priority: 4,
-		flags: {},
+		flags: {unsuppressable: 1,},
 		stallingMove: true,
 		volatileStatus: 'obstruct',
 		onPrepareHit(pokemon) {
@@ -13068,7 +13069,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Protect",
 		pp: 10,
 		priority: 4,
-		flags: {},
+		flags: {unsuppressable: 1,},
 		stallingMove: true,
 		volatileStatus: 'protect',
 		onPrepareHit(pokemon) {
@@ -13551,7 +13552,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Quick Guard",
 		pp: 15,
 		priority: 3,
-		flags: {snatch: 1},
+		flags: {snatch: 1, unsuppressable: 1,},
 		sideCondition: 'quickguard',
 		onTry() {
 			return !!this.queue.willAct();
@@ -16410,7 +16411,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Spiky Shield",
 		pp: 10,
 		priority: 4,
-		flags: {},
+		flags: {unsuppressable: 1,},
 		stallingMove: true,
 		volatileStatus: 'spikyshield',
 		onPrepareHit(pokemon) {
@@ -19326,7 +19327,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Wide Guard",
 		pp: 10,
 		priority: 3,
-		flags: {snatch: 1},
+		flags: {snatch: 1, unsuppressable: 1,},
 		sideCondition: 'wideguard',
 		onTry() {
 			return !!this.queue.willAct();
@@ -21223,7 +21224,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Force Field",
 		pp: 10,
 		priority: 4,
-		flags: {},
+		flags: {unsuppressable: 1,},
 		stallingMove: true,
 		volatileStatus: 'forcefield',
 		onTryHit(pokemon) {

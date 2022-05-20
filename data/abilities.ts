@@ -5984,13 +5984,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onDeductPP(target, source) {
 			if (!target.isAlly(source)) return;
 			if(!source.hasAbility("noability")) {
-				console.log(source);
 				for (var moveslot = 0; moveslot < source.baseMoveSlots.length; moveslot++){
 					if(source.lastMoveUsed && source.lastMoveUsed.id)
 					if ( source.baseMoveSlots[moveslot].id == source.lastMoveUsed.id){
 						const move = source.baseMoveSlots[moveslot];
 						if(move.pp ==1){
-							source.deductPP(move.id, -9)
+							if(move.maxpp <10){
+								console.log(move.maxpp);
+								const ppadd = -(move.maxpp-1);
+								console.log(ppadd)
+								source.deductPP(move.id, ppadd);
+							}
+							else {
+								source.deductPP(move.id, -9)
+							}
 							this.add('-ability', source, 'noability');
 							return;
 						}

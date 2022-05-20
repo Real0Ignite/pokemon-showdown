@@ -5958,4 +5958,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 1083,
 	},
+	suppression: {
+		name: "Suppression",
+		rating: 0,
+		num: 1084,
+		onModifyMovePriority: 1,
+		onStart(pokemon) {
+			if (this.activePerHalf > 1) return false; // Disabled in non-singles combat
+			for (const target of pokemon.adjacentFoes()) {
+				target.addVolatile("suppression");
+			}
+		},
+		onFoeSwitchIn(pokemon){
+			if (this.activePerHalf > 1) return false; //Disabled in non-singles combat
+			pokemon.addVolatile("suppression");
+		}
+	},
 };

@@ -927,4 +927,18 @@ export const Conditions: {[k: string]: ConditionData} = {
 			return [type];
 		},
 	},
+	suppression: {
+		name: "Suppression",
+		onTryMovePriority: 24,
+		onModifyPriority(this, relay, source, target, move){
+			console.log("On modify priority on" + move.name)
+			if(move.category=="Status"){
+				console.log("move priority is " + (move.priority -4));
+				return (move.priority - 4)
+			},
+		},
+		onTryMove(this,source,target,move){
+			console.log(move.priority)
+		},
+	},
 };

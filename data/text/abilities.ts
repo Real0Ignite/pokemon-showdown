@@ -2227,4 +2227,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "This Pokémon Dragon STAB is 2.25, defensive resistances/weaknesses are doubled.",
 		newmeta: "true",
 	},
+	suppression: {
+		name: "Suppression",
+		desc: "This pokemon's aura causes opposing pokemon's status moves to be delayed. Will not activate against multiple foes.",
+		shortDesc: "This pokemon's aura causes opposing pokemon's status moves to be delayed. Will not activate against multiple foes.",
+		newmeta: "true",
+	},
 };

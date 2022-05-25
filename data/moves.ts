@@ -23242,4 +23242,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Light",
 		contestType: "Beautiful",
 	},
+		fail: {
+		num: 982,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Fail",
+		pp: 40,
+		priority: 4,
+		flags: {gravity: 1},
+		onTry(source, target, move) {
+			// Additional Gravity check for Z-move variant
+			if (this.field.getPseudoWeather('Gravity')) {
+				this.add('cant', source, 'move: Gravity', move);
+				return null;
+			}
+		},
+		onTryHit(target, source) {
+			this.add('-nothing');
+		},
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		zMove: {boost: {atk: 6}},
+		contestType: "Cute",
 };

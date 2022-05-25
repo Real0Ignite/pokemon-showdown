@@ -27179,7 +27179,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	unown: {
 		learnset: {
 			hiddenpower: ["7M", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
-			metronome: ["8M"]
+			metronome: ["8M"],
 		},
 		encounters: [
 			{generation: 2, level: 5},

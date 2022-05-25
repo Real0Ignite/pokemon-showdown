@@ -6853,7 +6853,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 	},
 	grubbinunova : {
-		tier: "LCUU",
+		tier: "LC UU",
 	},
 	charjabugunova : {
 		tier: "NFE",
@@ -6862,7 +6862,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 	},
 	trapinchorre : {
-		tier: "LCOU",
+		tier: "LC OU",
 	},
 	vibravaorre : {
 		tier: "NFE",
@@ -6870,10 +6870,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	flygonorre : {
 		tier: "RU",
 	},
-	ferroseedkliiro : {
-		tier: "LCUU",
+	ferroseedkliro : {
+		tier: "LC UU",
 	},
-	ferrothornkliiro : {
+	ferrothornkliro : {
 		tier: "NU",
 	},
 };

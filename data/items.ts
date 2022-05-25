@@ -7792,20 +7792,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
-	orbetite: {
-		name: "Orbetite",
-		spritenum: 576,
-		megaStone: "Orbeetle-Mega",
-		megaEvolves: "Orbeetle",
-		itemUser: ["Orbeetle"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: 761,
-		gen: 6,
-		isNonstandard: "Past",
-	},
 	garbodorite: {
 		name: "Garbodorite",
 		spritenum: 576,

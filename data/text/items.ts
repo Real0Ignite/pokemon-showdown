@@ -2507,10 +2507,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Vile Vial",
 		desc: "If held by a Venomicon, its Poison- and Flying-type attacks have 1.2x power.",
 	},
-	orbetite: {
-		name: "Orbetite",
-		desc: "If held by a Orbeetle, this item allows it to Mega Evolve in battle.",
-	},
 	oblivianpinsirite: {
 		name: "Oblivian Pinsirite",
 		desc: "If held by a Pinsir-Oblivia, this item allows it to Mega Evolve in battle.",

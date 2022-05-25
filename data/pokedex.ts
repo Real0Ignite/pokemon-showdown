@@ -11382,7 +11382,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Ferrothorn-Kliro",
 		baseSpecies: "Ferrothorn",
 		forme: "Kliro",
-		types: ["Grass", "Steel"],
+		types: ["Normal"],
 		baseStats: {hp: 83, atk: 113, def: 80, spa: 47, spd: 75, spe: 91},
 		abilities: {0: "Inner Focus", H: "Technician"},
 		heightm: 1,

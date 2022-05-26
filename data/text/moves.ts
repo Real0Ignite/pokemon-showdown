@@ -1702,7 +1702,6 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		activate: "  What did you think would happen, fool?",
 	},
-},
 	fairylock: {
 		name: "Fairy Lock",
 		desc: "Prevents all active Pokemon from switching next turn. A Pokemon can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. Fails if the effect is already active.",

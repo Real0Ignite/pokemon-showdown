@@ -23266,4 +23266,5 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		zMove: {boost: {atk: 6}},
 		contestType: "Cute",
-};
+		},
+}

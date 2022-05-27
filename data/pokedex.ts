@@ -2853,10 +2853,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 55,
 		color: "Blue",
 		eggGroups: ["Bug"],
-		// otherFormes: ["Pinsir-Oblivia-Mega"],
-		// formeOrder: ["Pinsir-Oblivia", "Pinsir-Oblivia-Mega"],
+		otherFormes: ["Pinsir-Oblivia-Mega"],
+		formeOrder: ["Pinsir-Oblivia", "Pinsir-Oblivia-Mega"],
 	},
-	/* BUGGED
 	pinsirobliviamega: {
 		num: 127,
 		name: "Pinsir-Oblivia-Mega",
@@ -2870,7 +2869,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Bug"],
 		requiredItem: "Oblivian Pinsirite",
-	},*/
+	},
 	pinsirmega: {
 		num: 127,
 		name: "Pinsir-Mega",

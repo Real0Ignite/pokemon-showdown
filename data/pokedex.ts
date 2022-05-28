@@ -2844,8 +2844,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	pinsiroblivia: {
 		num: 127,
 		name: "Pinsir-Oblivia",
-		baseSpecies: "Pinsir",
-    	forme: "Oblivia",
+    forme: "Oblivia",
 		types: ["Electric", "Bug"],
 		baseStats: {hp: 55, atk: 120, def: 90, spa: 66, spd: 75, spe: 94},
 		abilities: {0: "Moxie", 1: "Motor Drive", H: "Dynamo"},

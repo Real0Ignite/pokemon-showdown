@@ -1442,7 +1442,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC UU",
 	},
 	ledian: {
-		tier: "Ubers",
+		tier: "ZU",
 	},
 	spinarak: {
 		tier: "LC UU",
@@ -2500,7 +2500,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	froslassmega: {
-		tier: "UU",
+		tier: "OU",
 	},
 	spheal: {
 		tier: "LC UU",
@@ -2626,7 +2626,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	kyogreprimal: {
 		isNonstandard: "PastMEGA",
-		tier: "AG",
+		tier: "Uber",
 	},
 	groudon: {
 		randomBattleMoves: ["heatcrash", "heavyslam", "precipiceblades", "stealthrock", "stoneedge", "swordsdance", "thunderwave"],
@@ -2639,7 +2639,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	groudonprimal: {
 		isNonstandard: "PastMEGA",
-		tier: "AG",
+		tier: "Uber",
 	},
 	rayquaza: {
 		randomBattleMoves: ["dracometeor", "dragonascent", "dragondance", "earthquake", "extremespeed", "swordsdance", "vcreate"],
@@ -2965,7 +2965,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	abomasnowmega: {
-		tier: "NUBL",
+		tier: "UU",
 	},
 	rotom: {
 		randomBattleMoves: ["nastyplot", "shadowball", "thunderbolt", "voltswitch", "willowisp"],
@@ -3731,7 +3731,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	galvantulamega: {
-		tier: "OU",
+		tier: "RU",
 	},
 	galvantulasinnoh: {
 		tier: "PU",

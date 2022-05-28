@@ -7776,7 +7776,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 762,
 		gen: 6,
-		isNonstandard: "Past",
+		// isNonstandard: "Past",
 	},
 	galvantulite: {
 		name: "Galvantulite",

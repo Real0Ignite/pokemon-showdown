@@ -7718,7 +7718,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 	},
 	pinsiriteoblivia: {
-		name: "Oblivia Pinsirite",
+		name: "Oblivian Pinsirite",
 		spritenum: 576,
 		megaStone: "Pinsir-Oblivia-Mega",
 		megaEvolves: "Pinsir-Oblivia",

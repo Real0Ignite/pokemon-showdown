@@ -23297,7 +23297,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Light",
 		contestType: "Beautiful",
 	},
-		fail: {
+	fail: {
 		num: 982,
 		accuracy: true,
 		basePower: 0,
@@ -23321,5 +23321,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		zMove: {boost: {atk: 6}},
 		contestType: "Cute",
+	},
+	mesmerize: {
+		num: 992,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Mesmerize",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1,},
+		boosts: {
+			spa: -1,
+			spd: -1,
 		},
+		secondary: null,
+		target: "normal",
+		type: "Cosmic",
+		contestType: "Cool",
+	},
 }

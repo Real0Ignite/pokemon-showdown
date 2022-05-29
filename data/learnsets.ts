@@ -37042,6 +37042,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			moonritual: ["8M", "7M"],
 			dazzlinggleam: ["8M", "7M"],
 			brightslap: ["8M", "7M"],
+			mesmerize: ["8M"],
    },
 },
 	sableye: {

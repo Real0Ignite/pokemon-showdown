@@ -7708,4 +7708,9 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Talent Show",
 		desc: "For 3 turns, the target can only use moves that share their type.",
 	},
+	mesmerize: {
+		name: "Mesmerize",
+		desc: "Lowers the target's Special Attack and Special Defense",
+		shortDesc: "Lowers target's Special Attack and Special Defense",
+	}
 };

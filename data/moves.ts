@@ -20243,27 +20243,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 130},
 		contestType: "Beautiful",
 	},
-	nitricstrike: {
-		num: 858,
-		accuracy: 100,
-		basePower: 60,
-		category: "Physical",
-		name: "Nitric Strike",
-		pp: 20,
-		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
-		onEffectiveness(typeMod, target, type) {
-			if (type === 'Steel') return 1;
-		},
-		secondary: {
-			chance: 10,
-			status: 'psn',
-		},
-		ignoreImmunity: true,
-		target: "normal",
-		type: "Poison",
-		contestType: "Tough",
-	},
+	// nitricstrike: {
+	// 	num: 858,
+	// 	accuracy: 100,
+	// 	basePower: 60,
+	// 	category: "Physical",
+	// 	name: "Nitric Strike",
+	// 	pp: 20,
+	// 	priority: 0,
+	// 	flags: {contact: 1, protect: 1, mirror: 1},
+	// 	onEffectiveness(typeMod, target, type) {
+	// 		if (type === 'Steel') return 1;
+	// 	},
+	// 	secondary: {
+	// 		chance: 10,
+	// 		status: 'psn',
+	// 	},
+	// 	ignoreImmunity: true,
+	// 	target: "normal",
+	// 	type: "Poison",
+	// 	contestType: "Tough",
+	// },
 	waterbullet: {
 		num: 859,
 		accuracy: 100,
@@ -21137,34 +21137,34 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Light",
 		contestType: "Cool",
 	},
-	blindingblast: {
-		num: 902,
-		accuracy: 100,
-		basePower: 110,
-		category: "Special",
-		name: "Blinding Blast",
-		pp: 5,
-		priority: 0,
-		flags: {protect: 1, mirror: 1},
-		secondary: null,
-		target: "normal",
-		type: "Light",
-		contestType: "Beautiful",
-	},
-	shadowyblast: {
-		num: 903,
-		accuracy: 100,
-		basePower: 110,
-		category: "Special",
-		name: "Shadowy Blast",
-		pp: 5,
-		priority: 0,
-		flags: {protect: 1, mirror: 1},
-		secondary: null,
-		target: "normal",
-		type: "Dark",
-		contestType: "Beautiful",
-	},
+	// blindingblast: {
+	// 	num: 902,
+	// 	accuracy: 100,
+	// 	basePower: 110,
+	// 	category: "Special",
+	// 	name: "Blinding Blast",
+	// 	pp: 5,
+	// 	priority: 0,
+	// 	flags: {protect: 1, mirror: 1},
+	// 	secondary: null,
+	// 	target: "normal",
+	// 	type: "Light",
+	// 	contestType: "Beautiful",
+	// },
+	// shadowyblast: {
+	// 	num: 903,
+	// 	accuracy: 100,
+	// 	basePower: 110,
+	// 	category: "Special",
+	// 	name: "Shadowy Blast",
+	// 	pp: 5,
+	// 	priority: 0,
+	// 	flags: {protect: 1, mirror: 1},
+	// 	secondary: null,
+	// 	target: "normal",
+	// 	type: "Dark",
+	// 	contestType: "Beautiful",
+	// },
 	lightwave: {
 		num: 904,
 		accuracy: 100,
@@ -22223,59 +22223,59 @@ export const Moves: {[moveid: string]: MoveData} = {
         type: "Ground",
         contestType: "Cute",
     },
-	raid: {
-		num: 949,
-		accuracy: 100,
-		basePower: 90,
-		category: "Physical",
-		name: "Raid",
-		pp: 10,
-		priority: 0,
-		flags: {protect: 1, mirror: 1},
-		onModifyMove(move, pokemon) {
-			if (!move.secondaries) move.secondaries = [];
-			switch (pokemon.effectiveWeather()) {
-			case 'sunnyday':
-			case 'desolateland':
-				move.secondaries.push({
-					chance: 10,
-					status: 'brn',
-				});
-				break;
-			case 'raindance':
-			case 'primordialsea':
-				move.secondaries.push({
-					chance: 10,
-					status: 'slp',
-				});
-				break;
-			case 'sandstorm':
-				move.secondaries.push({
-					chance: 10,
-					volatileStatus: 'flinch',
-				});
-				break;
-			case 'hail':
-				move.secondaries.push({
-					chance: 10,
-					status: 'frz',
-				});
-				break;
-			case 'toxiccloud':
-				move.secondaries.push({
-					chance: 10,
-					status: 'psn',
-				});
-				break;
-			}
-		},
-		secondary: null,
-		target: "normal",
-		type: "Bug",
-		zMove: {basePower: 160},
-		maxMove: {basePower: 130},
-		contestType: "Beautiful",
-	},
+	// raid: {
+	// 	num: 949,
+	// 	accuracy: 100,
+	// 	basePower: 90,
+	// 	category: "Physical",
+	// 	name: "Raid",
+	// 	pp: 10,
+	// 	priority: 0,
+	// 	flags: {protect: 1, mirror: 1},
+	// 	onModifyMove(move, pokemon) {
+	// 		if (!move.secondaries) move.secondaries = [];
+	// 		switch (pokemon.effectiveWeather()) {
+	// 		case 'sunnyday':
+	// 		case 'desolateland':
+	// 			move.secondaries.push({
+	// 				chance: 10,
+	// 				status: 'brn',
+	// 			});
+	// 			break;
+	// 		case 'raindance':
+	// 		case 'primordialsea':
+	// 			move.secondaries.push({
+	// 				chance: 10,
+	// 				status: 'slp',
+	// 			});
+	// 			break;
+	// 		case 'sandstorm':
+	// 			move.secondaries.push({
+	// 				chance: 10,
+	// 				volatileStatus: 'flinch',
+	// 			});
+	// 			break;
+	// 		case 'hail':
+	// 			move.secondaries.push({
+	// 				chance: 10,
+	// 				status: 'frz',
+	// 			});
+	// 			break;
+	// 		case 'toxiccloud':
+	// 			move.secondaries.push({
+	// 				chance: 10,
+	// 				status: 'psn',
+	// 			});
+	// 			break;
+	// 		}
+	// 	},
+	// 	secondary: null,
+	// 	target: "normal",
+	// 	type: "Bug",
+	// 	zMove: {basePower: 160},
+	// 	maxMove: {basePower: 130},
+	// 	contestType: "Beautiful",
+	// },
 	deathray: {
 		num: 950,
 		accuracy: 30,

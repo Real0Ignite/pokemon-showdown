@@ -7035,12 +7035,12 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Raises the user's Attack, Defense and Special Attack by 1.",
 		newmeta: "true",
 	},
-	nitricstrike: {
-		name: "Nitric Strike",
-		desc: "Has a 10% chance to poison the target. This move's type effectiveness against Steel is changed to be super effective no matter what this move's type is.",
-		shortDesc: "10% chance to poison. Super effective on Steel.",
-		newmeta: "true",
-	},
+	// nitricstrike: {
+	// 	name: "Nitric Strike",
+	// 	desc: "Has a 10% chance to poison the target. This move's type effectiveness against Steel is changed to be super effective no matter what this move's type is.",
+	// 	shortDesc: "10% chance to poison. Super effective on Steel.",
+	// 	newmeta: "true",
+	// },
 	waterbullet: {
 		name: "Water Bullet",
 		desc: "No additional effect.",
@@ -7196,16 +7196,16 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Nearly always goes first.",
 		newmeta: "true",
 	},
-	blindingblast: {
-		name: "Blinding Blast",
-		shortDesc: "No additional effect.",
-		newmeta: "true",
-	},
-	shadowyblast: {
-		name: "Shadowy Blast",
-		shortDesc: "No additional effect.",
-		newmeta: "true",
-	},
+	// blindingblast: {
+	// 	name: "Blinding Blast",
+	// 	shortDesc: "No additional effect.",
+	// 	newmeta: "true",
+	// },
+	// shadowyblast: {
+	// 	name: "Shadowy Blast",
+	// 	shortDesc: "No additional effect.",
+	// 	newmeta: "true",
+	// },
 	lightwave: {
 		name: "Light Wave",
 		desc: "Hits two to five times. Has a 1/3 chance to hit two or three times, and a 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
@@ -7476,12 +7476,12 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Breaks the targets protection for this turn.",
 		newmeta: "true",
 	},
-	raid: {
-		name: "Raid",
-		desc: "This move has 10% chance of a weather-dependent effect (sun=burn, toxic cloud=poison, hail=freeze, rain=sleep, sandstorm=flinch).",
-		shortDesc: "10% chance of a weather-dependent effect.",
-		newmeta: "true",
-	},
+	// raid: {
+	// 	name: "Raid",
+	// 	desc: "This move has 10% chance of a weather-dependent effect (sun=burn, toxic cloud=poison, hail=freeze, rain=sleep, sandstorm=flinch).",
+	// 	shortDesc: "10% chance of a weather-dependent effect.",
+	// 	newmeta: "true",
+	// },
 	hyperwoopfury: {
 		name: "Hyperwoop Fury",
 		desc: "This move lowers user's SpDef by 1; breaks protect",

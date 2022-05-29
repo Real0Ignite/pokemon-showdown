@@ -23323,14 +23323,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Cute",
 	},
 	mesmerize: {
-		num: 992,
+		num: 993,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
 		name: "Mesmerize",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1,},
+		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1},
 		boosts: {
 			spa: -1,
 			spd: -1,

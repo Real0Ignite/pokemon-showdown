@@ -93826,6 +93826,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	      solarblade: ["8M", "7M"],
 	      solarbeam: ["8M", "7M"],
 	      bulkup: ["8M", "7M"],
+		  bodypress: ["8M", "7M"],
+		  skullbash: ["8M"],
 	   },
 	},
 	beatboon: {

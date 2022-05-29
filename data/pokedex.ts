@@ -19549,7 +19549,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 10053,
 		name: "Evergranura",
 		types: ["Ice", "Grass"],
-		baseStats: {hp: 83, atk: 106, def: 100, spa: 115, spd: 85, spe: 64},
+		baseStats: {hp: 80, atk: 86, def: 100, spa: 115, spd: 80, spe: 64},
 		abilities: {0: "Phytogenetic"},
 		heightm: 2.1,
 		weightkg: 87,

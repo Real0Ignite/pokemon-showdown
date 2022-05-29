@@ -23340,4 +23340,21 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Cosmic",
 		contestType: "Cool",
 	},
+	collisionburst: {
+		num: 994,
+		accuracy: 90,
+		basePower: 100,
+		category: "Physical",
+		name: "Collision Burst",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, contact: 1},
+		secondary: {
+			chance: 10,
+			volatileStatus: 'flinch',
+		},
+		target: "allAdjacentFoes",
+		type: "Fire",
+		contestType: "Tough",
+	}
 }

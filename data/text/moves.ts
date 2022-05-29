@@ -7712,5 +7712,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Mesmerize",
 		desc: "Lowers the target's Special Attack and Special Defense",
 		shortDesc: "Lowers target's Special Attack and Special Defense",
-	}
+	},
+	collisionburst: {
+		name: "Collision Burst",
+		desc: "Hits adjacent Pokemon. 10% chance to flinch",
+		shortDesc: "Hits adjacent Pokemon. 10% chance to flinch",
+	},
 };

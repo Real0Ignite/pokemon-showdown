@@ -97687,6 +97687,13 @@ alivolt : {
 		focusenergy: ["8M", "7M"],
 		poisonjab: ["8M", "7M"],
 		amnesia: ["8M", "7M"],
+		spookytricks: ["8M", "7M"],
+		lashout: ["8M", "7M"],
+		starpierce: ["8M", "7M"],
+		destinybond: ["8M", "7M"],
+		moonlight: ["8M", "7M"],
+		spectralfang: ["8M", "7M"],
+		lightspeed: ["8M", "7M"],
 	},
 },
 fintricity : {

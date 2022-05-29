@@ -5831,7 +5831,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			focusup: ["8M", "7M"],
 			magicdust: ["8M", "7M"],
 			moonritual: ["8M", "7M"],
-			recover: ["8M", "7M"],
 			calmmind: ["8M", "7M"],
 			moonblast: ["8M", "7M"],
 		},

@@ -6577,6 +6577,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	serprism: {
 		tier: "UU",
 	},
+	cubustion: {
+		tier: "LC OU",
+	},
 	combolguar: {
 		tier: "OU",
 	},

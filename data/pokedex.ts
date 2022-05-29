@@ -19038,7 +19038,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: -10015,
 		name: "Cubustion",
 		types: ["Fire"],
-		baseStats: {hp: 95, atk: 113, def: 86, spa: 65, spd: 80, spe: 111},
+		baseStats: {hp: 65, atk: 73, def: 46, spa: 45, spd: 46, spe: 75},
 		abilities: {0: "Conflagrant", 1: "Tough Claws", H: "Moxie"},
 		heightm: .6,
 		weightkg: 85,

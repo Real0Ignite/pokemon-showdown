@@ -1152,6 +1152,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
+	laprasalola: {
+		tier: "RU",
+	},
 	laprasgmax: {
 		randomBattleMoves: ["freezedry", "icebeam", "protect", "sparklingaria", "thunderbolt", "toxic"],
 		randomBattleLevel: 86,

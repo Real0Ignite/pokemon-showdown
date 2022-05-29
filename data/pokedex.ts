@@ -10419,7 +10419,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 545,
 		name: "Scolipede",
 		types: ["Bug", "Poison"],
-		baseStats: {hp: 80, atk: 110, def: 89, spa: 55, spd: 69, spe: 112},
+		baseStats: {hp: 80, atk: 100, def: 89, spa: 55, spd: 69, spe: 112},
 		abilities: {0: "Poison Point", 1: "Solid Footing", H: "Speed Boost"},
 		heightm: 2.5,
 		weightkg: 200.5,

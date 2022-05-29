@@ -7460,8 +7460,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	symphonicflare: {
 		name: "Symphonic Flare",
-		desc: "Has a 10% chance to flinch the target.",
-		shortDesc: "10% chance to flinch the target.",
+		shortDesc: "No additional effect.",
+		desc: "No additional effect.",
 		newmeta: "true",
 	},
 	ragnarok: {

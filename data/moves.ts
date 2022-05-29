@@ -23194,7 +23194,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "self",
-		type: "Normal",
+		type: "Dragon",
 		contestType: "Cool",
 	},
 	mercurywave: {

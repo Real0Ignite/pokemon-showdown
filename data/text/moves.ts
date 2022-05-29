@@ -5207,8 +5207,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	signalbeam: {
 		name: "Signal Beam",
-		desc: "Has a 10% chance to confuse the target.",
-		shortDesc: "10% chance to confuse the target.",
+		desc: "Hits twice, Has a 15% chance to activate disable.",
+		shortDesc: "15% chance to activate disable.",
 	},
 	silverwind: {
 		name: "Silver Wind",

@@ -15296,16 +15296,73 @@ export const Moves: {[moveid: string]: MoveData} = {
 	signalbeam: {
 		num: 324,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 40,
 		category: "Special",
 		//isNonstandard: "Past",
 		name: "Signal Beam",
 		pp: 15,
 		priority: 0,
+		multihit: 2,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
-			chance: 10,
-			volatileStatus: 'confusion',
+			chance: 15,
+			volatileStatus: 'disable',
+		}, 
+		onTryHit(target) {
+
+		},
+		condition: {
+			duration: 5,
+			noCopy: true, // doesn't get copied by Baton Pass
+			onStart(pokemon, source, effect) {
+				// The target hasn't taken its turn, or Cursed Body activated and the move was not used through Dancer or Instruct
+				if (!pokemon.lastMove || pokemon.lastMove.isZ || pokemon.lastMove.isMax || pokemon.lastMove.id === 'struggle') {
+					return
+				}
+				if(Math.random()*100>15){return}
+				if (
+					this.queue.willMove(pokemon) ||
+					(pokemon === this.activePokemon && this.activeMove && !this.activeMove.isExternal)
+				) {
+					this.effectState.duration--;
+				}
+				if (!pokemon.lastMove) {
+					this.debug(`Pokemon hasn't moved yet`);
+					return false;
+				}
+				for (const moveSlot of pokemon.moveSlots) {
+					if (moveSlot.id === pokemon.lastMove.id) {
+						if (!moveSlot.pp) {
+							this.debug('Move out of PP');
+							return false;
+						}
+					}
+				}
+				if (effect.effectType === 'Ability') {
+					this.add('-start', pokemon, 'Disable', pokemon.lastMove.name, '[from] ability: Cursed Body', '[of] ' + source);
+				} else {
+					this.add('-start', pokemon, 'Disable', pokemon.lastMove.name);
+				}
+				this.effectState.move = pokemon.lastMove.id;
+			},
+			onResidualOrder: 17,
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Disable');
+			},
+			onBeforeMovePriority: 7,
+			onBeforeMove(attacker, defender, move) {
+				if (!move.isZ && move.id === this.effectState.move) {
+					this.add('cant', attacker, 'Disable', move);
+					return false;
+				}
+			},
+			onDisableMove(pokemon) {
+				for (const moveSlot of pokemon.moveSlots) {
+					if (moveSlot.id === this.effectState.move) {
+						pokemon.disableMove(moveSlot.id);
+					}
+				}
+			},
 		},
 		target: "normal",
 		type: "Bug",

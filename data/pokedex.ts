@@ -7080,7 +7080,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Huntail",
 		types: ["Water", "Dark"],
 		baseStats: {hp: 65, atk: 114, def: 105, spa: 94, spd: 75, spe: 62},
-		abilities: {0: "Swift Swim", 1: "Slapper", H: "Water Veil"},
+		abilities: {0: "Swift Swim", H: "Water Veil"},
 		heightm: 1.7,
 		weightkg: 27,
 		color: "Blue",

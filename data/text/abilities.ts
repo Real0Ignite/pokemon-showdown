@@ -1835,12 +1835,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "Bite moves restore 33% of dealt damage.",
 		newmeta: "true",
 	},
-	slapper: {
-		name: "Slapper",
-		desc: "This Pokemon's tail-based attacks have their power multiplied by 1.3.",
-		shortDesc: "This Pokemon's tail-based attacks have 1.3x power.",
-		newmeta: "true",
-	},
+	// slapper: {
+	// 	name: "Slapper",
+	// 	desc: "This Pokemon's tail-based attacks have their power multiplied by 1.3.",
+	// 	shortDesc: "This Pokemon's tail-based attacks have 1.3x power.",
+	// 	newmeta: "true",
+	// },
 	petrify: {
 		name: "Petrify",
 		desc: "On switch-in, this Pokemon lowers the Speed of adjacent opposing Pokemon by 1 stage. Inner Focus, Oblivious, Own Tempo, Scrappy, and Pokemon behind a substitute are immune.",

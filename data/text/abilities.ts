@@ -1225,8 +1225,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	scrappy: {
 		name: "Scrappy",
-		desc: "This Pokemon can hit Ghost types with Normal- and Fighting-type moves. Immune to Intimidate.",
-		shortDesc: "Fighting, Normal moves hit Ghost. Immune to Intimidate.",
+		desc: "This Pokemon can hit Ghost types with Normal- and Fighting-type moves. Immune to Intimidate, Daunt, Petrify.",
+		shortDesc: "Fighting, Normal moves hit Ghost. Immune to Intimidate, Daunt, Petrify.",
 		gen7: {
 			desc: "This Pokemon can hit Ghost types with Normal- and Fighting-type moves.",
 			shortDesc: "This Pokemon can hit Ghost types with Normal- and Fighting-type moves.",
@@ -1756,8 +1756,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	undead: {
 		name: "Undead",
-		desc: "This Pokemon can hit Normal and Fighting types with Ghost type moves.",
-		shortDesc: "Ghost moves hit Fighting, Normal.",
+		desc: "This Pokemon can hit Normal and Fighting types with Ghost type moves. Blocks Intimidate/Daunt/Petrify",
+		shortDesc: "Ghost moves hit Normal and Fighting. Blocks Intimidate/Daunt/Petrify",
 		newmeta: "true",
 	},
 	laststand: {

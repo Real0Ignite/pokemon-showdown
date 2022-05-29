@@ -3535,6 +3535,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			uturn: ["8M", "7M"],
 			speedstrike: ["8M", "7M"],
 			electrotail: ["8M", "7M"],
+			lightspeed: ["8M", "7M"],
 		},
 	},
 	raichualola: {
@@ -3634,6 +3635,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			speedstrike: ["8M", "7M"],
 			electrotail: ["8M", "7M"],
 			//prophecy:["8M"],
+			lightspeed: ["8M", "7M"],
 		},
 	},
 	sandshrew: {
@@ -8305,6 +8307,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sunhammer: ["8M", "7M"],
 			brightclaw: ["8M", "7M"],
 			burningbarrage: ["8M", "7M"],
+			lightspeed: ["8M", "7M"],
 		},
 		eventData: [
 			{generation: 4, level: 50, abilities: ["intimidate"], moves: ["flareblitz", "thunderfang", "crunch", "extremespeed"], pokeball: "cherishball"},
@@ -45821,6 +45824,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			deathray: ["8M", "7M"],
 			psychocrash: ["8M", "7M"],
 			animablast: ["8M"],
+			lightspeed: ["8M", "7M"],
 		},
 		eventData: [
 			{generation: 3, level: 30, shiny: 1, moves: ["taunt", "pursuit", "psychic", "superpower"]},
@@ -53107,6 +53111,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			//prophecy:["8M"],
 			jetstream: ["8M"],
 			mercurywave: ["8M"],
+			lightspeed: ["8M", "7M"],
 		},
 		eventData: [
 			{generation: 4, level: 100, moves: ["judgment", "roaroftime", "spacialrend", "shadowforce"], pokeball: "cherishball"},
@@ -55319,6 +55324,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			wildcharge: ["7M", "7L39", "6M", "6L39", "5M", "5L39"],
 			firejet: ["8M", "7M"],
 			zapkick: ["8M", "7M"],
+			lightspeed: ["8M", "7M"],
 		},
 	},
 	zebstrika: {
@@ -55376,6 +55382,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			jumpkick: ["8M", "7M"],
 			swordsdance: ["8M", "7M"],
 			volttackle: ["8M", "7M"],
+			lightspeed: ["8M", "7M"],
 		},
 	},
 	roggenrola: {
@@ -78271,6 +78278,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			lightwave: ["8M", "7M"],
 			playrough: ["8M", "7M"],
 			alternatingcurrent: ["8M"],
+			lightspeed: ["8M", "7M"],
 		},
 		eventData: [
 			{generation: 7, level: 60, moves: ["naturesmadness", "discharge", "agility", "electroball"]},
@@ -80170,6 +80178,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			brightclaw: ["8M", "7M"],
 			electrotail: ["8M", "7M"],
 			animablast: ["8M"],
+			lightspeed: ["8M", "7M"],
 		},
 		eventData: [
 			{generation: 7, level: 50, moves: ["plasmafists", "thunderpunch", "closecombat", "thunder"], pokeball: "cherishball"},
@@ -81632,6 +81641,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			icefang: ["8M", "7M"],
 			volttackle: ["8M", "7M"],
 			voidrend: ["8M", "7M"],
+			lightspeed: ["8M", "7M"],
 		},
 	},
 	rolycoly: {
@@ -84711,6 +84721,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			voltswitch: ["8M"],
 			wildcharge: ["8M"],
 			zapcannon: ["8L66", "8S0"],
+			lightspeed: ["8M", "7M"],
 		},
 		eventData: [
 			{generation: 8, level: 70, shiny: 1, moves: ["thundercage", "thrash", "lockon", "zapcannon"]},

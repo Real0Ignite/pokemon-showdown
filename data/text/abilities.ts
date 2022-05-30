@@ -2227,4 +2227,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "This Pokémon takes half damage from rock type moves, and double damage from fighting type moves.",
 		newmeta: "true",
 	},
+	razorrotors: {
+		name: "Razor Rotors",
+		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using a flying-type attack.",
+	},
 };

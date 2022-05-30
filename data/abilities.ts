@@ -5973,5 +5973,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 1084,
 	},
-
+	razorrotors: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'flying') {
+				this.debug('Razor Rotors boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'flying') {
+				this.debug('Razor Rotors boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Razor Rotors",
+		rating: 3.5,
+		num: 1085,
+	},
 };

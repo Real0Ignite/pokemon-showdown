@@ -19593,7 +19593,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Drapache",
 		types: ["Dragon", "Steel"],
 		baseStats: {hp: 112, atk: 86, def: 70, spa: 95, spd: 110, spe: 62},
-		abilities: {0: "Pressure", 1: "Heatproof", H: "Aerilate"},
+		abilities: {0: "Pressure", 1: "Heatproof", H: "Razor Rotors"},
 		heightm: 0.5,
 		weightkg: 40,
 		color: "Grey",

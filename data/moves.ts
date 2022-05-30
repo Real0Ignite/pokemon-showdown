@@ -16736,6 +16736,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (pokemon.hasItem('heavydutyboots')) return;
 				if (pokemon.hasAbility('solidfooting')) return;
 				const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('stealthrock')), -6, 6);
+				if(pokemon.hasAbility("carapace")) {this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 16); return}
 				this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
 			},
 		},

@@ -5958,4 +5958,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 1083,
 	},
+	carapace: {
+		onFoeDamage(this,damage,attacker,defender,effect) {
+			if(defender.hasAbility("carapace") && this.activeMove){
+				if(this.activeMove.type=="Fighting"){
+					return damage/2;
+				}
+				if(this.activeMove.type=="Rock"){
+					return damage*2;
+				}
+			}
+		},
+		name: "Carapace",
+		rating: 3,
+		num: 1084,
+	},
+
 };

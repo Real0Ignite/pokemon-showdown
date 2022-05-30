@@ -2221,4 +2221,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "This Pokémon Dragon STAB is 2.25, defensive resistances/weaknesses are doubled.",
 		newmeta: "true",
 	},
+	carapace: {
+		name: "Carapace",
+		desc: "This Pokémon takes half damage from rock type moves, and double damage from fighting type moves.",
+		shortDesc: "This Pokémon takes half damage from rock type moves, and double damage from fighting type moves.",
+		newmeta: "true",
+	},
 };

@@ -19917,7 +19917,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Coleoterra",
 		types: ["Bug", "Ground"],
 		baseStats: {hp: 75, atk: 112, def: 98, spa: 55, spd: 66, spe: 104},
-		abilities: {0: "Hyper Cutter", 1: "Defiant"},
+		abilities: {0: "Hyper Cutter", 1: "Defiant", H: "Carapace"},
 		heightm: 0.8,
 		weightkg: 48,
 		color: "Green",

@@ -1565,7 +1565,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "ZU",
 	},
 	aipom: {
-		tier: "LC OU",
+		tier: "LC UBER",
 	},
 	ambipom: {
 		tier: "NU",
@@ -1577,7 +1577,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	yanma: {
-		tier: "LC OU",
+		tier: "LC UBER",
 	},
 	yanmega: {
 		tier: "RU",

@@ -5992,4 +5992,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 1085,
 	},
+	gordianknot: {
+		onDamagingHit(damage, target, source, move) {
+			if (target.hasAbility("Gordian Knot") && this.checkMoveMakesContact(move, source, target)) {
+				source.addVolatile('gordiantrap');
+			}
+		},
+		name: "Gordian Knot",
+		rating: 2,
+		num: 9,
+	},
 };

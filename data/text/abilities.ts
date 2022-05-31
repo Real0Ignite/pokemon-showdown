@@ -2231,4 +2231,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Razor Rotors",
 		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using a flying-type attack.",
 	},
+	gordianknot: {
+		name: "Gordian Knot",
+		desc: "This pokemon traps for one turn foes which hit it with a contact move.",
+		shortDesc: "This pokemon traps for one turn foes which hit it with a contact move.",
+	},
 };

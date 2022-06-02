@@ -2348,6 +2348,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	swablu: {
 		tier: "LC UU",
 	},
+	swablusinnoh: {
+		tier: "LC UU",
+	},
 	altaria: {
 		randomBattleMoves: ["defog", "dracometeor", "earthquake", "fireblast", "roost", "toxic"],
 		randomBattleLevel: 90,
@@ -2360,6 +2363,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "PastMEGA",
 		tier: "Illegal",
 	},
+	altariasinnoh: {
+		randomBattleMoves: ["defog", "blizzard", "earthquake", "moonblast", "roost", "toxic"],
+		randomBattleLevel: 90,
+		tier: "ZU",
+
 	zangoose: {
 		tier: "PU",
 	},
@@ -6527,6 +6535,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	crawcomb: {
+		randomBattleMoves: ["firelash", "poweruppunch", "rapidspin", "flamecharge", "firstimpression", "outrage", "acrobatics", "crushingice", "stoneedge" ],
+			randomBattleLevel: 88,
+			randomDoubleBattleMoves: ["heatwave", "rockslide", "bulldoze", "chillingwave", "surf", "firelash", "boomburst", "extremespeed", "petalblizzard" ],
+			randomDoubleBattleLevel: 93,
 		tier: "RU",
 	},
 	ibroxiz: {
@@ -6587,6 +6599,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	froschaiser: {
+		randomBattleMoves: ["scorchingsands", "moonblast", "slackoff", "stealthrock", "taunt", "sludgebomb"],
+			 randomBattleLevel: 80,
+			 randomDoubleBattleMoves: ["scorchingsands", "instruct", "slackoff", "yawn", "protect", "moonblast"],
+			 randomDoubleBattleLevel: 84,
 		tier: "OU",
 	},
 	corchi: {
@@ -6881,5 +6897,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	ferrothornkliro : {
 		tier: "NU",
+	},
+	leerror: {
+		tier: "UUBL",
+	},
+	oblyvern: {
+		tier: "UU"
 	},
 };

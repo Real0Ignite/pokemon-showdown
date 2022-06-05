@@ -6492,6 +6492,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		swablusinnoh: {
 		num: 333,
 		name: "Swablu-Sinnoh",
+		baseSpecies: "Swablu",
 		types: ["Ice", "Flying"],
 		baseStats: {hp: 45, atk: 40, def: 60, spa: 40, spd: 80, spe: 50}, 
 		abilities: {0: "Natural Cure", H: "Cloud Nine"},
@@ -6533,6 +6534,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	altariasinnoh: {
 		num: 334,
 		name: "Altaria-Sinnoh",
+		baseSpecies: "Altaria",
 		types: ["Ice", "Flying"],
 		baseStats: {hp: 75, atk: 70, def: 85, spa: 75, spd: 115, spe: 70},
 		abilities: {0: "Natural Cure", H: "Cloud Nine"},
@@ -11391,7 +11393,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	ferroseedkliro: {
 		num: 597,
-		name: "Ferroseed",
+		name: "Ferroseed-Kliro",
+		baseSpecies: "Ferroseed", 
 		types: ["Normal"],
 		baseStats: {hp: 44, atk: 86, def: 50, spa: 10, spd: 35, spe: 85},
 		abilities: {0: "Inner Focus", H: "Technician"},

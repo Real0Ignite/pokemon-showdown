@@ -1225,8 +1225,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	scrappy: {
 		name: "Scrappy",
-		desc: "This Pokemon can hit Ghost types with Normal- and Fighting-type moves. Immune to Intimidate.",
-		shortDesc: "Fighting, Normal moves hit Ghost. Immune to Intimidate.",
+		desc: "This Pokemon can hit Ghost types with Normal- and Fighting-type moves. Immune to Intimidate, Daunt, Petrify.",
+		shortDesc: "Fighting, Normal moves hit Ghost. Immune to Intimidate, Daunt, Petrify.",
 		gen7: {
 			desc: "This Pokemon can hit Ghost types with Normal- and Fighting-type moves.",
 			shortDesc: "This Pokemon can hit Ghost types with Normal- and Fighting-type moves.",
@@ -1756,8 +1756,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	undead: {
 		name: "Undead",
-		desc: "This Pokemon can hit Normal and Fighting types with Ghost type moves.",
-		shortDesc: "Ghost moves hit Fighting, Normal.",
+		desc: "This Pokemon can hit Normal and Fighting types with Ghost type moves. Blocks Intimidate/Daunt/Petrify",
+		shortDesc: "Ghost moves hit Normal and Fighting. Blocks Intimidate/Daunt/Petrify",
 		newmeta: "true",
 	},
 	laststand: {
@@ -1835,12 +1835,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "Bite moves restore 33% of dealt damage.",
 		newmeta: "true",
 	},
-	slapper: {
-		name: "Slapper",
-		desc: "This Pokemon's tail-based attacks have their power multiplied by 1.3.",
-		shortDesc: "This Pokemon's tail-based attacks have 1.3x power.",
-		newmeta: "true",
-	},
+	// slapper: {
+	// 	name: "Slapper",
+	// 	desc: "This Pokemon's tail-based attacks have their power multiplied by 1.3.",
+	// 	shortDesc: "This Pokemon's tail-based attacks have 1.3x power.",
+	// 	newmeta: "true",
+	// },
 	petrify: {
 		name: "Petrify",
 		desc: "On switch-in, this Pokemon lowers the Speed of adjacent opposing Pokemon by 1 stage. Inner Focus, Oblivious, Own Tempo, Scrappy, and Pokemon behind a substitute are immune.",
@@ -2220,5 +2220,25 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokémon Dragon STAB is 2.25, defensive resistances/weaknesses are doubled.",
 		shortDesc: "This Pokémon Dragon STAB is 2.25, defensive resistances/weaknesses are doubled.",
 		newmeta: "true",
+	},
+	carapace: {
+		name: "Carapace",
+		desc: "This Pokémon takes half damage from rock type moves, and double damage from fighting type moves.",
+		shortDesc: "This Pokémon takes half damage from rock type moves, and double damage from fighting type moves.",
+		newmeta: "true",
+	},
+	razorrotors: {
+		name: "Razor Rotors",
+		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using a flying-type attack.",
+	},
+	gordianknot: {
+		name: "Gordian Knot",
+		desc: "This pokemon traps for one turn foes which hit it with a contact move.",
+		shortDesc: "This pokemon traps for one turn foes which hit it with a contact move.",
+	},
+	nullspace: {
+		name: "Null Space",
+		desc: "This Pokemon ignores other Pokemon's Defense and Special Defense stat stages when dealing damage.",
+		shortDesc: "This Pokemon ignores other Pokemon's stat stages when dealing damage.",
 	},
 };

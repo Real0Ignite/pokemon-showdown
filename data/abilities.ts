@@ -5958,4 +5958,62 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 1083,
 	},
+	carapace: {
+		onFoeDamage(this,damage,attacker,defender,effect) {
+			if(defender.hasAbility("carapace") && this.activeMove){
+				if(this.activeMove.type=="Fighting"){
+					return damage/2;
+				}
+				if(this.activeMove.type=="Rock"){
+					return damage*2;
+				}
+			}
+		},
+		name: "Carapace",
+		rating: 3,
+		num: 1084,
+	},
+	razorrotors: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'flying') {
+				this.debug('Razor Rotors boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'flying') {
+				this.debug('Razor Rotors boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Razor Rotors",
+		rating: 3.5,
+		num: 1085,
+	},
+	gordianknot: {
+		onDamagingHit(damage, target, source, move) {
+			if (target.hasAbility("Gordian Knot") && this.checkMoveMakesContact(move, source, target)) {
+				source.addVolatile('gordiantrap');
+			}
+		},
+		name: "Gordian Knot",
+		rating: 2,
+		num: 9,
+	},
+	nullspace: {
+			name: "Null Space",
+			onAnyModifyBoost(boosts, pokemon) {
+				const unawareUser = this.effectState.target;
+				if (unawareUser === pokemon) return;
+				if (unawareUser === this.activePokemon && pokemon === this.activeTarget) {
+					boosts['def'] = 0;
+					boosts['spd'] = 0;
+				}
+			},
+			isBreakable: true,
+			rating: 4,
+			num: 109,
+	},
 };

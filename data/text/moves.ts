@@ -850,17 +850,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	cometpunch: {
 		name: "Comet Punch",
-		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-		shortDesc: "Hits 2-5 times in one turn.",
-		gen4: {
-			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the target has a Focus Sash and had full HP when this move started, it will not be knocked out regardless of the number of hits.",
-		},
-		gen3: {
-			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits.",
-		},
-		gen1: {
-			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. Damage is calculated once for the first hit and used for every hit. If one of the hits breaks the target's substitute, the move ends.",
-		},
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
 	},
 	confide: {
 		name: "Confide",
@@ -5216,8 +5207,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	signalbeam: {
 		name: "Signal Beam",
-		desc: "Has a 10% chance to confuse the target.",
-		shortDesc: "10% chance to confuse the target.",
+		desc: "Hits twice, Has a 15% chance to activate disable.",
+		shortDesc: "15% chance to activate disable.",
 	},
 	silverwind: {
 		name: "Silver Wind",
@@ -6964,7 +6955,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	forestsvoice: {
 		name: "Forest's Voice",
 		desc: "For 5 turns, the terrain becomes Grassy Terrain. During the effect, the power of Grass-type attacks used by grounded Pokemon is multiplied by 1.3, the power of Bulldoze, Earthquake, and Magnitude used against grounded Pokemon is multiplied by 0.5, and grounded Pokemon have 1/16 of their maximum HP, rounded down, restored at the end of each turn, including the last turn. Camouflage transforms the user into a Grass type, Nature Power becomes Energy Ball, and Secret Power has a 30% chance to cause sleep. Fails if the current terrain is Grassy Terrain.",
-		shortDesc: "5 turns. Grounded: +Grass power, +1/16 max HP.",
+		shortDesc: "Summons Grassy Terrain.",
 		newmeta: "true",
 	},
 	spectralfang: {
@@ -7044,12 +7035,12 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Raises the user's Attack, Defense and Special Attack by 1.",
 		newmeta: "true",
 	},
-	nitricstrike: {
-		name: "Nitric Strike",
-		desc: "Has a 10% chance to poison the target. This move's type effectiveness against Steel is changed to be super effective no matter what this move's type is.",
-		shortDesc: "10% chance to poison. Super effective on Steel.",
-		newmeta: "true",
-	},
+	// nitricstrike: {
+	// 	name: "Nitric Strike",
+	// 	desc: "Has a 10% chance to poison the target. This move's type effectiveness against Steel is changed to be super effective no matter what this move's type is.",
+	// 	shortDesc: "10% chance to poison. Super effective on Steel.",
+	// 	newmeta: "true",
+	// },
 	waterbullet: {
 		name: "Water Bullet",
 		desc: "No additional effect.",
@@ -7205,16 +7196,16 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Nearly always goes first.",
 		newmeta: "true",
 	},
-	blindingblast: {
-		name: "Blinding Blast",
-		shortDesc: "No additional effect.",
-		newmeta: "true",
-	},
-	shadowyblast: {
-		name: "Shadowy Blast",
-		shortDesc: "No additional effect.",
-		newmeta: "true",
-	},
+	// blindingblast: {
+	// 	name: "Blinding Blast",
+	// 	shortDesc: "No additional effect.",
+	// 	newmeta: "true",
+	// },
+	// shadowyblast: {
+	// 	name: "Shadowy Blast",
+	// 	shortDesc: "No additional effect.",
+	// 	newmeta: "true",
+	// },
 	lightwave: {
 		name: "Light Wave",
 		desc: "Hits two to five times. Has a 1/3 chance to hit two or three times, and a 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
@@ -7469,8 +7460,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	symphonicflare: {
 		name: "Symphonic Flare",
-		desc: "Has a 10% chance to flinch the target.",
-		shortDesc: "10% chance to flinch the target.",
+		shortDesc: "No additional effect.",
+		desc: "No additional effect.",
 		newmeta: "true",
 	},
 	ragnarok: {
@@ -7485,12 +7476,12 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Breaks the targets protection for this turn.",
 		newmeta: "true",
 	},
-	raid: {
-		name: "Raid",
-		desc: "This move has 10% chance of a weather-dependent effect (sun=burn, toxic cloud=poison, hail=freeze, rain=sleep, sandstorm=flinch).",
-		shortDesc: "10% chance of a weather-dependent effect.",
-		newmeta: "true",
-	},
+	// raid: {
+	// 	name: "Raid",
+	// 	desc: "This move has 10% chance of a weather-dependent effect (sun=burn, toxic cloud=poison, hail=freeze, rain=sleep, sandstorm=flinch).",
+	// 	shortDesc: "10% chance of a weather-dependent effect.",
+	// 	newmeta: "true",
+	// },
 	hyperwoopfury: {
 		name: "Hyperwoop Fury",
 		desc: "This move lowers user's SpDef by 1; breaks protect",
@@ -7677,8 +7668,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	astroshift: {
 		name: "Astro Shift",
-		desc: "Raises the user's speed by two stages and the user's special defence by one stage.",
-		shortDesc: "Raises the user's Speed by 2 and raises Special Defense by 1.",
+		desc: "Raises the user's speed by two stages and the user's special attack by one stage.",
+		shortDesc: "Raises the user's Speed by 2 and raises Special Attack by 1.",
 	},
 	animablast: {
 		name: "Anima Blast",
@@ -7716,5 +7707,15 @@ export const MovesText: {[k: string]: MoveText} = {
 	talentshow: {
 		name: "Talent Show",
 		desc: "For 3 turns, the target can only use moves that share their type.",
+	},
+	mesmerize: {
+		name: "Mesmerize",
+		desc: "Lowers the target's Special Attack and Special Defense",
+		shortDesc: "Lowers target's Special Attack and Special Defense",
+	},
+	collisionburst: {
+		name: "Collision Burst",
+		desc: "Hits adjacent Pokemon. 10% chance to flinch",
+		shortDesc: "Hits adjacent Pokemon. 10% chance to flinch",
 	},
 };

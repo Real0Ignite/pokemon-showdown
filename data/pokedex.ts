@@ -19110,6 +19110,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 		newmeta: "true",
 	},
+	/* DELETED
 	colburnire: {
 		num: 10016,
 		name: "Colburnire",
@@ -19121,7 +19122,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 		newmeta: "true",
-	},
+	},*/
 	froschaiser: {
 		num: 10017,
 		name: "Froschaiser",

@@ -2236,4 +2236,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This pokemon traps for one turn foes which hit it with a contact move.",
 		shortDesc: "This pokemon traps for one turn foes which hit it with a contact move.",
 	},
+	nullspace: {
+		name: "Null Space",
+		desc: "This Pokemon ignores other Pokemon's Defense and Special Defense stat stages when dealing damage.",
+		shortDesc: "This Pokemon ignores other Pokemon's stat stages when dealing damage.",
+	},
 };

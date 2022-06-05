@@ -6002,4 +6002,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 9,
 	},
+	nullspace: {
+			name: "Null Space",
+			onAnyModifyBoost(boosts, pokemon) {
+				const unawareUser = this.effectState.target;
+				if (unawareUser === pokemon) return;
+				if (unawareUser === this.activePokemon && pokemon === this.activeTarget) {
+					boosts['def'] = 0;
+					boosts['spd'] = 0;
+				}
+			},
+			isBreakable: true,
+			rating: 4,
+			num: 109,
+	},
 };

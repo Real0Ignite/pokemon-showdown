@@ -2367,7 +2367,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleMoves: ["defog", "blizzard", "earthquake", "moonblast", "roost", "toxic"],
 		randomBattleLevel: 90,
 		tier: "ZU",
-
+	},
 	zangoose: {
 		tier: "PU",
 	},
@@ -6904,4 +6904,4 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	oblyvern: {
 		tier: "UU"
 	},
-};
+}

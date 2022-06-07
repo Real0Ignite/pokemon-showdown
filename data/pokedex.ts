@@ -19406,7 +19406,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Sparrende",
 		types: ["Fairy", "Fighting"],
 		baseStats: {hp: 60, atk: 110, def: 130, spa: 40, spd: 95, spe: 70},
-		abilities: {0: "Volt Absorb", 1: "IronFist", H: "Unnerve"},
+		abilities: {0: "Volt Absorb", 1: "Iron Fist", H: "Unnerve"},
 		heightm: 3.4,
 		weightkg: 31,
 		color: "Red",

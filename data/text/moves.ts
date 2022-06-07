@@ -99,6 +99,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 30% chance to make the target flinch.",
 		shortDesc: "30% chance to make the target flinch.",
 	},
+	alternatingcurrent: {
+		name: "Alternating Current",
+		desc: "Hits 2 times in one turn. Has a 20% chance to make the target flinch.",
+		shortDesc: "Hits 2 times, 20% chance to make the target flinch.",
+	},
 	alloutpummeling: {
 		name: "All-Out Pummeling",
 		shortDesc: "Power is equal to the base move's Z-Power.",
@@ -7704,14 +7709,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	mercurywave: {
 		name: "Mercury Wave",
 		desc: "No additional effect",
-	},
-	alternatingcurrent: {
-		name: "Alternating Current",
-		desc: "Hits twice. 30% chance to make the target flinch.",
+		shortDesc: "No additional effect",
 	},
 	talentshow: {
 		name: "Talent Show",
 		desc: "For 3 turns, the target can only use moves that share their type.",
+		shortDesc: "For 3 turns, target can only use moves of their type.",
 	},
 	mesmerize: {
 		name: "Mesmerize",

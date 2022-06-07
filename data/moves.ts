@@ -874,6 +874,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ice",
 		contestType: "Beautiful",
 	},
+	aviansong: {
+		num: 995,
+		accuracy: 90,
+		basePower: 85,
+		category: "Special",
+		name: "Avian Song",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, sound: 1,  bypasssub: 1},
+		secondary: {
+			chance: 20,
+			boosts: {
+				spd: -2,
+			},
+		},
+		target: "normal",
+		type: "Flying",
+		contestType: "Beautiful",
+	},
 	babydolleyes: {
 		num: 608,
 		accuracy: 100,

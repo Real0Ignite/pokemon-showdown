@@ -292,6 +292,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Power doubles if the user was hit by a Pokemon in the target's position this turn.",
 		},
 	},
+	aviansong: {
+		name: "Avian Song",
+		desc: "Has a 20% chance to lower the target's Special Defense by 2 stages.",
+		shortDesc: "20% chance to lower the target's Sp. Def by 2.",
+	},
 	babydolleyes: {
 		name: "Baby-Doll Eyes",
 		desc: "Lowers the target's Attack by 1 stage.",

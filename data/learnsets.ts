@@ -93354,6 +93354,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			fly: ["8M", "7M"],
 			airslash: ["8M", "7M"],
 			aircutter: ["8M", "7M"],
+			aviansong: ["8M", "7M"],
 			featherbarrage: ["8M", "7M"],
 			bravebird: ["8M", "7M"],
 			defog: ["8M", "7M"],

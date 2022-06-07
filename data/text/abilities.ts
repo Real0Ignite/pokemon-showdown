@@ -1756,8 +1756,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	undead: {
 		name: "Undead",
-		desc: "This Pokemon can hit Normal and Fighting types with Ghost type moves. Blocks Intimidate/Daunt/Petrify",
-		shortDesc: "Ghost moves hit Normal and Fighting. Blocks Intimidate/Daunt/Petrify",
+		desc: "This Pokemon can hit Normal types with Ghost type moves. Blocks Intimidate/Daunt/Petrify",
+		shortDesc: "Ghost moves hit Normal. Blocks Intimidate/Daunt/Petrify",
 		newmeta: "true",
 	},
 	laststand: {

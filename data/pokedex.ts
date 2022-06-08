@@ -19837,6 +19837,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Beeow",
 		newmeta: "true",
 	},
+	/* DELETED
 	rampharos:{
 		num: 10068,
 		name: "Rampharos",
@@ -19848,7 +19849,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Field"],
 		newmeta: "true",
-	},
+	},*/
 	doubragon:{
 		num: 10069,
 		name: "Doubragon",

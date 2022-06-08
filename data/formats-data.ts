@@ -6768,6 +6768,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	wigglytuffjohto:{
 		tier: "PUBL",
 	},
+	rampharos:{
+		tier: "RU",
+	},
 	doubragon:{
 		tier: "NU",
 	},

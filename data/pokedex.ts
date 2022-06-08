@@ -19837,6 +19837,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Beeow",
 		newmeta: "true",
 	},
+	rampharos:{
+		num: 10068,
+		name: "Rampharos",
+		types: ["Steel"],
+		baseStats: {hp: 110, atk: 115, def: 75, spa: 90, spd: 80, spe: 40},
+		abilities: {0: "Light Metal", H: "Iron Fleece"},
+		heightm: 1.0,
+		weightkg: 43.8,
+		color: "Gray",
+		eggGroups: ["Field"],
+		newmeta: "true",
+	},
 	doubragon:{
 		num: 10069,
 		name: "Doubragon",

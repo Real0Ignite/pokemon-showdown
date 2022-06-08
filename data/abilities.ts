@@ -361,6 +361,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 			}
 		},
+		onAnyModifyBoost(boosts, pokemon) {
+			const bigpecksUser = this.effectState.target;
+			if (bigpecksUser === pokemon) return;
+			if (pokemon === this.activePokemon && bigpecksUser === this.activeTarget) {
+				boosts['atk'] = 0;
+				boosts['def'] = 0;
+				boosts['spa'] = 0;
+				boosts['spd'] = 0;
+				boosts['spe'] = 0;
+			}
+		},
 		isBreakable: true,
 		name: "Big Pecks",
 		rating: 0.5,
@@ -1580,6 +1591,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (!(effect as ActiveMove).secondaries) {
 					this.add("-fail", target, "unboost", "Attack", "[from] ability: Hyper Cutter", "[of] " + target);
 				}
+			}
+		},
+		onAnyModifyBoost(boosts, pokemon) {
+			const hypercuttUser = this.effectState.target;
+			if (hypercuttUser === pokemon) return;
+			if (hypercuttUser === this.activePokemon && pokemon === this.activeTarget) {
+				boosts['def'] = 0;
+				boosts['spd'] = 0;
 			}
 		},
 		isBreakable: true,

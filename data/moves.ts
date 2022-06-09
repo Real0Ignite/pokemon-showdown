@@ -23131,7 +23131,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	jetstream: {
 		num: 988,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 40,
 		category: "Special",
 		name: "Jet Stream",
 		pp: 5,
@@ -23139,7 +23139,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
 		target: "normal",
-		type: "Normal",
+		type: "Flying",
 		contestType: "Cool",
 	},
 	enlightenment: {

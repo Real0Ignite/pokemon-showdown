@@ -7731,7 +7731,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 400,
 		name: "Bibarel",
 		types: ["Normal", "Water"],
-		baseStats: {hp: 79, atk: 85, def: 60, spa: 55, spd: 60, spe: 71},
+		baseStats: {hp: 84, atk: 85, def: 70, spa: 50, spd: 70, spe: 71},
 		abilities: {0: "Simple", 1: "Unaware", H: "Moody"},
 		heightm: 1,
 		weightkg: 31.5,

@@ -34,7 +34,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["airslash", "heatwave", "overheat", "protect", "scorchingsands", "tailwind"],
 		randomDoubleBattleLevel: 80,
 		randomBattleNoDynamaxMoves: ["defog", "earthquake", "fireblast", "hurricane", "roost", "toxic"],
-		tier: "NU",
+		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	charizardmegax: {
@@ -712,7 +712,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC OU",
 	},
 	dodriosinnoh: {
-		tier: "UU",
+		tier: "NU",
 	},
 	seel: {
 		tier: "LC UU",
@@ -1480,7 +1480,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 86,
 		randomDoubleBattleMoves: ["healbell", "icebeam", "protect", "scald", "thunderbolt", "thunderwave"],
 		randomDoubleBattleLevel: 90,
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	togepi: {
@@ -1666,7 +1666,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 84,
 		randomDoubleBattleMoves: ["liquidation", "poisonjab", "protect", "taunt", "thunderwave", "toxicspikes"],
 		randomDoubleBattleLevel: 88,
-		tier: "ZU",
+		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	qwilfishhisui: {
@@ -1694,7 +1694,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	sneasel: {
-		tier: "PU",
+		tier: "NU",
 	},
 	sneaselhisui: {
 		isNonstandard: "Future",
@@ -1847,7 +1847,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 78,
 		randomDoubleBattleMoves: ["extremespeed", "protect", "sacredfire", "snarl", "stompingtantrum", "stoneedge"],
 		randomDoubleBattleLevel: 79,
-		tier: "NUBL",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	suicune: {
@@ -2729,7 +2729,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 	},
 	deoxysdefense: {
-		tier: "UU",
+		tier: "RU",
 	},
 	deoxysspeed: {
 		tier: "Uber",
@@ -2901,7 +2901,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC OU",
 	},
 	purugly: {
-		tier: "NU",
+		tier: "PU",
 	},
 	stunky: {
 		tier: "LC UU",
@@ -3492,12 +3492,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Future",
 		tier: "Illegal",
 	},
-	basculin: {
+	n: {
 		randomBattleMoves: ["aquajet", "crunch", "flipturn", "headsmash", "liquidation", "psychicfangs"],
 		randomBattleLevel: 86,
 		randomDoubleBattleMoves: ["flipturn", "headsmash", "icebeam", "liquidation", "muddywater", "protect", "psychicfangs", "superpower"],
 		randomDoubleBattleLevel: 86,
-		tier: "ZU",
+		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	basculinbluestriped: {
@@ -3505,7 +3505,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 86,
 		randomDoubleBattleMoves: ["aquajet", "flipturn", "headsmash", "icebeam", "liquidation", "protect", "psychicfangs", "superpower"],
 		randomDoubleBattleLevel: 86,
-		tier: "ZU",
+		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	basculinwhitestriped: {
@@ -3778,7 +3778,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 84,
 		randomDoubleBattleMoves: ["protect", "scald", "shadowball", "strengthsap", "trickroom", "willowisp"],
 		randomDoubleBattleLevel: 84,
-		tier: "PU",
+		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	alomomola: {
@@ -4178,7 +4178,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["dracometeor", "earthpower", "freezedry", "glaciate", "protect", "roost"],
 		randomDoubleBattleLevel: 78,
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	kyuremblack: {
@@ -4382,7 +4382,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["flashcannon", "kingsshield", "shadowball", "shadowsneak"],
 		randomDoubleBattleLevel: 84,
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	aegislashblade: {
@@ -6548,7 +6548,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	delibirdgalar: {
-		tier: "UU",
+		tier: "RUBL",
 	},
 	skulpent: {
 		tier: "UU",
@@ -6663,7 +6663,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	woopaunbound: {
-		tier: "OU",
+		tier: "AG",
 	},
 	sparrende: {
 		tier: "NU",
@@ -6754,7 +6754,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	djiarana:{
-		tier: "UU",
+		tier: "RU",
 	},
 	mirrorus:{
 		tier: "Illegal",
@@ -6785,7 +6785,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	battaby: {
-		tier: "LC UU",
+		tier: "LC OU",
 	},
 	glaciator: {
 		tier: "OU",
@@ -6839,7 +6839,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 	},
 	roedrunna : {
-		tier: "NU",
+		tier: "PU",
 	},
 	maliceros : {
 		tier: "RU",
@@ -6866,7 +6866,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "ZU",
 	},
 	terrator : {
-		tier: "OU",
+		tier: "UU",
 	},
 	intricat : {
 		tier: "RU",

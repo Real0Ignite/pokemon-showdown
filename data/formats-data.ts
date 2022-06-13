@@ -122,7 +122,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	pidgeot: {
-		tier: "ZU",
+		tier: "PU",
 	},
 	pidgeotmega: {
 		isNonstandard: "PastMEGA",

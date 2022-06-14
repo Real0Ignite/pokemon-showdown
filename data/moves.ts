@@ -23039,7 +23039,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Anima Blast",
 		pp: 10,
 		priority: 0,
-		flags: {},
+		flags: {bullet: 1, protect: 1, mirror: 1},
 		secondary: {
 			chance: 20,
 			self: {

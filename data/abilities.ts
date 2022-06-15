@@ -5980,14 +5980,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 1083,
 	},
 	carapace: {
-		onFoeDamage(this,damage,attacker,defender,effect) {
-			if(defender.hasAbility("carapace") && this.activeMove){
-				if(this.activeMove.type=="Fighting"){
-					return damage/2;
-				}
-				if(this.activeMove.type=="Rock"){
-					return damage*2;
-				}
+		onSourceModifyAtkPriority: 6,
+		onSourceModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Rock') {
+				this.debug('Carapace weaken');
+				return this.chainModify(0.5);
+			}
+			if (move.type === 'Fighting') {
+				this.debug('Carapace strengthen');
+				return this.chainModify(2);
+			}
+		},
+		onSourceModifySpAPriority: 5,
+		onSourceModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Rock') {
+				this.debug('Carapace weaken');
+				return this.chainModify(0.5);
+			}
+			if (move.type === 'Fighting') {
+				this.debug('Carapace strengthen');
+				return this.chainModify(2);
 			}
 		},
 		name: "Carapace",

@@ -1780,6 +1780,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 273,
 		gen: 4,
 	},
+	flashlight: {
+		name: "Flashlight",
+		spritenum: 574,
+		onSourceModifyAccuracyPriority: -2,
+		onSourceModifyAccuracy(accuracy) {
+			if (this.field.getWeather().id === 'hail' || this.field.getWeather().id === 'toxiccloud' || this.field.getWeather().id === 'sandstorm') {
+				if (typeof accuracy === 'number') {
+					return this.chainModify([5325, 4096]);
+				}
+			}
+		},
+		num: 927,
+		gen: 8,
+	},
 	flameplate: {
 		name: "Flame Plate",
 		spritenum: 146,

@@ -548,6 +548,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Flame Plate",
 		desc: "Holder's Fire-type attacks have 1.2x power. Judgment is Fire type.",
 	},
+	flashlight: {
+		name: "Flashlight",
+		desc: "The accuracy of attacks by the holder is 1.3x under Hail, Toxic Cloud and Sandstorm.",
+	},
 	floatstone: {
 		name: "Float Stone",
 		desc: "Holder's weight is halved.",

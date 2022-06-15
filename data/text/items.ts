@@ -551,6 +551,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	flashlight: {
 		name: "Flashlight",
 		desc: "The accuracy of attacks by the holder is 1.3x under Hail, Toxic Cloud and Sandstorm.",
+		newmeta: "true",
 	},
 	floatstone: {
 		name: "Float Stone",
@@ -2466,7 +2467,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		newmeta: "true",
 
 		end: "  [POKEMON] blocked a crit thanks to its Fog Machine!",
-		newmeta: "true",
 	},
 	crawshell: {
 		name: "Craw Shell",

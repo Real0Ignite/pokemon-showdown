@@ -71807,7 +71807,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			leechseed: ["8L1", "7L23", "6L23"],
 			magicalleaf: ["8M"],
 			magiccoat: ["7T", "6T"],
-			moonlight: ["8M", "7M"],
 			naturepower: ["7M", "6M"],
 			painsplit: ["7T", "6T"],
 			phantomforce: ["8M", "8L36", "7L45", "6L45"],
@@ -71833,7 +71832,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sleeptalk: ["8M", "7M", "6M"],
 			snore: ["8M", "7T", "6T"],
 			solarbeam: ["8M", "7M", "6M"],
-			spiritshackle: ["8M", "7M"],
 			spite: ["7T", "6T"],
 			strength: ["6M"],
 			substitute: ["8M", "7M", "6M"],
@@ -71856,6 +71854,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			phazingphantasm: ["8M", "7M"],
 			spiritcalling: ["8M", "7M"],
 			shadowsneak: ["8M", "7M"],
+			strengthsap: ["8M", "7M"],
+			synthesis: ["8M", "7M"]
 		},
 	},
 	pumpkaboo: {
@@ -92992,7 +92992,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			snarl: ["8M", "7M"],
 			toxic: ["8M", "7M"],
 			spite: ["8M", "7M"],
-			spiritshackle: ["8M", "7M"],
 			memento: ["8M", "7M"],
 			workup: ["8M", "7M"],
 			irondefense: ["8M", "7M"],

@@ -100102,7 +100102,7 @@ crawdozer: {
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
       toxic: ["8M", "7M"],
-			slash:
+			slash: ["8M", "7M"],
    },
 },
 porkano: {

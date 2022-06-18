@@ -23405,7 +23405,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Twin Trunk Wallop",
 		pp: 5,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1,}.
+		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: 2,
 		secondary: {
 			chance: 30,

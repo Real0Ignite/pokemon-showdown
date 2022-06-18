@@ -548,6 +548,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Flame Plate",
 		desc: "Holder's Fire-type attacks have 1.2x power. Judgment is Fire type.",
 	},
+	flashlight: {
+		name: "Flashlight",
+		desc: "The accuracy of attacks by the holder is 1.3x under Hail, Toxic Cloud and Sandstorm.",
+		newmeta: "true",
+	},
 	floatstone: {
 		name: "Float Stone",
 		desc: "Holder's weight is halved.",
@@ -2462,7 +2467,6 @@ export const ItemsText: {[k: string]: ItemText} = {
 		newmeta: "true",
 
 		end: "  [POKEMON] blocked a crit thanks to its Fog Machine!",
-		newmeta: "true",
 	},
 	crawshell: {
 		name: "Craw Shell",

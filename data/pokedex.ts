@@ -15774,7 +15774,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Mythical"],
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["Meltan-Unova"],
-        formeOrder: ["Meltan", "Meltan-Unova"],
+    formeOrder: ["Meltan", "Meltan-Unova"],
 	},
 	melmetal: {
 		num: 809,
@@ -15788,6 +15788,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		tags: ["Mythical"],
 		eggGroups: ["Undiscovered"],
+		otherFormes: ["Melmetal-Unova"],
+    formeOrder: ["Melmetal", "Melmetal-Unova"],
 		canGigantamax: "G-Max Meltdown",
 	},
 	melmetalunova: {

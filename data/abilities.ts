@@ -1508,7 +1508,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifyWeight(weighthg) {
 			return weighthg * 2;
 		},
-		isBreakable: true, 
+		isBreakable: true,
 		onModifyDefPriority: 5,
 		onModifyDef(def, attacker, defender, move) {
 			this.debug('Heavy Metal boost');
@@ -6033,7 +6033,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Gordian Knot",
 		rating: 2,
-		num: 9,
+		num: 1086,
 	},
 	nullspace: {
 			name: "Null Space",
@@ -6047,6 +6047,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			},
 			isBreakable: true,
 			rating: 4,
-			num: 109,
+			num: 1087,
 	},
+	rooted: {
+		onStart(pokemon) {
+				pokemon.addVolatile('ingrain');
+			}
+		},
+		name: "Rooted",
+		rating: 2,
+		num: 1088,
 };

@@ -15326,7 +15326,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: {
 			chance: 15,
 			volatileStatus: 'disable',
-		}, 
+		},
 		onTryHit(target) {
 
 		},
@@ -19894,12 +19894,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Grass",
 		contestType: "Beautiful",
 	},
-	chillingwave: {
+	coldfront: {
 		num: 836,
 		accuracy: 90,
 		basePower: 95,
 		category: "Special",
-		name: "Chilling Wave",
+		name: "Cold Front",
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, wind: 1},
@@ -23376,5 +23376,60 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "allAdjacentFoes",
 		type: "Fire",
 		contestType: "Tough",
+	},
+	rainbowbash: {
+		num: 995,
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: "Rainbow Bash",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		self: {
+			boosts: {
+				def: -1,
+				spd: -1,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Light",
+		contestType: "Tough",
+	},
+	twintrunkwallop: {
+		num: 996,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Twin Trunk Wallop",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1,}.
+		multihit: 2,
+		secondary: {
+			chance: 30,
+    onResidual(pokemon) {
+                this.heal(pokemon.baseMaxhp / 10);
+            },
+		target: "normal",
+		type: "Grass",
+		contestType: "Smart",
+	},
+	occultaura: {
+		num: 997,
+		accuracy: 100,
+		basePower: 55,
+		category: "Special",
+		name: "Occult Aura",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, heal: 1},
+		drain: [1, 2],
+		secondary: null,
+		target: "normal",
+		type: "Light",
+		contestType: "Clever",
+	},
 	}
 }

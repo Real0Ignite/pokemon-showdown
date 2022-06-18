@@ -6064,12 +6064,4 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			rating: 4,
 			num: 1087,
 	},
-	rooted: {
-		name: "Rooted",
-		onStart(pokemon) {
-				pokemon.addVolatile('ingrain');
-		},
-		rating: 2,
-		num: 1088,
-	},
 };

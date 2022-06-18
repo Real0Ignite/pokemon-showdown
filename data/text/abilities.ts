@@ -2233,12 +2233,16 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	gordianknot: {
 		name: "Gordian Knot",
-		desc: "This pokemon traps for one turn foes which hit it with a contact move.",
-		shortDesc: "This pokemon traps for one turn foes which hit it with a contact move.",
+		desc: "This Pokemon traps for one turn foes which hit it with a contact move.",
+		shortDesc: "This Pokemon traps for one turn foes which hit it with a contact move.",
 	},
 	nullspace: {
 		name: "Null Space",
 		desc: "This Pokemon ignores other Pokemon's Defense and Special Defense stat stages when dealing damage.",
 		shortDesc: "This Pokemon ignores other Pokemon's stat stages when dealing damage.",
 	},
+	rooted: {
+		name: "Rooted",
+		desc: "This Pokemon Ingrains itself on switch-in, trapping itself.",
+		ShortDesc: "This Pokemon uses Ingrain on switch-in."
 };

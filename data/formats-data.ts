@@ -6899,9 +6899,105 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	leerror: {
-		tier: "UUBL",
+		tier: "UU",
 	},
 	oblyvern: {
 		tier: "UU"
+	},
+	teracotoad: {
+		tier: "NU"
+	},
+	dwebbleintea: {
+		tier: "LC UU"
+	},
+	mashiris: {
+		tier: "NU"
+	},
+	copperfish: {
+		tier: "LC UU"
+	},
+	cabiapod: {
+		tier: "RU"
+	},
+	cabiapod: {
+		tier: "RU"
+	},
+	kobyss: {
+		tier: "LC OU"
+	},
+	amputabis: {
+		tier: "NFE"
+	},
+	illarague: {
+		tier: "NU"
+	},
+	hydreigonhoenn: {
+		tier: "RU"
+	},
+	melmetalunova: {
+		tier: "OU"
+	},
+	cisnevous: {
+		tier: "RU"
+	},
+	cisnevous: {
+		tier: "RU"
+	},
+	jellop: {
+		tier: "NU"
+	},
+	serpens: {
+		tier: "UU"
+	},
+	shrimpulse: {
+		tier: "NU"
+	},
+	lavolley: {
+		tier: "NU"
+	},
+	petripent: {
+		tier: "UU"
+	},
+	moochick: {
+		tier: "PU"
+	},
+	choluster: {
+		tier: "PU"
+	},
+	crawdozer: {
+		tier: "RU"
+	},
+	porkano: {
+		tier: "OU"
+	},
+	stallora: {
+		tier: "NU"
+	},
+	stallora: {
+		tier: "NU"
+	},
+	marshlugg: {
+		tier: "PU"
+	},
+	kleptick: {
+		tier: "LC OU"
+	},
+	mugsquito: {
+		tier: "UU"
+	},
+	scarmata: {
+		tier: "RU"
+	},
+	scorpiohm: {
+		tier: "RU"
+	},
+	konipole: {
+		tier: "LC OU"
+	},
+	kroprinz: {
+		tier: "NFE"
+	},
+	bejrake: {
+		tier: "OU"
 	},
 }

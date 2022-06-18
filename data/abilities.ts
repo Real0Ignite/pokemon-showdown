@@ -6035,8 +6035,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 1086,
 	},
-	jewler: {
-		name: "Jewler",
+	jeweler: {
+		name: "Jeweler",
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
 		onResidual(pokemon) {

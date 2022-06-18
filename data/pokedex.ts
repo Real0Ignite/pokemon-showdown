@@ -20605,7 +20605,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug", "Monster"],
 		newmeta: "true",
 	},
-	mugsquito: {
+	mugsqito: {
 		num: 10124,
 		name: "Mugsquito",
 		types: ["Bug", "Dark"],

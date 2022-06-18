@@ -6035,6 +6035,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 1086,
 	},
+	jewler: {
+		name: "Jewler",
+		shortDesc: "If the last item this Pokemon used is a Gem, it gets restored at the end of each turn.",
+		onResidualOrder: 26,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			if (pokemon.hp && !pokemon.item && this.dex.getItem(pokemon.lastItem).isGem) {
+				pokemon.setItem(pokemon.lastItem);
+				pokemon.lastItem = '';
+				this.add('-item', pokemon, pokemon.getItem(), '[from] ability: Jewler');
+			}
+		},
+		rating: 3.5,
+		num: 139,
+	},
 	nullspace: {
 			name: "Null Space",
 			onAnyModifyBoost(boosts, pokemon) {

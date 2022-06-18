@@ -6037,7 +6037,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	jewler: {
 		name: "Jewler",
-		shortDesc: "If the last item this Pokemon used is a Gem, it gets restored at the end of each turn.",
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
 		onResidual(pokemon) {
@@ -6063,5 +6062,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			isBreakable: true,
 			rating: 4,
 			num: 1087,
+	},
+	rooted: {
+		name: "Rooted",
+		onStart(pokemon) {
+				pokemon.addVolatile('ingrain');
+		},
+		rating: 2,
+		num: 1088,
 	},
 };

@@ -7726,4 +7726,18 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Hits adjacent Pokemon. 10% chance to flinch",
 		shortDesc: "Hits adjacent Pokemon. 10% chance to flinch",
 	},
+	rainbowbash: {
+		name: "Rainbow Bash",
+		desc: "Lowers the user's Defense and Special Defense by 1 stage.",
+		shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
+	},
+	twintrunkwallop: {
+		name: "Twin Trink Wallop",
+		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. Has a 30% chance to heal 1/10th HP of user.",
+		shortDesc: "Hits twice. 30% chance to heal 1/10th HP of user.",
+	},
+	occultaura: {
+		name: "Occult Aura",
+		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+		shortDesc: "User recovers 50% of the damage dealt.",
 };

@@ -6497,7 +6497,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Swablu",
 		forme: "Sinnoh",
 		types: ["Ice", "Flying"],
-		baseStats: {hp: 45, atk: 40, def: 60, spa: 40, spd: 80, spe: 50}, 
+		baseStats: {hp: 45, atk: 40, def: 60, spa: 40, spd: 80, spe: 50},
 		abilities: {0: "Natural Cure", H: "Cloud Nine"},
 		heightm: 0.4,
 		weightkg: 1.8,
@@ -11430,7 +11430,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	ferroseedkliro: {
 		num: 597,
 		name: "Ferroseed-Kliro",
-		baseSpecies: "Ferroseed", 
+		baseSpecies: "Ferroseed",
 		forme: "Kliro",
 		types: ["Normal"],
 		baseStats: {hp: 44, atk: 86, def: 50, spa: 10, spd: 35, spe: 85},
@@ -20337,7 +20337,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.1,
 		weightkg: 100,
 		color: "Gray",
-		eggGroups: ["Mineral"], 
+		eggGroups: ["Mineral"],
 		newmeta: "true,"
 	},
 	terrator: {
@@ -20600,7 +20600,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	mugsquito: {
 		num: 10124,
-		name: "Mugsquito",
+		name: "Mugsqito",
 		types: ["Bug", "Dark"],
 		baseStats: {hp: 70, atk: 115, def:75, spa: 55, spd: 60, spe: 115,
 		abilities: {0: "Swarm", 1: "Pickpocket", H: "Hustle"},

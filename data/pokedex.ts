@@ -20634,7 +20634,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Bejrake",
 		types: ["Rock", "Dragon"],
 		baseStats: {hp: 97, atk: 125, def: 93, spa: 105, spd: 90, spe: 90},
-		abilities: {0: "Jeweler"},
+		abilities: {0: "Run Away"},
 		heightm: 5,
 		weightkg: 400,
 		color: "Brown",

@@ -6986,7 +6986,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU"
 	},
 	scarmata: {
-		tier: "RU"
+		tier: "NU"
 	},
 	scorpiohm: {
 		tier: "RU"

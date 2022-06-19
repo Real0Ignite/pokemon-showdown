@@ -23432,5 +23432,4 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Light",
 		contestType: "Clever",
 	},
-	}
-}
+};

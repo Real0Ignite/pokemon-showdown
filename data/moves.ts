@@ -23408,10 +23408,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: 2,
 		secondary: {
-		chance: 30,
+			chance: 30,
 		},
-    onAfterMove(pokemon) {
-      this.heal(pokemon.baseMaxhp / 10);
+		onAfterMove(pokemon) {
+			this.heal(pokemon.baseMaxhp / 10);
 		},
 		target: "normal",
 		type: "Grass",

@@ -6041,7 +6041,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
 		onResidual(pokemon) {
-			if (pokemon.hp && !pokemon.item && this.dex.getItem(pokemon.lastItem).isGem) {
+			if (pokemon.hp && !pokemon.item && this.dex.items.get(pokemon.lastItem).isGem) {
 				pokemon.setItem(pokemon.lastItem);
 				pokemon.lastItem = '';
 				this.add('-item', pokemon, pokemon.getItem(), '[from] ability: Jewler');

@@ -1728,7 +1728,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		move: "#magiccoat",
 	},
-	
+
 	// CAP
 	persistent: {
 		name: "Persistent",
@@ -2246,8 +2246,4 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon Ingrains itself on switch-in, trapping itself.",
 		ShortDesc: "This Pokemon uses Ingrain on switch-in.",
 	},
-	jeweler: {
-		name: "Jeweler",
-		desc: "This Pokemon gains a 1.5x boost on Gems & Gems are not consumed by this Pokemon.",
-		ShortDesc: "Makes Pokemons's Gems 1.5x Power. Gems Are not single use.",
 };

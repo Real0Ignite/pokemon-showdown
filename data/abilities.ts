@@ -6037,6 +6037,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	jeweler: {
 		name: "Jeweler",
+		shortDesc: "If the last item this Pokemon used is a Gem, it gets restored at the end of each turn.",
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
 		onResidual(pokemon) {

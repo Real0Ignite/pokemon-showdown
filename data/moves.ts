@@ -23420,7 +23420,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	occultaura: {
 		num: 997,
 		accuracy: 100,
-		basePower: 55,
+		basePower: 60,
 		category: "Special",
 		name: "Occult Aura",
 		pp: 10,

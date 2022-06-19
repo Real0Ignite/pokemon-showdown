@@ -6953,7 +6953,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU"
 	},
 	lavolley: {
-		tier: "NU"
+		tier: "ZU"
 	},
 	petripent: {
 		tier: "UU"

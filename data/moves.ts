@@ -23397,26 +23397,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Light",
 		contestType: "Tough",
 	},
-	//twintrunkwallop: {
-		//num: 996,
-		//accuracy: 100,
-		//basePower: 60,
-		//category: "Physical",
-		//name: "Twin Trunk Wallop",
-		//pp: 5,
-		//priority: 0,
-		//flags: {contact: 1, protect: 1, mirror: 1},
-		//multihit: 2,
-		//secondary: {
-		//chance: 30,
-		//},
-    //onResidual(pokemon) {
-     // this.heal(pokemon.baseMaxhp / 10);
-		//},
-		//target: "normal",
-		//type: "Grass",
-		//contestType: "Smart",
-	//},
+	twintrunkwallop: {
+		num: 996,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Twin Trunk Wallop",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		multihit: 2,
+		secondary: {
+		chance: 30,
+		},
+    onResidual(pokemon) {
+      this.heal(pokemon.baseMaxhp / 10);
+		},
+		target: "normal",
+		type: "Grass",
+		contestType: "Smart",
+	},
 	occultaura: {
 		num: 997,
 		accuracy: 100,

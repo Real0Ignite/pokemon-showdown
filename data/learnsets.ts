@@ -99151,7 +99151,7 @@ amputabis: {
       frustration: ["8M", "7M"],
    },
 },
-illarauge: {
+illarague: {
    learnset: {
       acrobatics: ["8M", "7M"],
       acupressure: ["8M", "7M"],

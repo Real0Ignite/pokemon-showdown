@@ -23410,7 +23410,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: {
 		chance: 30,
 		},
-    onResidual(pokemon) {
+    onAfterMove(pokemon) {
       this.heal(pokemon.baseMaxhp / 10);
 		},
 		target: "normal",

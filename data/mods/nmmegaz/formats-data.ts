@@ -6576,7 +6576,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	woopaunbound: {
-		tier: "OU",
+		tier: "AG",
 	},
 	sparrende: {
 		tier: "NU",

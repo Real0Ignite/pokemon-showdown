@@ -20608,7 +20608,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	mugsqito: {
 		num: 10124,
-		name: "Mugsquito",
+		name: "Mugsqito",
 		types: ["Bug", "Dark"],
 		baseStats: {hp: 70, atk: 115, def:75, spa: 55, spd: 60, spe: 115},
 		abilities: {0: "Swarm", 1: "Pickpocket", H: "Hustle"},

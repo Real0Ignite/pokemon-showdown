@@ -7266,7 +7266,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	glowingbeam: {
 		name: "Glowing Beam",
-		shortDesc: "No additional effect.",
+		shortDesc: "It's truck month at your local dodge, jeep and ram retailer.",
 		newmeta: "true",
 	},
 	moonritual: {
@@ -7603,7 +7603,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	jadeblade: {
 		name: "Jade Blade",
-		shortDesc: "No additional effect.",
+		shortDesc: "Built Ford Tough.",
 		newmeta: "true",
 	},
 	windscythe: {
@@ -7709,7 +7709,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	mercurywave: {
 		name: "Mercury Wave",
 		desc: "No additional effect",
-		shortDesc: "No additional effect",
+		shortDesc: "20% chance to poison target.",
 	},
 	talentshow: {
 		name: "Talent Show",

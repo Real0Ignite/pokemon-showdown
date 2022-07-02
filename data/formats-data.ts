@@ -6681,10 +6681,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC OU",
 	},
 	sliarmor: {
-		tier: "RU",
+		tier: "NU",
 	},
 	cheslime: {
-		tier: "OU",
+		tier: "UU",
 	},
 	leamyst: {
 		tier: "UU",

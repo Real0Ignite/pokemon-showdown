@@ -4285,7 +4285,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.5,
 		weightkg: 14,
 		color: "Yellow",
-		//evos: ["Kamisparce"],
+		evos: ["Kamisparce"],
 		eggGroups: ["Field"],
 	},
 	gligar: {

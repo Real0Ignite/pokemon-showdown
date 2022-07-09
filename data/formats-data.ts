@@ -7000,4 +7000,22 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	bejrake: {
 		tier: "OU"
 	},
+	scarlock: {
+		tier: "LC UU"
+	},
+	nymper: {
+		tier: "LC UU"
+	},
+	shientis: {
+		tier: "NFE"
+	},
+	martiartis: {
+		tier: "UU"
+	},
+	pyrilum: {
+		tier: "UU"
+	},
+	grandour: {
+		tier: "NU"
+	},
 }

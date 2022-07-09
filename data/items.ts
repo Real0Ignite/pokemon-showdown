@@ -7820,18 +7820,18 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
-		coleoterite: {
-		name: "Coleoterite",
-		spritenum: 575,
-		megaStone: "Coleoterra-Mega",
-		megaEvolves: "Coleoterra",
-		itemUser: ["Coleoterra"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: 763,
-		gen: 6,
-		isNonstandard: "Past",
-	},
+		//coleoterite: {
+		//name: "Coleoterite",
+	//	spritenum: 575,
+	//	megaStone: "Coleoterra-Mega",
+	//	megaEvolves: "Coleoterra",
+	//	itemUser: ["Coleoterra"],
+	//	onTakeItem(item, source) {
+	//		if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+	//		return true;
+	//	},
+	//	num: 763,
+	//	gen: 6,
+	//	isNonstandard: "Past",
+	//},
 };

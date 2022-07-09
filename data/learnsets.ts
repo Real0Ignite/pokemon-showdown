@@ -100980,7 +100980,7 @@ bejrake: {
 			focusblast: ["8M", "7M"],
    	},
 	},
-	scarmata: {
+	scarlock: {
    learnset: {
       assurance: ["8M", "7M"],
       brutalswing: ["8M", "7M"],

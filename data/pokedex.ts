@@ -18912,7 +18912,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	scarlock: {
 		num: 1993,
-		name: "scarlock",
+		name: "Scarlock",
 		types: ["Dark"],
 		baseStats: {hp: 40, atk: 50, def: 40, spa: 60, spd: 50, spe: 60},
 		abilities: {0: "Technician", 1: "Oblivious", H: "Filter"},

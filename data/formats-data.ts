@@ -1308,7 +1308,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	snorlax: {
 		randomBattleMoves: ["darkestlariat", "doubleedge", "earthquake", "facade", "heatcrash"],
 		randomBattleLevel: 82,
-		tier: "RU",
+		tier: "NU",
 		doublesTier: "(DUU)",
 	},
 	snorlaxgmax: {
@@ -2827,7 +2827,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 	},
 	mothim: {
-		tier: "PUBL",
+		tier: "ZU",
 	},
 	combee: {
 		tier: "LC UU",
@@ -6782,7 +6782,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 	},
 	ninjaskgalar:{
-		tier: "NU",
+		tier: "PUBL",
 	},
 	battaby: {
 		tier: "LC OU",

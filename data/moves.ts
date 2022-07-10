@@ -17201,8 +17201,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	submission: {
 		num: 66,
-		accuracy: 80,
-		basePower: 80,
+		accuracy: 90,
+		basePower: 95,
 		category: "Physical",
 		name: "Submission",
 		pp: 20,

@@ -39234,6 +39234,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 			voidrend: ["8M", "7M"],
 			draconicfangs: ["8M", "7M"],
+			spectralfang: ["8M"],
 		},
 		eventData: [
 			{generation: 3, level: 15, moves: ["refresh", "waterpulse", "bite", "scaryface"]},
@@ -42769,6 +42770,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			cometpunch: ["8M", "7M"],
 			teleport: ["8M", "7M"],
 			spiritcalling: ["8M", "7M"],
+			vengefulspirit: ["8M"],
 		},
 		encounters: [
 			{generation: 4, level: 16},
@@ -53674,6 +53676,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["7T", "6T"],
 			burningbarrage: ["8M", "7M"],
 			animablast: ["8M"],
+			submission: ["8M"],
 		},
 	},
 	emboar: {
@@ -53762,6 +53765,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dazingpressure: ["8M", "7M"],
 			burningbarrage: ["8M", "7M"],
 			animablast: ["8M"],
+			submission: ["8M"],
 		},
 		eventData: [
 			{generation: 5, level: 100, gender: "M", moves: ["flareblitz", "hammerarm", "wildcharge", "headsmash"], pokeball: "cherishball"},
@@ -78729,7 +78733,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			brightclaw: ["8M", "7M"],
 			dazingpressure: ["8M", "7M"],
 			dazingraze: ["8M", "7M"],
-			veiloflight: ["8M", "7M"],
 		},
 		eventData: [
 			{generation: 7, level: 55, moves: ["sunsteelstrike", "cosmicpower", "crunch", "zenheadbutt"]},
@@ -96367,7 +96370,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		   toxicspikes: ["8M", "7M"],
 		   spikes: ["8M", "7M"],
 		   sludgebomb: ["8M", "7M"],
-		   veiloflight: ["8M", "7M"],
 		   trickroom: ["8M", "7M"],
 		   calmmind: ["8M", "7M"],
 		   storedpower: ["8M", "7M"],
@@ -99592,6 +99594,7 @@ jellop: {
       round: ["8M", "7M"],
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
+			waterfall: ["8M"],
    },
 },
 serpens: {
@@ -100978,6 +100981,7 @@ bejrake: {
 			hydropump: ["8M", "7M"],
 			muddywater: ["8M", "7M"],
 			focusblast: ["8M", "7M"],
+			crystalwave: ["8M", "7M"],
    	},
 	},
 	scarlock: {

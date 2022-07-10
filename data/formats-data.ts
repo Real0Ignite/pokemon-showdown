@@ -7018,4 +7018,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	grandour: {
 		tier: "NU"
 	},
+	croagunklokura: {
+		tier: "LC OU"
+	},
+	toxicroaklokura: {
+		tier: "RU"
+	},
 }

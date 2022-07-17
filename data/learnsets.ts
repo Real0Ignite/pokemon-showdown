@@ -19230,7 +19230,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			aquatail: ["8T"],
 			attract: ["8M"],
 			scald: ["8V"],
-			synthesis: ["8M"],
 			bide: ["8V"],
 			solarbeam: ["8M"],
 			block: ["8T"],
@@ -19328,6 +19327,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			stealthrock: ["8M"],
 			rockthrow: ["8m"],
 			dunewave: ["8M", "7M"],
+			wildernesswack: ["8M", "7M"],
 		},
 		eventData: [
 			{generation: 8, level: 44, moves: ["hydropump", "sunnyday", "solarbeam", "healbell"]},
@@ -92238,6 +92238,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			playrough: ["8M", "7M"],
 			scorchingsands: ["8M", "7M"],
 			brightclaw: ["8M", "7M"],
+			bite: ["8M", "7M"],
+			blindingflash: ["8M", "7M"],
 		},
 	},
 	colburnire: {
@@ -100649,6 +100651,7 @@ scarmata: {
 			clearlight: ["8M", "7M"],
 			lightwave: ["8M", "7M"],
 			phantomforce: ["8M", "7M"],
+			mysticalfire: ["8M", "7M"],
    },
 },
  scorpiohm: {

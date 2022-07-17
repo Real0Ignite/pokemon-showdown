@@ -6896,8 +6896,8 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Ignores the target's stat stage changes.",
 		newmeta: "true",
 	},
-	chillingwave: {
-		name: "Chilling Wave",
+	coldfront: {
+		name: "Cold Front",
 		desc: "Has a 10% chance to freeze the target.",
 		shortDesc: "10% chance to freeze the foe(s).",
 		newmeta: "true",
@@ -7552,8 +7552,8 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Has 33% recoil. 10% chance to burn. Thaws user.",
 		newmeta: "true",
 	},
-	earthenshell: {
-		name: "Earthen Shell",
+	mudbrickcannon: {
+		name: "Mudbrick Cannon",
 		desc: "Has a 20% chance to confuse the target.",
 		shortDesc: "20% chance to confuse the target.",
 		newmeta: "true",
@@ -7708,7 +7708,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	mercurywave: {
 		name: "Mercury Wave",
-		desc: "No additional effect",
+		desc: "20% chance to poison target.",
 		shortDesc: "20% chance to poison target.",
 	},
 	talentshow: {

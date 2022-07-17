@@ -6575,7 +6575,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	vekurrent: {
-		tier: "UU",
+		tier: "PU",
 	},
 	lustreon: {
 		tier: "PU",

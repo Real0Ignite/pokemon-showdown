@@ -7603,7 +7603,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	jadeblade: {
 		name: "Jade Blade",
-		shortDesc: "Built Ford Tough.",
+		shortDesc: "No Addition Effect.",
 		newmeta: "true",
 	},
 	windscythe: {

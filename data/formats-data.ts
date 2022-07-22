@@ -6902,132 +6902,132 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	oblyvern: {
-		tier: "UU"
+		tier: "UU",
 	},
 	teracotoad: {
-		tier: "NU"
+		tier: "NU",
 	},
 	dwebbleintea: {
-		tier: "LC UU"
+		tier: "LC UU",
 	},
 	mashiris: {
-		tier: "NU"
+		tier: "NU",
 	},
 	copperfish: {
-		tier: "LC UU"
+		tier: "LC UU",
 	},
 	cabiapod: {
-		tier: "PU"
+		tier: "PU",
 	},
 	cabiapod: {
-		tier: "PU"
+		tier: "PU",
 	},
 	kobyss: {
-		tier: "LC OU"
+		tier: "LC OU",
 	},
 	amputabis: {
-		tier: "NFE"
+		tier: "NFE",
 	},
 	illarague: {
-		tier: "NU"
+		tier: "NU",
 	},
 	hydreigonhoenn: {
-		tier: "RU"
+		tier: "RU",
 	},
 	melmetalunova: {
-		tier: "OU"
+		tier: "OU",
 	},
 	cisnevous: {
-		tier: "RU"
+		tier: "RU",
 	},
 	cisnevous: {
-		tier: "RU"
+		tier: "RU",
 	},
 	jellop: {
-		tier: "NU"
+		tier: "NU",
 	},
 	serpens: {
-		tier: "UU"
+		tier: "UU",
 	},
 	shrimpulse: {
-		tier: "NU"
+		tier: "NU",
 	},
 	lavolley: {
-		tier: "ZU"
+		tier: "ZU",
 	},
 	petripent: {
-		tier: "UU"
+		tier: "UU",
 	},
 	moochick: {
-		tier: "PU"
+		tier: "PU",
 	},
 	choluster: {
-		tier: "ZU"
+		tier: "ZU",
 	},
 	crawdozer: {
-		tier: "RU"
+		tier: "RU",
 	},
 	porkano: {
-		tier: "OU"
+		tier: "OU",
 	},
 	stallora: {
-		tier: "NU"
+		tier: "NU",
 	},
 	stallora: {
-		tier: "NU"
+		tier: "NU",
 	},
 	marshlugg: {
-		tier: "PU"
+		tier: "PU",
 	},
 	kleptick: {
-		tier: "LC OU"
+		tier: "LC OU",
 	},
 	mugsqito: {
-		tier: "UU"
+		tier: "UU",
 	},
 	scarmata: {
-		tier: "NU"
+		tier: "NU",
 	},
 	scorpiohm: {
-		tier: "RU"
+		tier: "RU",
 	},
 	konipole: {
-		tier: "LC OU"
+		tier: "LC OU",
 	},
 	kroprinz: {
-		tier: "NFE"
+		tier: "NFE",
 	},
 	bejrake: {
-		tier: "OU"
+		tier: "OU",
 	},
 	scarlock: {
-		tier: "LC UU"
+		tier: "LC UU",
 	},
 	nymper: {
-		tier: "LC UU"
+		tier: "LC UU",
 	},
 	shientis: {
-		tier: "NFE"
+		tier: "NFE",
 	},
 	martiartis: {
-		tier: "UU"
+		tier: "UU",
 	},
 	pyrilum: {
-		tier: "UU"
+		tier: "UU",
 	},
 	grandour: {
-		tier: "NU"
+		tier: "NU",
 	},
 	croagunklokura: {
-		tier: "LC OU"
+		tier: "LC OU",
 	},
 	toxicroaklokura: {
-		tier: "RU"
+		tier: "RU",
 	},
 	cucarecho: {
-		tier: "NU"
+		tier: "NU",
 	},
 	photorox: {
-		tier: "RU"
+		tier: "RU",
 	},
 }

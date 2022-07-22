@@ -741,7 +741,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["hydropump", "iciclespear", "protect", "rockblast", "shellsmash"],
 		randomDoubleBattleLevel: 84,
 		randomBattleNoDynamaxMoves: ["hydropump", "iciclespear", "rockblast", "shellsmash"],
-		tier: "RU",
+		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
 	gastly: {
@@ -2926,7 +2926,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	chatot: {
-		tier: "RU",
+		tier: "ZU",
 	},
 	chatotorre: {
 		tier: "Illegal",
@@ -6575,7 +6575,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	vekurrent: {
-		tier: "PU",
+		tier: "PUBL",
 	},
 	lustreon: {
 		tier: "PU",
@@ -6681,7 +6681,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC OU",
 	},
 	sliarmor: {
-		tier: "NU",
+		tier: "NFE",
 	},
 	cheslime: {
 		tier: "UU",
@@ -6869,7 +6869,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	intricat : {
-		tier: "RU",
+		tier: "PU",
 	},
 	gengaralola : {
 		tier: "NU",
@@ -7022,6 +7022,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC OU"
 	},
 	toxicroaklokura: {
+		tier: "RU"
+	},
+	cucarecho: {
+		tier: "NU"
+	},
+	photorox: {
 		tier: "RU"
 	},
 }

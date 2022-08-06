@@ -5454,7 +5454,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 74,
 		randomDoubleBattleMoves: ["acidarmor", "bodypress", "doubleironbash", "protect", "thunderpunch", "thunderwave"],
 		randomDoubleBattleLevel: 76,
-		tier: "RUBL",
+		tier: "OU",
 		doublesTier: "DUber",
 	},
 	melmetalgmax: {
@@ -6935,7 +6935,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	melmetalunova: {
-		tier: "OU",
+		tier: "RUBL",
 	},
 	cisnevous: {
 		tier: "PU",

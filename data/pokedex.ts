@@ -20808,4 +20808,5 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Monster", "Human-Like"],
 		newmeta: "true",
+	},
 };

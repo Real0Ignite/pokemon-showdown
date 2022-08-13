@@ -5856,7 +5856,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	falinksoblivia: {
-		tier: "NU",
+		tier: "PU",
 	},
 	pincurchin: {
 		randomBattleMoves: ["risingvoltage", "scald", "spikes", "suckerpunch", "toxicspikes"],
@@ -6860,7 +6860,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	alivolt : {
-		tier: "UU",
+		tier: "RUBL",
 	},
 	fintricity : {
 		tier: "ZU",
@@ -6932,7 +6932,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	hydreigonhoenn: {
-		tier: "RU",
+		tier: "NU",
 	},
 	melmetalunova: {
 		tier: "RUBL",

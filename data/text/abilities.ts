@@ -2246,4 +2246,23 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon Ingrains itself on switch-in, trapping itself.",
 		ShortDesc: "This Pokemon uses Ingrain on switch-in.",
 	},
+	blacksmoke: {
+		name: "Black Smoke",
+		desc: "Foes are not able to boost due to Black Smoke.",
+		shortDesc: "This Pokémon block's foe's boosts.",
+		newmeta: "true",
+	},
+	concentrated: {
+		name: "Concentrated",
+		desc: "Moves with no secondary effect are boosted 1.2x.",
+		shortDesc: "Boosts moves without additional effects by 1.2x.",
+		newmeta: "true",
+	},
+	anonymous: {
+		name: "Anonymous",
+		desc: "Immune to fighting and dark contact moves.",
+		shortDesc: "Immune to fighting and dark contact moves.",
+		newmeta: "true",
+	},
+
 };

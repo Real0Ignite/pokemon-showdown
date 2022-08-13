@@ -6072,4 +6072,87 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 1088,
 	},
+	blacksmoke: {
+		onFoeBoost(boost, target, source, effect) {
+			let b: BoostID;
+			for (b in boost) {
+				if (target.boosts[b] === -6) continue;
+				const negativeBoost: SparseBoostsTable = {};
+				negativeBoost[b] = boost[b];
+				delete boost[b];
+				// for (const target2 of target.side.foe.active) {
+				// 	if (target2.hasAbility('blacksmoke')) {
+				// 		this.add('-ability', target2, 'blacksmoke');
+				// 		// console.log("negativeBoost[b]: "+negativeBoost[b]);
+				// 		// console.log("b: "+b);
+				// 		// console.log("target2: "+target2);
+				// 		// console.log("source: "+source);
+				// 		this.boost(negativeBoost, target2);
+				// 		this.boost(negativeBoost, source);
+				// 	}
+				// }
+			}
+		},
+		name: "Black Smoke",
+		rating: 4,
+		num: 1010,
+	},
+	concentrated: {
+		onModifyMove(move, pokemon) {
+			if (!move.secondaries) {
+				delete move.self;
+				move.hasSheerForce = true;  // make nondescript marker, like dontchain?
+			}
+		},
+		onBasePowerPriority: 21,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.hasSheerForce) return this.chainModify([5325, 4096]);
+		},
+		name: "Concentrated",
+		rating: 3.5,
+		num: 1011,
+	},
+	circuitconnection: {
+		onAllySwitchIn(pokemon) {
+			this.add('-activate', this.effectState.target, 'ability: Pastel Veil');
+			pokemon.addVolatile("charge");
+			this.boost({["spd"]: 1}, pokemon);
+				// condition: {
+				// 	duration: 2,
+				// 	onRestart(pokemon) {
+				// 		this.effectState.duration = 2;
+				// 	},
+				// 	onBasePowerPriority: 9,
+				// 	onBasePower(basePower, attacker, defender, move) {
+				// 		if (move.type === 'Electric') {
+				// 			this.debug('charge boost');
+				// 			return this.chainModify(2);
+				// 		}
+				// 	},
+				// },
+				// boosts: {
+				// 	spd: 1,
+				// },
+				// }
+		},
+		name: "Circuit Connection",
+		rating: 1,
+		num: 1012,
+	},
+	anonymous: {
+		onTryHit(target, source, move) {
+			if (target !== source && (move.type === 'Dark' || move.type === 'fighting') && move.flags['contact']) {
+				// if (!this.boost({spa: 1})) {
+				if(source.hasAbility("scrappy") || source.hasAbility("infiltrator")) return;
+				if(target.volatiles.miracleeye) return;
+				
+				this.add('-immune', target, '[from] ability: Anonymous');
+				// }
+				// return null;
+			}
+		},
+		name: "Anonymous",
+		rating: 4,
+		num: 1013,
+	},
 };

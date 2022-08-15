@@ -7027,4 +7027,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	photorox: {
 		tier: "NU",
 	},
-}
+	fauntasma: {
+		tier: "NU",
+	},
+};

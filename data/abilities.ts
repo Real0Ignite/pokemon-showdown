@@ -4941,18 +4941,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
         name: "Orbital",
         rating: 3,
         num: 127,
-  //  },
-	// lovelylips: {
-      //  onBasePowerPriority: 23,
-      //  onBasePower(basePower, attacker, defender, move) {
-        //    if (move.flags['kiss']) {
-        //        this.debug('Lovely Lips boost');
-        //        return this.chainModify(1.5);
-        //    }
-      //  },
-      //  name: "Lovely Lips",
-      //  rating: 3,
-      //  num: 1015,
+    },
+	 lovelylips: {
+        onBasePowerPriority: 23,
+        onBasePower(basePower, attacker, defender, move) {
+            if (move.flags['kiss']) {
+                this.debug('Lovely Lips boost');
+                return this.chainModify(1.5);
+            }
+        },
+        name: "Lovely Lips",
+        rating: 3,
+        num: 1015,
     },
 	petrify: {
 		onStart(pokemon) {

@@ -7028,6 +7028,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	fauntasma: {
-		tier: "NU",
+		tier: "RU",
 	},
 };

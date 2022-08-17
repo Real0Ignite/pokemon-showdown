@@ -19055,6 +19055,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1", "Field"],
 		newmeta: "true",
 	},
+	/* DELETED
 	vampayar: {
 		num: 10007,
 		name: "Vampayar",
@@ -19067,7 +19068,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1", "Field"],
 		newmeta: "true",
 	},
-	/* DELETED
 	flamake: {
 		num: 10008,
 		name: "Flamake",

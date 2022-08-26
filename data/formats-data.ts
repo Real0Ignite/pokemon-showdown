@@ -7030,4 +7030,37 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	fauntasma: {
 		tier: "RU",
 	},
+	phootoo: {
+		tier: "LC UU",
+	},
+	nixtibius: {
+		tier: "ZU",
+	},
+	wallo: {
+		tier: "LC UU",
+	},
+	tangosta: {
+		tier: "NU",
+	},
+	tangostalokura: {
+		tier: "NFE",
+	},
+	tadpot: {
+		tier: "LC UU",
+	},
+	delicidra: {
+		tier: "RU",
+	},
+	servereign: {
+		tier: "NU",
+	},
+	teramite: {
+		tier: "Illegal",
+	},
+	seelenite: {
+		tier: "PU",
+	},
+	gluttoon: {
+		tier: "Illegal",
+	},
 };

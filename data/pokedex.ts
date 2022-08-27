@@ -8818,6 +8818,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "trade",
 		evoItem: "Protector",
 		eggGroups: ["Monster", "Field"],
+		otherFormes: ["Tangela","Tangela-Lokura"],
 	},
 	tangrowth: {
 		num: 465,

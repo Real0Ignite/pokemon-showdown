@@ -7042,7 +7042,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	tangosta: {
 		tier: "NU",
 	},
-	tangostalokura: {
+	tangelalokura: {
 		tier: "NFE",
 	},
 	tadpot: {

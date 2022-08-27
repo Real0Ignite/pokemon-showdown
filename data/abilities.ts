@@ -6133,20 +6133,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 1012,
 	},
-	anonymous: {
-		onTryHit(target, source, move) {
-			if (target !== source && (move.type === 'Dark' || move.type === 'Fighting') && move.flags['contact']) {
-				// if (!this.boost({spa: 1})) {
-				if(source.hasAbility("scrappy") || source.hasAbility("infiltrator")) return;
-				if(target.volatiles.miracleeye) return;
+	// anonymous: {
+	// 	onTryHit(target, source, move) {
+	// 		if (target !== source && (move.type === 'Dark' || move.type === 'Fighting') && move.flags['contact']) {
+	// 			// if (!this.boost({spa: 1})) {
+	// 			if(source.hasAbility("scrappy") || source.hasAbility("infiltrator")) return;
+	// 			if(target.volatiles.miracleeye) return;
 				
-				this.add('-immune', target, '[from] ability: Anonymous');
-				// }
-				return null;
-			}
-		},
-		name: "Anonymous",
-		rating: 4,
-		num: 1013,
-	},
+	// 			this.add('-immune', target, '[from] ability: Anonymous');
+	// 			// }
+	// 			return null;
+	// 		}
+	// 	},
+	// 	name: "Anonymous",
+	// 	rating: 4,
+	// 	num: 1013,
+	// },
 };

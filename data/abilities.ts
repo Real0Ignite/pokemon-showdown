@@ -6073,24 +6073,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 1088,
 	},
 	blacksmoke: {
+		onAllyBoost(boost, target, source, effect) {
+			let b: BoostID;
+			for (b in boost) {
+				console.log("boost b: " + boost[b])
+				console.log("target boosts b: " +target.boosts[b])
+				if (target.boosts[b] ===-6)continue;
+				if (typeof boost[b]!==undefined && boost[b]<0) continue;
+				if(target.hasAbility("Black Smoke")) continue;
+					console.log("boost above 0, removing it");
+					const negativeBoost: SparseBoostsTable = {};
+					negativeBoost[b] = boost[b];
+					delete boost[b];
+			}
+		},
 		onFoeBoost(boost, target, source, effect) {
 			let b: BoostID;
 			for (b in boost) {
-				if (target.boosts[b] === -6) continue;
-				const negativeBoost: SparseBoostsTable = {};
-				negativeBoost[b] = boost[b];
-				delete boost[b];
-				// for (const target2 of target.side.foe.active) {
-				// 	if (target2.hasAbility('blacksmoke')) {
-				// 		this.add('-ability', target2, 'blacksmoke');
-				// 		// console.log("negativeBoost[b]: "+negativeBoost[b]);
-				// 		// console.log("b: "+b);
-				// 		// console.log("target2: "+target2);
-				// 		// console.log("source: "+source);
-				// 		this.boost(negativeBoost, target2);
-				// 		this.boost(negativeBoost, source);
-				// 	}
-				// }
+				console.log("boost b: " + boost[b])
+				console.log("target boosts b: " +target.boosts[b])
+				if (target.boosts[b] ===-6)continue;
+				if (typeof boost[b]!==undefined && boost[b]<0) continue;
+					console.log("boost above 0, removing it");
+					const negativeBoost: SparseBoostsTable = {};
+					negativeBoost[b] = boost[b];
+					delete boost[b];
 			}
 		},
 		name: "Black Smoke",
@@ -6106,7 +6113,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onBasePowerPriority: 21,
 		onBasePower(basePower, pokemon, target, move) {
-			if (move.hasSheerForce) return this.chainModify([5325, 4096]);
+			if (move.hasSheerForce) {
+				// return this.chainModify(8)}
+				return this.chainModify([5325, 4096])}
 		},
 		name: "Concentrated",
 		rating: 3.5,
@@ -6114,26 +6123,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	circuitconnection: {
 		onAllySwitchIn(pokemon) {
-			this.add('-activate', this.effectState.target, 'ability: Pastel Veil');
-			pokemon.addVolatile("charge");
-			this.boost({["spd"]: 1}, pokemon);
-				// condition: {
-				// 	duration: 2,
-				// 	onRestart(pokemon) {
-				// 		this.effectState.duration = 2;
-				// 	},
-				// 	onBasePowerPriority: 9,
-				// 	onBasePower(basePower, attacker, defender, move) {
-				// 		if (move.type === 'Electric') {
-				// 			this.debug('charge boost');
-				// 			return this.chainModify(2);
-				// 		}
-				// 	},
-				// },
-				// boosts: {
-				// 	spd: 1,
-				// },
-				// }
+			if(!pokemon.hasAbility("Circuit Connection")){
+				this.add('-activate', this.effectState.target, 'ability: Circuit Connection');
+				pokemon.addVolatile("charge");
+				this.boost({["spd"]: 1}, pokemon);
+			}
 		},
 		name: "Circuit Connection",
 		rating: 1,
@@ -6141,14 +6135,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	anonymous: {
 		onTryHit(target, source, move) {
-			if (target !== source && (move.type === 'Dark' || move.type === 'fighting') && move.flags['contact']) {
+			if (target !== source && (move.type === 'Dark' || move.type === 'Fighting') && move.flags['contact']) {
 				// if (!this.boost({spa: 1})) {
 				if(source.hasAbility("scrappy") || source.hasAbility("infiltrator")) return;
 				if(target.volatiles.miracleeye) return;
 				
 				this.add('-immune', target, '[from] ability: Anonymous');
 				// }
-				// return null;
+				return null;
 			}
 		},
 		name: "Anonymous",

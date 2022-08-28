@@ -6072,4 +6072,36 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 1088,
 	},
+	cosplay: {
+		onStart(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Lonestise' || pokemon.transformed) return;
+			if (pokemon.hp > pokemon.maxhp / 2) {
+				if (pokemon.species.forme !== 'Disguised') {
+					pokemon.formeChange('Lonestise-Disguised');
+				}
+			} else {
+				if (pokemon.species.forme === 'Disguised') {
+					pokemon.formeChange(pokemon.set.species);
+				}
+			}
+		},
+		onResidualOrder: 29,
+		onResidual(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Lonestise' || pokemon.transformed || !pokemon.hp) return;
+			if (pokemon.hp > pokemon.maxhp / 2) {
+				if (pokemon.species.forme !== 'Disguised') {
+					pokemon.formeChange('Lonestise-Disguised');
+				}
+			} else {
+				if (pokemon.species.forme === 'Lonestise-Disguised') {
+					pokemon.formeChange(pokemon.set.species);
+				}
+			}
+		},
+		},
+		isPermanent: true,
+		name: "Cosplay",
+		rating: 3,
+		num: 1089,
+	},
 };

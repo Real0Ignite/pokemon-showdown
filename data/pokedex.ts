@@ -20904,7 +20904,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Delicidra",
 		types: ["Dragon", "Fairy"],
 		baseStats: {hp: 88, atk: 112, def: 82, spa: 70, spd: 101, spe: 97},
-		abilities: {0: "Rain Dish", H: "Cotton Down"},
+		abilities: {0: "Sweet Veil", H: "Cotton Down"},
 		heightm: 1.5,
 		weightkg: 210,
 		color: "Pink",

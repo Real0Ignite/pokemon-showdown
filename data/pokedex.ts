@@ -15732,7 +15732,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Fire", "Ghost"],
 		gender: "N",
 		baseStats: {hp: 53, atk: 127, def: 53, spa: 151, spd: 79, spe: 107},
-		abilities: {0: "Beast Boost", 1: "Vitality Drain"},
+		abilities: {0: "Beast Boost", H: "Vitality Drain"},
 		heightm: 1.8,
 		weightkg: 13,
 		color: "White",

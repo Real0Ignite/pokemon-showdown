@@ -2515,4 +2515,8 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Oblivian Pinsirite",
 		desc: "If held by a Pinsir-Oblivia, this item allows it to Mega Evolve in battle.",
 	},
+	mysticpropeller: {
+		name: "Mystic Propeller",
+		desc: "If held by Draconaut, it's Speed is 1.5x.",
+	},
 };

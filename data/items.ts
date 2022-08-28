@@ -7834,4 +7834,20 @@ export const Items: {[itemid: string]: ItemData} = {
 	//	gen: 6,
 	//	isNonstandard: "Past",
 	//},
+	mysticpropeller: {
+		name: "Mystic Propeller",
+		spritenum: 179,
+		fling: {
+			basePower: 130,
+		},
+		onModifySpePriority: 1,
+		onModifySpe(spe, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Draconaut') {
+				return this.chainModify(1.5);
+			}
+		},
+		itemUser: ["Draconaut"],
+		num: 761,
+		gen: 8,
+	},
 };

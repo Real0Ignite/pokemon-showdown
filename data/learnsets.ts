@@ -102027,6 +102027,8 @@ shientis: {
       miracleeye: ["8M", "7M"],
       storedpower: ["8M", "7M"],
       zenheadbutt: ["8M", "7M"],
+			nastyplot: ["8M", "7M"],
+			calmmind: ["8M", "7M"],
       ancientpower: ["8M", "7M"],
       flashcannon: ["8M", "7M"],
 			lightwave: ["8M", "7M"],
@@ -102169,7 +102171,7 @@ shientis: {
 			wringout: ["7L46", "6L46", "5L50", "4L50"],
    },
  },
- 	tangelalokura: {
+ 	tangosta: {
 	 	learnset: {
 		 absorb: ["8L1", "8V", "7L10", "7V", "6L10", "5L8", "4L8", "3L10"],
 		 amnesia: ["8M", "8V", "7E", "7V", "6E", "5E", "4E", "3E"],

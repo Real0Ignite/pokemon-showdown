@@ -2069,6 +2069,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onBasePowerPriority: 9,
 			onBasePower(basePower, attacker, defender, move) {
 				if (move.type === 'Electric') {
+					console.log("Charge boost 1")
 					this.debug('charge boost');
 					return this.chainModify(2);
 				}
@@ -23430,6 +23431,61 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Light",
+		contestType: "Clever",
+	},
+	circuitconnection: { // exists for Circuit Connection, to extend duration
+		num: 10000001,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "circuitconnection",
+		pp: 0,
+		priority: 0,
+		flags: {snatch: 1},
+		// volatileStatus: 'charge2',
+		sideCondition:'circuitconnection',
+		condition: {
+			duration: 3,
+			onStart(target){
+				console.log("Charge 2 started")
+			},
+			
+			onSwitchIn(this, target) {
+				console.log("Ally has switched in");
+				if(!target.hasAbility("Circuit Connection")){
+					console.log("Boosting Special Defense");
+					let stats: BoostID[] = [];
+					const boost: SparseBoostsTable = {spd:1};
+					let statPlus: BoostID;
+					for (statPlus in target.boosts) {
+						if (target.boosts[statPlus] < 6) {
+							stats.push(statPlus);
+						}
+					}
+				}
+			},
+			onSwitchOut(pokemon){
+				console.log("Pokemon switching out");
+				if(!pokemon.hasAbility("Circuit Connection")){
+					pokemon.side.removeSideCondition("circuitconnection");
+					console.log("Removing Circuit Connection Early")
+				}
+			},
+			onRestart(pokemon) {
+				console.log("Restarting")
+				this.effectState.duration = 3;
+			},
+			onBasePowerPriority: 9,
+			onBasePower(basePower, attacker, defender, move) {
+				if (move.type === 'Electric') {
+					console.log('circuit connection boost');
+					return this.chainModify(2);
+				}
+			},
+		},
+		secondary: null,
+		target: "any",
+		type: "Electric",
 		contestType: "Clever",
 	},
 };

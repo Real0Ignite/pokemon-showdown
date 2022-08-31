@@ -6122,13 +6122,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 1011,
 	},
 	circuitconnection: {
-		onAllySwitchIn(pokemon) {
-			if(!pokemon.hasAbility("Circuit Connection")){
+		onSwitchOut(this,pokemon) {
+			pokemon.side.addSlotCondition(pokemon, "circuitconnection")
 				this.add('-activate', this.effectState.target, 'ability: Circuit Connection');
-				pokemon.addVolatile("charge");
-				this.boost({["spd"]: 1}, pokemon);
-			}
-		},
+				// this.boost({["spd"]: 1}, pokemon);
+			},
 		name: "Circuit Connection",
 		rating: 1,
 		num: 1012,

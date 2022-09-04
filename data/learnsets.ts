@@ -103350,4 +103350,9 @@ shientis: {
       toxic: ["8M", "7M"],
    },
 	},
+	wallo: {
+		learnset: {
+		fail: ["8M", "7M"],
+		},
+	},
 };

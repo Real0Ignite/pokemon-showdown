@@ -103789,8 +103789,8 @@ dovamour: {
 		toxic: ["8M", "7M"],
 	},
 },
-mezmer: {,
-	learnset: {,
+mezmer: {
+	learnset: {
 		allyswitch: ["7T"],
 		attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 		barrier: ["8V"],
@@ -103919,8 +103919,8 @@ mezmer: {,
 		luckychant: ["8M", "7M"],
 	},
 },
-dollet: {,
-	learnset: {,
+dollet: {
+	learnset: {
 		flipturn: ["8M", "7M"],
 		waterbullet: ["8M", "7M"],
 		flashcannon: ["8M", "7M"],
@@ -103972,8 +103972,8 @@ dollet: {,
 		assurance: ["8M", "7M"],
 	},
 },
-delphistol: {,
-	learnset: {,
+delphistol: {
+	learnset: {
 		flipturn: ["8M", "7M"],
 		waterbullet: ["8M", "7M"],
 		flashcannon: ["8M", "7M"],
@@ -104038,8 +104038,8 @@ delphistol: {,
 		calmmind: ["8M", "7M"],
 	},
 },
-denkyujin: {,
-	learnset: {,
+denkyujin: {
+	learnset: {
 		attract: ["8M", "7M"],
 		ancientpower: ["8M", "7M"],
 		babydolleyes: ["8M", "7M"],
@@ -104112,8 +104112,8 @@ denkyujin: {,
 		zapcannon: ["8M", "7M"],
 	},
 },
-parasorre: {,
-	learnset: {,
+parasorre: {
+	learnset: {
 		bugbite: ["8M", "7M"],
 		stringshot: ["8M", "7M"],
 		poisonpowder: ["8M", "7M"],
@@ -104137,8 +104137,8 @@ parasorre: {,
 		mudslap: ["8M", "7M"],
 	},
 },
-parasectorre: {,
-	learnset: {,
+parasectorre: {
+	learnset: {
 		bugbite: ["8M", "7M"],
 		stringshot: ["8M", "7M"],
 		poisonpowder: ["8M", "7M"],
@@ -104186,8 +104186,8 @@ parasectorre: {,
 		lashout: ["8M", "7M"],
 	},
 },
-paraspore: {,
-	learnset: {,
+paraspore: {
+	learnset: {
 		bugbite: ["8M", "7M"],
 		stringshot: ["8M", "7M"],
 		poisonpowder: ["8M", "7M"],
@@ -104252,8 +104252,8 @@ paraspore: {,
 		lashout: ["8M", "7M"],
 	},
 },
-tangeling: {,
-	learnset: {,
+tangeling: {
+	learnset: {
 		curse: ["8M", "7M"],
 		endeavor: ["8M", "7M"],
 		energyball: ["8M", "7M"],
@@ -104318,8 +104318,8 @@ tangeling: {,
 		wringout: ["8M", "7M"],
 	},
 },
-scolipedealtezza: {,
-	learnset: {,
+scolipedealtezza: {
+	learnset: {
 		bugbite: ["8M", "7M"],
 		bugbuzz: ["8M", "7M"],
 		fellstinger: ["8M", "7M"],

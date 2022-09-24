@@ -1072,7 +1072,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 86,
 		randomDoubleBattleMoves: ["focusblast", "icebeam", "lovelykiss", "nastyplot", "psychic"],
 		randomDoubleBattleLevel: 86,
-		tier: PU",
+		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	elekid: {

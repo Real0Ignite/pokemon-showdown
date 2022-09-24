@@ -7120,4 +7120,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	scolipedealtezza: {
 		tier: "PU",
 	},
+	torchichyperspace: {
+		tier: "AG",
+	},
+	combuskenhyperspace: {
+		tier: "AG",
+	},
+	blazikenhyperspace: {
+		tier: "AG",
+	},
 };

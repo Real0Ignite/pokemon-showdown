@@ -15760,7 +15760,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Necrozma-Ultra",
 		baseSpecies: "Necrozma",
 		forme: "Ultra",
-		types: ["Cosmic", "Light"],
+		types: ["Light", "Dragon"],
 		gender: "N",
 		baseStats: {hp: 97, atk: 167, def: 97, spa: 167, spd: 97, spe: 129},
 		abilities: {0: "Neuroforce"},

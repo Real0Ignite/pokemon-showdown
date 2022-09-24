@@ -7084,4 +7084,40 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	crystalouros: {
 		tier: "RU",
 	},
+	galvaraffe: {
+		tier: "PU",
+	},
+	magnorillo: {
+		tier: "RU",
+	},
+	dovamour: {
+		tier: "UU",
+	},
+	mezmer: {
+		tier: "NU",
+	},
+	dollet: {
+		tier: "LC OU",
+	},
+	delphistol: {
+		tier: "NU",
+	},
+	denkyujin: {
+		tier: "ZU",
+	},
+	parasorre: {
+		tier: "LC UU",
+	},
+	parasectorre: {
+		tier: "NU",
+	},
+	paraspore: {
+		tier: "UU",
+	},
+	tangeling: {
+		tier: "LC UU",
+	},
+	scolipedealtezza: {
+		tier: "PU",
+	},
 };

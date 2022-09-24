@@ -90,7 +90,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 87,
 		randomDoubleBattleMoves: ["hurricane", "pollenpuff", "protect", "ragepowder", "sleeppowder", "tailwind"],
 		randomDoubleBattleLevel: 88,
-		tier: "ZUBL",
+		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	butterfreegmax: {
@@ -1562,7 +1562,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	jumpluff: {
-		tier: "(ZU)",
+		tier: "ZU",
 	},
 	aipom: {
 		tier: "LC UBER",
@@ -2590,7 +2590,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	luvdisc: {
-		tier: "(ZU)",
+		tier: "ZU",
 	},
 	bagon: {
 		tier: "LC UU",
@@ -3145,7 +3145,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["bodyslam", "knockoff", "protect", "thunderwave"],
 		randomDoubleBattleLevel: 86,
-		tier: "ZUBL",
+		tier: "PU",
 		doublesTier: "DUU",
 	},
 	giratina: {
@@ -3828,7 +3828,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 84,
 		randomDoubleBattleMoves: ["geargrind", "protect", "shiftgear", "thunderwave", "wildcharge"],
 		randomDoubleBattleLevel: 88,
-		tier: "ZUBL",
+		tier: "PU",
 		doublesTier: "(DUU)",
 	},
 	klinklympeia: {
@@ -5442,11 +5442,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	meltan: {
-		tier: "(ZU)",
+		tier: "ZU",
 		doublesTier: "(DUU)",
 	},
 	meltanunova: {
-		tier: "(ZU)",
+		tier: "ZU",
 		doublesTier: "(DUU)",
 	},
 	melmetal: {
@@ -6578,7 +6578,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PUBL",
 	},
 	lustreon: {
-		tier: "ZUBL",
+		tier: "PU",
 	},
 	durantsinnoh: {
 		tier: "ZU",

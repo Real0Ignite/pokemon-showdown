@@ -21229,18 +21229,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Fairy", "Flying"],
 		newmeta: "true",
 	},
-	dovamour: {
-		num: 10156,
-		name: "Dovamour",
-		types: ["Fairy", "Flying"],
-		baseStats: {hp: 75, atk: 107, def: 80, spa: 55, spd: 77, spe: 91},
-		abilities: {0: "Battle Armor", 1: "Tough Claws", H: "Galvanize"},
-		heightm: 1.9,
-		weightkg: 290.1,
-		color: "Green",
-		eggGroups: ["Monster", "Dragon"],
-		newmeta: "true",
-	},
 	dollet: {
 		num: 10158,
 		name: "Dollet",

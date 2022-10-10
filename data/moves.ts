@@ -23432,4 +23432,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Light",
 		contestType: "Clever",
 	},
+	astralprojections: {
+		num: 987,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			let power = 60 + 20 * target.positiveBoosts();
+			if (power > 200) power = 200;
+			return power;
+		},
+		category: "Physical",
+		//isNonstandard: "Past",
+		name: "Astral Projections",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Cosmic",
+		zMove: {basePower: 160},
+		maxMove: {basePower: 130},
+		contestType: "Cool",
+	},
 };

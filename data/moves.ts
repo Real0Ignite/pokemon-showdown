@@ -20113,7 +20113,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Forest's Voice",
 		pp: 10,
 		priority: 0,
-		flags: {nonsky: 1, sound: 1, protect: 1, mirror: 1, authentic: 1},
+		flags: {nonsky: 1, sound: 1, protect: 1, mirror: 1, bypasssub: 1, authentic: 1},
 		terrain: 'grassyterrain',
 		condition: {
 			duration: 5,

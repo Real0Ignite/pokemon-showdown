@@ -7132,4 +7132,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
   nebuluga: {
 		tier: "UU",
 	},
+	gluttorow: {
+		tier: "NU",
+	},
+	tazelle: {
+		tier: "ZU",
+	},
 };

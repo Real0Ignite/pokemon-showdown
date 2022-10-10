@@ -23441,7 +23441,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (power > 200) power = 200;
 			return power;
 		},
-		category: "Physical",
+		category: "Special",
 		//isNonstandard: "Past",
 		name: "Astral Projections",
 		pp: 5,

@@ -7129,4 +7129,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	blazikenhyperspace: {
 		tier: "AG",
 	},
+  nebuluga: {
+		tier: "UU",
+	},
 };

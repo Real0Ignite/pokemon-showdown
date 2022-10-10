@@ -21292,6 +21292,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 //		eggGroups: ["Monster", "Dragon"],
 //		otherFormes: ["Lonetise-Disguised"],
 //		formeOrder: ["Lonestise", "Lonestise-Disguised"],
+//		newmeta: "true",
 //	},
 //	lonestisedisguised: {
 //		num: 10163,
@@ -21308,4 +21309,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 //		eggGroups: ["Monster", "Dragon"],
 //		requiredAbility: "Cosplay",
 //		battleOnly: "Lonestise",
+//		newmeta: "true",
+//   },
+nebuluga: {
+	num: 10164,
+	name: "Nebuluga",
+	types: ["Psychic", "Cosmic"],
+	baseStats: {hp: 107, atk: 84, def: 93, spa: 120, spd: 110, spe: 86},
+	abilities: {0: "Synchronize", H: "Magic Guard"},
+	heightm: 1.8,
+	weightkg: 77,
+	color: "Pink",
+	eggGroups: ["Undiscovered"],
+	newmeta: "true",
+	},
 };

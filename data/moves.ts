@@ -23446,7 +23446,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Astral Projections",
 		pp: 5,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
+		flags: {protect: 1, mirror: 1},
 		secondary: null,
 		target: "normal",
 		type: "Cosmic",

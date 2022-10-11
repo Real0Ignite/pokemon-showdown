@@ -104970,6 +104970,7 @@ nebuluga: {
       thunder: ["8M", "7M"],
       blizzard: ["8M", "7M"],
 			astralprojections: ["8M", "7M"],
+			calmmind: ["8M", "7M"],
    	},
 	},
 	gluttorow: {

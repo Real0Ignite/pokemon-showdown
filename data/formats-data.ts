@@ -3872,7 +3872,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 84,
 		randomDoubleBattleMoves: ["calmmind", "energyball", "heatwave", "overheat", "protect", "shadowball", "trick"],
 		randomDoubleBattleLevel: 80,
-		tier: "NU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	axew: {
@@ -7073,7 +7073,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	chandelurekliro: {
-		tier: "RU",
+		tier: "NU",
 	},
 	anistrake: {
 		tier: "NU",

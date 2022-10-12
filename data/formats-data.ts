@@ -7121,13 +7121,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 	},
 	torchichyperspace: {
-		tier: "AG",
+		tier: "Illegal",
 	},
 	combuskenhyperspace: {
-		tier: "AG",
+		tier: "Illegal",
 	},
 	blazikenhyperspace: {
-		tier: "AG",
+		tier: "Illegal",
 	},
   nebuluga: {
 		tier: "UU",

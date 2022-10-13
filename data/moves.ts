@@ -23437,7 +23437,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 0,
 		basePowerCallback(pokemon, target) {
-			let power = 60 + 20 * target.positiveBoosts();
+			let power = 100 + 20 * target.positiveBoosts();
 			if (power > 200) power = 200;
 			return power;
 		},

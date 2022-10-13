@@ -7743,6 +7743,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	astralprojections: {
 		name: "Astral Projections",
-		desc: "Power is equal to 60+(X*20), where X is the target's total stat stage changes that are greater than 0, but not more than 200 power.",
-		shortDesc: "60 power +20 for each of the target's stat boosts.",
+		desc: "Power is equal to 100+(X*20), where X is the target's total stat stage changes that are greater than 0, but not more than 200 power.",
+		shortDesc: "100 power +20 for each of the target's stat boosts.",
+	},
 };

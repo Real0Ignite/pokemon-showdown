@@ -1926,10 +1926,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "This Pokemon's Atk, SpAtk, Def, SpDef are x1.25 if its the last one standing.",
 		newmeta: "true",
 	},
-	predatoryinstinct: {
-		name: "Predatory Instinct",
-		desc: "This Pokemon's attacks have their power multiplied by 1.5 against lighter weight or multiplied by 0.75 against heavier weight.",
-		shortDesc: "This Pokemon's attacks do 1.5x on lighter weight targets; 0.75x on heavier weight.",
+	predator: {
+		name: "Predator",
+		shortDesc: "This Pokemon's attacks do 1.25x on lighter weight targets.",
 		newmeta: "true",
 	},
 	radiance: {
@@ -2245,5 +2244,30 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Rooted",
 		desc: "This Pokemon Ingrains itself on switch-in, trapping itself.",
 		ShortDesc: "This Pokemon uses Ingrain on switch-in.",
+	},
+	acceleration: {
+		name: "Acceleration",
+		desc: "The power of this Pokemon's priority moves is multiplied by 1.5.",
+		shortDesc: "This Pokemon's priority moves have 1.5x power.",
+	},
+	clumsy: {
+		name: "Clumsy",
+		shortDesc: "If this Pokemon is confused, its Attack is 1.5x.",
+	},
+	starstruck: {
+		name: "Starstruck",
+		shortDesc: "This Pokemon's attacks don't miss 1 when it has 1/2 or less of its max HP.",
+	},
+	mistweaver: {
+		name: "Mist Weaver",
+		shortDesc: "If Misty Terrain is active, this Pokemon's Fairy-type moves have their power multiplied by 1.5..",
+	},
+	shorttemper: {
+		name: "Short Temper",
+		shortDesc: "This Pokemon's Atk is raised by 1 when it reaches 1/2 or less of its max HP.",
+	},
+	breakneck: {
+		name: "Breakneck",
+		shortDesc: "This Pokemon's moves of 60 power or less have have their priority increased by 1.",
 	},
 };

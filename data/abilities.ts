@@ -270,6 +270,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	battlearmor: {
 		onCriticalHit: false,
+		onModifySecondaries(secondaries) {
+			this.debug('Armor Armor prevent secondary');
+			return secondaries.filter(effect => !!(effect.self || effect.dustproof));
+		},
 		isBreakable: true,
 		name: "Battle Armor",
 		rating: 1,
@@ -3465,6 +3469,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	shellarmor: {
 		onCriticalHit: false,
+		onModifySecondaries(secondaries) {
+			this.debug('Shell Armor prevent secondary');
+			return secondaries.filter(effect => !!(effect.self || effect.dustproof));
+		},
 		isBreakable: true,
 		name: "Shell Armor",
 		rating: 1,
@@ -4782,7 +4790,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
         onBasePowerPriority: 21,
         onBasePower(basePower, pokemon, target, move) {
             if (move.flags['expert']) {
-                return this.chainModify(1.3);
+                return this.chainModify([5325, 4096]);
             }
         },
         name: "Expert",
@@ -4863,7 +4871,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
         onBasePower(basePower, attacker, defender, move) {
             if (move.flags['kick']) {
                 this.debug('Kicker boost');
-                return this.chainModify([0x1333, 0x1000]);
+								return this.chainModify([4915, 4096]);
             }
         },
         name: "Kicker",
@@ -4875,7 +4883,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
         onBasePower(basePower, attacker, defender, move) {
             if (move.flags['blade']) {
                 this.debug('Blade Master boost');
-                return this.chainModify([0x1333, 0x1000]);
+								return this.chainModify([4915, 4096]);
             }
         },
         name: "Blade Master",
@@ -4886,7 +4894,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
         onBasePowerPriority: 23,
         onBasePower(basePower, attacker, defender, move) {
             if (move.type === 'Grass') {
-                return this.chainModify(1.3);
+							this.debug('Gardens Gift boost');
+                return this.chainModify([5325, 4096]);
             }
         },
         onModifyMove(move) {
@@ -4921,7 +4930,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
         onBasePower(basePower, attacker, defender, move) {
             if (move.flags['bullet'] || move.id === 'windblast') {
                 this.debug('Artillery boost');
-                return this.chainModify(1.2);
+								return this.chainModify([4915, 4096]);
             }
         },
         name: "Artillery",
@@ -5070,7 +5079,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['future']) {
 				this.debug('Visionary boost');
-				return this.chainModify(1.3);
+				return this.chainModify([5325, 4096]);
 			}
 		},
 		name: "Visionary",
@@ -5205,8 +5214,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onSourceModifyAccuracyPriority: 9,
 		onSourceModifyAccuracy(accuracy) {
 			if (typeof accuracy !== 'number') return;
-			this.debug('illuminate - enhancing accuracy');
-			return accuracy * 1.3;
+			this.debug('Illuminate - enhancing accuracy');
+			return this.chainModify([5325, 4096]);
 		},
 		name: "Illuminate",
 		rating: 3,
@@ -5223,27 +5232,24 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.category === "Physical" && !move.flags['contact']) {
 				this.debug('Magical Archer boost');
-				return this.chainModify(1.1);
+				return this.chainModify([4506, 4096]);
 			}
 		},
 		name: "Mythic Archer",
 		rating: 3,
 		num: 1035,
 	},
-	predatoryinstinct: {
+	predator: {
 		onBasePowerPriority: 24,
 		onBasePower(basePower, attacker, defender, move) {
 			if (attacker.gender && defender.gender) {
 				if (attacker.weighthg > defender.weighthg) {
-					this.debug('Predatory Instinct boost');
-					return this.chainModify(1.5);
-				} else {
-					this.debug('Predatory Instinct weaken');
-					return this.chainModify(0.75);
+					this.debug('Predator boost');
+					return this.chainModify(1.25);
 				}
 			}
 		},
-		name: "Predatory Instinct",
+		name: "Predator",
 		rating: 0,
 		num: 1036,
 	},
@@ -6071,5 +6077,74 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		rating: 2,
 		num: 1088,
+	},
+	acceleration: {
+		onBasePowerPriority: 30,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.priority > 0) {
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Acceleration",
+		rating: 4,
+		num: -108,
+	},
+	clumsy: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.volatiles['confusion']) {
+				return this.chainModify(1.3);
+			}
+		},
+		name: "Clumsy",
+		rating: 3,
+		num: 62,
+	},
+	starstruck: {
+		onSourceModifyAccuracyPriority: -1,
+		onSourceModifyAccuracy(accuracy) {
+			if (typeof accuracy !== 'number') return;
+				if (pokemon.hp <= pokemon.maxhp / 2) {
+					return accuracy = true;
+				}
+		},
+		name: "Starstruck",
+		rating: 3,
+		num: 14,
+	},
+	mistweaver: {
+		onSourceBasePowerPriority: 22,
+		onSourBasePower(basePower, attacker, defender, move) {
+			if (this.field.isTerrain('mistyterrain')) return;
+				if (move.type === 'Fairy') {
+					this.debug('Weaver Mist boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Mist Weaver",
+		rating: 3.5,
+		num: 252,
+	},
+	shorttemper: {
+		onAfterMoveSecondary(target, source, move) {
+			if (!source || source === target || !target.hp || !move.totalDamage) return;
+			const lastAttackedBy = target.getLastAttackedBy();
+			if (!lastAttackedBy) return;
+			const damage = move.multihit ? move.totalDamage : lastAttackedBy.damage;
+			if (target.hp <= target.maxhp / 2 && target.hp + damage > target.maxhp / 2) {
+				this.boost({atk: 1});
+			}
+		},
+		name: "Short Temper",
+		rating: 2,
+		num: 201,
+	},
+	breakneck: {
+		onModifyPriority(priority, pokemon, target, move) {
+			if (move?.basePower <= 60) return priority + 1;
+		},
+		name: "Breakneck",
+		rating: 3,
+		num: 177,
 	},
 };

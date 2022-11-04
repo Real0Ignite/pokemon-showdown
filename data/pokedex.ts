@@ -21309,7 +21309,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 //		eggGroups: ["Monster", "Dragon"],
 //		requiredAbility: "Cosplay",
 //		battleOnly: "Lonestise",
-//		newmeta: "true",
+///		newmeta: "true",
 //   },
 nebuluga: {
 	num: 10164,

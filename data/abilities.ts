@@ -6087,7 +6087,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Acceleration",
 		rating: 4,
-		num: -108,
+		num: 1089,
 	},
 	clumsy: {
 		onModifyAtkPriority: 5,
@@ -6098,7 +6098,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Clumsy",
 		rating: 3,
-		num: 62,
+		num: 1090,
 	},
 	starstruck: {
 		onSourceModifyAccuracyPriority: -1,
@@ -6110,7 +6110,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Starstruck",
 		rating: 3,
-		num: 14,
+		num: 1091,
 	},
 	mistweaver: {
 		onSourceBasePowerPriority: 22,
@@ -6123,7 +6123,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Mist Weaver",
 		rating: 3.5,
-		num: 252,
+		num: 1092,
 	},
 	shorttemper: {
 		onAfterMoveSecondary(target, source, move) {
@@ -6137,7 +6137,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Short Temper",
 		rating: 2,
-		num: 201,
+		num: `093`,
 	},
 	breakneck: {
 		onModifyPriority(priority, pokemon, target, move) {
@@ -6145,6 +6145,38 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Breakneck",
 		rating: 3,
-		num: 177,
+		num: 1094,
+	},
+	cosplay: {
+		onStart(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Lonestise' || pokemon.transformed) return;
+			if (pokemon.hp > pokemon.maxhp / 2) {
+				if (pokemon.species.forme !== 'Disguised') {
+					pokemon.formeChange('Lonestise-Disguised');
+				}
+			} else {
+				if (pokemon.species.forme === 'Disguised') {
+					pokemon.formeChange(pokemon.set.species);
+				}
+			}
+		},
+		onResidualOrder: 29,
+		onResidual(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Lonestise' || pokemon.transformed || !pokemon.hp) return;
+			if (pokemon.hp > pokemon.maxhp / 2) {
+				if (pokemon.species.forme !== 'Disguised') {
+					pokemon.formeChange('Lonestise-Disguised');
+				}
+			} else {
+				if (pokemon.species.forme === 'Lonestise-Disguised') {
+					pokemon.formeChange(pokemon.set.species);
+				}
+			}
+		},
+		},
+		isPermanent: true,
+		name: "Cosplay",
+		rating: 3,
+		num: 1095,
 	},
 };

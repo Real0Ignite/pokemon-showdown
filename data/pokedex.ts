@@ -21291,7 +21291,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 //		color: "Red",
 //		eggGroups: ["Monster", "Dragon"],
 //		otherFormes: ["Lonetise-Disguised"],
-//		formeOrder: ["Lonestise", "Lonestise-Disguised"],
+//		formeOrder: ["Lonestise-Disguised", "Lonestise"],
 //		newmeta: "true",
 //	},
 //	lonestisedisguised: {

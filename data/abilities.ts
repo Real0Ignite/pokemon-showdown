@@ -6175,5 +6175,4 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 //		name: "Cosplay",
 //		rating: 3,
 //		num: 1095,
-	},
 };

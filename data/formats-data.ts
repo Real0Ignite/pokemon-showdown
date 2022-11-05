@@ -7138,4 +7138,38 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	tazelle: {
 		tier: "ZU",
 	},
+	arboklokura: {
+		tier: "NU",
+	},
+	grumpiglokura: {
+		tier: "PU",
+	},
+	bugaboogie: {
+		tier: "UU",
+	},
+	sawcodil: {
+		tier: "ZU",
+	},
+	tundrago: {
+		tier: "PU",
+	},
+	tectaur: {
+		tier: "ZU",
+	},
+	venomicore: {
+		tier: "Uber",
+	},
+	terrior: {
+		tier: "ZU",
+	},
+	faebletaur: {
+		tier: "Uber",
+		doublesTier: "DOU",
+	},
+	prikall: {
+		tier: "LCUU",
+	},
+	mespine: {
+		tier: "ZU",
+	},
 };

@@ -7172,4 +7172,31 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	mespine: {
 		tier: "ZU",
 	},
+	gauchomander: {
+		tier: "UU",
+	},
+	velonadon: {
+		tier: "Uber",
+	},
+	neglecrow: {
+		tier: "ZU",
+	},
+	pyroterois: {
+		tier: "PU",
+	},
+	ratautumn: {
+		tier: "PU",
+	},
+	bikkubear: {
+		tier: "LC UU",
+	},
+	bonfaya: {
+		tier: "NFE",
+	},
+	calvana: {
+		tier: "ZU",
+	},
+	caporaptor: {
+		tier: "RU",
+	},
 };

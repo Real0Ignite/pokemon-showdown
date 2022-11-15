@@ -1149,7 +1149,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	lapras: {
-		tier: "UU",
+		tier: "ZU",
 		doublesTier: "(DUU)",
 	},
 	laprasalola: {
@@ -6557,7 +6557,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	muuthate: {
-		tier: "UU",
+		tier: "NU",
 	},
 	hydrame: {
 		tier: "OU",
@@ -6684,7 +6684,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	cheslime: {
-		tier: "UU",
+		tier: "RU",
 	},
 	leamyst: {
 		tier: "UU",

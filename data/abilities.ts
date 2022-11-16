@@ -5423,12 +5423,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 1048,
 	},
 	toxicintake: {
-        onWeather(target, source, effect) {
-            if (target.hasItem('utilityumbrella')) return;
-            if (effect.id === 'toxiccloud') {
-                this.heal(target.baseMaxhp / 16);
-            }
-        },
+		// coded in conditions.ts, to match other weather code
+
+        // onWeather(target, source, effect) {
+        //     if (target.hasItem('utilityumbrella')) return;
+        //     if (effect.id === 'toxiccloud') {
+        //         this.heal(target.baseMaxhp / 16);
+        //     }
+        // },
         name: "Toxic Intake",
         rating: 1.5,
         num: 1049,

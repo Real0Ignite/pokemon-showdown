@@ -94828,7 +94828,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dragondance: ["8M", "7M"],
 			dragonbreath: ["8M", "7M"],
 			steelwing: ["8M", "7M"],
-			metasound: ["8M", "7M"],
+			metalsound: ["8M", "7M"],
 			blazekick: ["8M", "7M"],
 			jumpkick: ["8M", "7M"],
 		},

@@ -4157,6 +4157,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return this.chainModify(1.5);
 			}
 		},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Poison') {
+					this.add('-immune', target, '[from] ability: Toxic Boost');
+				return null;
+			}
+		},
 		name: "Toxic Boost",
 		rating: 2.5,
 		num: 137,

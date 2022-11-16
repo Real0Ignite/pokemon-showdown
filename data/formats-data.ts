@@ -6919,9 +6919,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	cabiapod: {
 		tier: "PU",
 	},
-	cabiapod: {
-		tier: "PU",
-	},
 	kobyss: {
 		tier: "LC OU",
 	},
@@ -7167,7 +7164,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	prikall: {
-		tier: "LCUU",
+		tier: "LC UU",
 	},
 	mespine: {
 		tier: "ZU",

@@ -2243,7 +2243,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	rooted: {
 		name: "Rooted",
 		desc: "This Pokemon Ingrains itself on switch-in, trapping itself.",
-		ShortDesc: "This Pokemon uses Ingrain on switch-in.",
+		shortDesc: "This Pokemon uses Ingrain on switch-in.",
 	},
 	acceleration: {
 		name: "Acceleration",

@@ -1524,7 +1524,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			return this.chainModify(1.25);
 		},
 		onModifySpePriority: 5,
-		onModifySpe(spe, attacker, defender, move) {
+		onModifySpe(this, spe, pokemon) {
 			this.debug('Heavy Metal weaken');
 			return this.chainModify(0.5);
 		},
@@ -1964,7 +1964,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			return this.chainModify(0.75);
 		},
 		onModifySpePriority: 5,
-		onModifySpe(spe, attacker, defender, move) {
+		onModifySpe(this, spe, pokemon) {
 			this.debug('Light Metal boost');
 			return this.chainModify(1.25);
 		},
@@ -6080,7 +6080,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	mistweaver: {
 		onSourceBasePowerPriority: 22,
-		onSourBasePower(basePower, attacker, defender, move) {
+		onSourceBasePower(basePower, attacker, defender, move) {
 			if (this.field.isTerrain('mistyterrain')) return;
 				if (move.type === 'Fairy') {
 					this.debug('Weaver Mist boost');
@@ -6103,7 +6103,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Short Temper",
 		rating: 2,
-		num: `093`,
+		num: 1093,
 	},
 	breakneck: {
 		onModifyPriority(priority, pokemon, target, move) {

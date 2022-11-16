@@ -1870,7 +1870,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
     },
 	enthusiasm: {
 		name: "Enthusiasm",
-		shortDesc: "This Pokemon's Special Attack is 1.5x and accuracy of its special attacks is 0.8x.",
+		shortDesc: "This Pokemon's super effective hits do 1.2x damage.",
 		newmeta: "true",
 	},
 	hubris: {

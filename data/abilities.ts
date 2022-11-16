@@ -5087,15 +5087,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 1025,
 	},
 	enthusiasm: {
-		// This should be applied directly to the stat as opposed to chaining with the others
-		onModifySpAPriority: 5,
-		onModifySpA(spa) {
-			return this.modify(spa, 1.5);
-		},
-		onSourceModifyAccuracyPriority: 7,
-		onSourceModifyAccuracy(accuracy, target, source, move) {
-			if (move.category === 'Special' && typeof accuracy === 'number') {
-				return accuracy * 0.8;
+		onBasePower(damage, source, target, move) {
+			if (target.runEffectiveness(move) > 1) {
+				return this.chainModify([4915, 4096]);
 			}
 		},
 		name: "Enthusiasm",
@@ -5569,20 +5563,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0,
 		num: 1057,
 	},
-	negationfield: {
-        onStart(pokemon) {
-            this.field.addPseudoWeather('magicroom', pokemon);
-        },
-        onSwitchOut(pokemon) {
-            this.field.removePseudoWeather('magicroom');
-        },
-        onFaint(pokemon) {
-            this.field.removePseudoWeather('magicroom');
-        },
-        name: "Negation Field",
-        rating: 3,
-        num: 1058,
-    },
 	enchantment: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
@@ -5668,20 +5648,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 1062,
 	},
-	wonderfield: {
-        onStart(pokemon) {
-            this.field.addPseudoWeather('wonderroom', pokemon);
-        },
-        onSwitchOut(pokemon) {
-            this.field.removePseudoWeather('wonderroom');
-        },
-        onFaint(pokemon) {
-            this.field.removePseudoWeather('wonderroom');
-        },
-        name: "Wonder Field",
-        rating: 3,
-        num: 1063,
-    },
 	familybonds: {
 		onModifyMove(move, source, target) {
 			const type1 = source.types[0];

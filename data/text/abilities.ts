@@ -480,6 +480,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Gooey",
 		shortDesc: "Pokemon making contact with this Pokemon have their Speed lowered by 1 stage.",
 	},
+	spiritguide: {
+		name: "Spirit Guide",
+		shortDesc: "Pokemon making contact with this Pokemon have their Defense lowered by 1 stage.",
+	},
 	gorillatactics: {
 		name: "Gorilla Tactics",
 		shortDesc: "This Pokemon's Attack is 1.5x, but it can only select the first move it executes.",
@@ -2184,8 +2188,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "On switch in, this Pokemons Attack is raised 1 stage if the opponent has at least one stat boosted.",
 		newmeta: "true",
 	},
-	steampower: {
-		name: "Steam Power",
+	hydrothermal: {
+		name: "Hydrothermal",
 		desc: "The power of the Pokémon's Water-type moves are boosted in sunshine instead of being weakened (x1.1 boost).",
 		shortDesc: "Water-type moves are boosted x1.1 in sunshine instead of being weakened.",
 		newmeta: "true",
@@ -2228,7 +2232,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	razorrotors: {
 		name: "Razor Rotors",
-		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using a flying-type attack.",
+		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using a Flying-type attack.",
 	},
 	gordianknot: {
 		name: "Gordian Knot",
@@ -2256,7 +2260,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	starstruck: {
 		name: "Starstruck",
-		shortDesc: "This Pokemon's attacks don't miss 1 when it has 1/2 or less of its max HP.",
+		shortDesc: "This Pokemon's attacks don't miss when it has 1/2 or less of its max HP.",
 	},
 	mistweaver: {
 		name: "Mist Weaver",

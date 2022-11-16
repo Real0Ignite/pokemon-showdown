@@ -5878,9 +5878,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 1078,
 	},
-	steampower: {
+	hydrothermal: {
 		//implemented in conditions.ts
-		name: "Steam Power",
+		name: "Hydrothermal",
 		rating: 1.5,
 		num: 1079,
 	},
@@ -6055,7 +6055,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Acceleration",
 		rating: 4,
-		num: 1089,
+		num: -108,
 	},
 	clumsy: {
 		onModifyAtkPriority: 5,
@@ -6066,7 +6066,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Clumsy",
 		rating: 3,
-		num: 1090,
+		num: 62,
 	},
 	starstruck: {
 		onSourceModifyAccuracyPriority: -1,
@@ -6078,7 +6078,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Starstruck",
 		rating: 3,
-		num: 1091,
+		num: 14,
 	},
 	mistweaver: {
 		onSourceBasePowerPriority: 22,
@@ -6091,7 +6091,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Mist Weaver",
 		rating: 3.5,
-		num: 1092,
+		num: 252,
 	},
 	shorttemper: {
 		onAfterMoveSecondary(target, source, move) {
@@ -6105,7 +6105,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Short Temper",
 		rating: 2,
-		num: 1093,
+		num: 201,
 	},
 	breakneck: {
 		onModifyPriority(priority, pokemon, target, move) {
@@ -6113,34 +6113,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Breakneck",
 		rating: 3,
-		num: 1094,
+		num: 177,
 	},
-//	cosplay: {
-	//	onStart(pokemon) {
-	//		if (pokemon.baseSpecies.baseSpecies !== 'Lonestise' || pokemon.transformed) return;
-	//		if (pokemon.hp > pokemon.maxhp / 2) {
-	//			if (pokemon.species.forme !== 'Disguised') {
-	//				pokemon.formeChange('Lonestise-Disguised');
-//				}
-//			} else {
-//				if (pokemon.species.forme === 'Disguised') {
-//					pokemon.formeChange(pokemon.set.species);
-//				}
-//			}
-//		},
-//		onResidual(pokemon) {
-//				if (pokemon.species.forme !== 'Disguised') {
-//					pokemon.formeChange('Lonestise-Disguised');
-	//			}
-//		} else {
-//				if (pokemon.species.forme === 'Lonestise-Disguised') {
-//					pokemon.formeChange(pokemon.set.species);
-//				}
-//			}
-//		},
-//		},
-//		isPermanent: true,
-//		name: "Cosplay",
-//		rating: 3,
-//		num: 1095,
+	cauterize: {
+		onAfterMoveSecondary(target, source, move) {
+			if (!source || source === target || !target.hp || !move.totalDamage) return;
+			const lastAttackedBy = target.getLastAttackedBy();
+			if (!lastAttackedBy) return;
+			const damage = move.multihit ? move.totalDamage : lastAttackedBy.damage;
+			if (target.hp <= target.maxhp / 2 && target.hp + damage > target.maxhp / 2) {
+				source.side.addVolatileStatus('magmabath');
+			}
+		},
+		name: "Cauterize",
+		rating: 2,
+		num: 201,
+	},
+
 };

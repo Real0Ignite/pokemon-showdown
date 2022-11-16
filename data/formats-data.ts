@@ -7196,4 +7196,28 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	caporaptor: {
 		tier: "RU",
 	},
+	jumplufforre: {
+		tier: "PU",
+	},
+	bunnula: {
+		tier: "LC UU",
+	},
+	lepanova: {
+		tier: "UU",
+	},
+	icicroak: {
+		tier: "LC UU",
+	},
+	rascleaf: {
+		tier: "LC UU",
+	},
+	breezeaf: {
+		tier: "NFE",
+	},
+	soarustle: {
+		tier: "RU",
+	},
+	doodbird: {
+		tier: "ZU",
+	},
 };

@@ -23480,11 +23480,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
-		condition: {
-			onModifyCritRatio(critRatio) {
-				if (target.status === 'frz') {
-				 return critRatio + 3;
-			},
+		condition: { //untested, but previous code couldn't pass startup
+			onModifyCritRatio(this, critRatio, pokemon) {
+				if(this.activeTarget?.status =='frz')
+				return critRatio + 3;
+		   },
 		},
 		secondary: {
 			chance: 10,

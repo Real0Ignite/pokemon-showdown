@@ -6075,13 +6075,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 62,
 	},
 	starstruck: {
-		onSourceModifyAccuracyPriority: -1,
-		onSourceModifyAccuracy(accuracy) {
-			if (typeof accuracy !== 'number') return;
-				if (pokemon.hp <= pokemon.maxhp / 2) {
-					return accuracy = true;
-				}
+		// onSourceModifyAccuracyPriority: -1,
+		onModifyMove(move, source) {
+			if (source.hp <= source.maxhp / 2) move.accuracy = true;
 		},
+		// onSourceModifyAccuracy(accuracy, target, source, move) {
+		// 	if (typeof accuracy !== 'number') return;
+		// 		if (pokemon.hp <= pokemon.maxhp / 2) {
+		// 			return accuracy = true;
+		// 		}
+		// },
 		name: "Starstruck",
 		rating: 3,
 		num: 14,
@@ -6128,8 +6131,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (!lastAttackedBy) return;
 			const damage = move.multihit ? move.totalDamage : lastAttackedBy.damage;
 			if (target.hp <= target.maxhp / 2 && target.hp + damage > target.maxhp / 2) {
-				source.side.addVolatileStatus('magmabath');
+				source.side.addSideCondition('magmabath');//supposed to be a side condition? matters for doubles
 			}
+		},
+		onSourceSwitchOut(source){
+		  source.side.removeSideCondition('magmabath'); //clear side condition when pokemon leaves
 		},
 		name: "Cauterize",
 		rating: 2,

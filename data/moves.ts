@@ -23480,12 +23480,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
-		condition: { //untested, but previous code couldn't pass startup
-			onModifyCritRatio(this, critRatio, pokemon) {
-				if(this.activeTarget?.status =='frz')
-				return critRatio + 3;
-		   },
+		onPrepareHit(target, source, move) {
+			if (target.status =='frz') //instead of mod crit ratio, sets crit to true 
+			move.willCrit = true;
 		},
+		// condition: { //untested, but previous code couldn't pass startup
+		// 	onModifyCritRatio(this, critRatio, pokemon) {
+		// 		if(this.activeTarget?.status =='frz')
+		// 		return critRatio + 3;
+		//    },
+		// },
 		secondary: {
 			chance: 10,
 			status: 'frz',
@@ -23513,4 +23517,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 80},
 		contestType: "Cool",
 	},
+	freezer: { // tester move to apply freeze to enemies
+		num: 1000010,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Freezer",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1},
+		status: 'frz',
+		secondary: null,
+		target: "normal",
+		type: "ice",
+		zMove: {boost: {spa: 1}},
+		contestType: "Beautiful",
+	}
 };

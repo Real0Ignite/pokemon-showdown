@@ -21206,7 +21206,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Crystalouros",
 		types: ["Poison", "Rock"],
 		baseStats: {hp: 100, atk: 120, def: 115, spa: 50, spd: 100, spe: 40},
-		abilities: {0: "Rough Skin", 1: "Solid Rock", H: "Shell Armor"},
+		abilities: {0: "Rough Skin", 1: "Solid Rock", H: "Resilience"},
 		heightm: 2.4,
 		weightkg: 282.8,
 		color: "Purple",

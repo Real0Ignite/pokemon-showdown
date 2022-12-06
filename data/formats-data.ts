@@ -2879,7 +2879,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	drifblim: {
-		tier: "UUBL",
+		tier: "PU",
 		doublesTier: "DUU",
 	},
 	buneary: {

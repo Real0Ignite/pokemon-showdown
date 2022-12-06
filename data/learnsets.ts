@@ -13045,6 +13045,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       darkestlariat: ["8M", "7M"],
       feintattack: ["8M", "7M"],
       wish: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 	onix: {
@@ -33708,6 +33709,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			workup: ["8M"],
 			xscissor: ["8M"],
 			pursuit: ["8M"],
+			suckerpunch: ["8M"],
 		},
 	},
 	wurmple: {
@@ -35547,6 +35549,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			workup: ["7M", "5M"],
 			worryseed: ["7T", "6T", "5T", "4T"],
 			fungalbomb: ["8M", "7M"],
+			coaching: ["8M", "7M"],
+			grassyglide: ["8M", "7M"],
 		},
 	},
 	slakoth: {
@@ -37075,6 +37079,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dazzlinggleam: ["8M", "7M"],
 			brightslap: ["8M", "7M"],
 			mesmerize: ["8M"],
+    terablast: ["9M"]
    },
 },
 	sableye: {
@@ -39019,6 +39024,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			pollenhazard: ["8M", "7M"],
 			flashbeam: ["8M", "7M"],
 			blindingflash: ["8M", "7M"],
+			earthpower: ["8M", "7M"],
+			calmmind: ["8M", "7M"],
+			sludgewave: ["8M", "7M"],
 		},
 	},
 	gulpin: {
@@ -54169,6 +54177,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			glowingbeam: ["8M", "7M"],
 			dazingraze: ["8M", "7M"],
 			veiloflight: ["8M", "7M"],
+			extremespeed: ["8M", "7M"],
+			lightspeed: ["8M", "7M"],
 		},
 	},
 	lillipup: {
@@ -61365,6 +61375,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			coldfront: ["8M", "7M"],
 			icywind: ["8M", "7M"],
 			haze: ["8M", "7M"],
+			thunderbolt: ["8M", "7M"],
+			shockwave: ["8M", "7M"],
+			magnetrise: ["8M", "7M"],
+			magnetbomb: ["8M", "7M"],
+			charge: ["8M", "7M"],
+			magneticflux: ["8M", "7M"],
 		},
 	},
 	ferroseed: {
@@ -67057,7 +67073,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			xscissor: ["8M", "8L42", "8S4", "7M", "7L51", "6M", "6L51", "5M", "5L51"],
 			zapcannon: ["8L70", "7L66", "6L66", "5L66"],
 			zenheadbutt: ["8M", "7T", "6T", "5T"],
-			gammaray: ["8M", "7M"],
 	// raid: ["8M", "7M"],
 		},
 		eventData: [
@@ -70346,6 +70361,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			tsunami: ["8M", "7M"],
 			jadeblade: ["8M", "7M"],
 			dunewave: ["8M", "7M"],
+			closecombat: ["8M", "7M"],
 		},
 		encounters: [
 			{generation: 6, level: 30},
@@ -76699,6 +76715,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			uturn: ["8M", "7M", "7S1"],
 			vitalthrow: ["8E", "7E"],
 			workup: ["8M", "7M"],
+			courtchange: ["8L62"],
 		},
 		eventData: [
 			{generation: 7, level: 1, shiny: 1, moves: ["bestow", "fling", "feint"], pokeball: "cherishball"},
@@ -77241,6 +77258,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			meteorshower: ["8M", "7M"],
 			vacuumray: ["8M", "7M"],
 			dunewave: ["8M", "7M"],
+			meteorbeam: ["8M", "7M"],
 		},
 	},
 	komala: {
@@ -79443,6 +79461,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			gammaray: ["8M", "7M"],
 			draconicfangs: ["8M", "7M"],
 			treasurehoard: ["8M"],
+			voidrend: ["8M", "7M"],
 		},
 		eventData: [
 			{generation: 7, level: 70, moves: ["thrash", "gastroacid", "heavyslam", "wringout"]},
@@ -83368,6 +83387,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			crystalwave: ["8M", "7M"],
 			moonblast: ["8M", "7M"],
 			coldfront: ["8M", "7M"],
+			roost: ["8M", "7M"],
 		},
 	},
 	stonjourner: {
@@ -91945,6 +91965,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			windscythe: ["8M", "7M"],
 			thunderwave: ["8M", "7M"],
 			willowisp: ["8M", "7M"],
+			healingwish: ["8M", "7M"],
 		},
 	},
 	lustreon: {
@@ -94005,8 +94026,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	      bulkup: ["8M", "7M"],
 		  bodypress: ["8M", "7M"],
 		  skullbash: ["8M"],
-	   },
-	},
+	    terablast: ["9M"]
+   },
+},
 	beatboon: {
 		learnset: {
 			aurasphere: ["8M"],
@@ -96564,6 +96586,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		   bubble: ["8M", "7M"],
 		   //prophecy:["8M"],
 		   enlightenment:["8M"],
+    terablast: ["9M"]
    },
 },
    larvivid: {
@@ -96595,6 +96618,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		   return: ["8M", "7M"],
 		   frustration: ["8M", "7M"],
 		   substitute: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
    shimmerse: {
@@ -96637,7 +96661,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		   takedown: ["8M", "7M"],
 		   dazzlingshock: ["8M", "7M"],
 		   bodypress: ["8M", "7M"],
-		   clearlight: ["8M", "7M"]
+		   clearlight: ["8M", "7M"],
+    	   terablast: ["9M"]
    },
 },
    reflettle: {
@@ -96824,6 +96849,7 @@ scarcane: {
 			tailwhip: ["8M", "7M"],
 			return: ["8M", "7M"],
 			darkestlariat: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 gyozito: {
@@ -96891,6 +96917,7 @@ gyozito: {
 	  flail: ["8M", "7M"],
 	  return: ["8M", "7M"],
 	  frustration: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 nucleid: {
@@ -96949,6 +96976,7 @@ nucleid: {
       implosion: ["8M", "7M"],
       gammaray: ["8M", "7M"],
 	  mercurywave: ["8M"],
+    terablast: ["9M"]
    },
 },
 
@@ -97019,6 +97047,7 @@ calamitari: {
       implosion: ["8M", "7M"],
       gammaray: ["8M", "7M"],
       vacuumray: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 crustocion: {
@@ -97081,6 +97110,7 @@ crustocion: {
       whirlpool: ["8M", "7M"],
       bubble: ["8M", "7M"],
 	  mercurywave: ["8M"],
+    terablast: ["9M"]
    },
 },
 novisage: {
@@ -97267,6 +97297,7 @@ bulshian: {
 	  refocus: ["8M", "7M"],
 	  //energyrefocus: ["8M", "7M"],
 	  enlightenment:["8M"],
+    terablast: ["9M"]
    },
 },
 mezoped: {
@@ -98364,6 +98395,7 @@ ferrothornkliro: {
 			twister: ["8M", "7M"],
 			uproar: ["8M", "7M"],
 			windblast: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 altariasinnoh: {
@@ -98597,6 +98629,7 @@ altariasinnoh: {
       torment: ["8M", "7M"],
       toxic: ["8M", "7M"],
       trickroom: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 oblyvern: {
@@ -98711,6 +98744,7 @@ oblyvern: {
 	  revengeblast: ["8M", "7M"],
 	  retaliate: ["8M", "7M"],
 	  detect: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 grubbinunova: {
@@ -98758,6 +98792,7 @@ grubbinunova: {
       leer: ["8M", "7M"],
       strugglebug: ["8M", "7M"],
       mudbomb: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 
@@ -98808,6 +98843,7 @@ charjabugunova: {
       scratch: ["8M", "7M"],
       leer: ["8M", "7M"],
       strugglebug: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 vikavoltunova: {
@@ -98932,6 +98968,7 @@ vikavoltunova: {
 	  substitute: ["8M"],
 	  hyperbeam: ["8M"],
 	  gigaimpact: ["8M"],
+    terablast: ["9M"]
    },
 },
 copperfish: {
@@ -98977,6 +99014,7 @@ copperfish: {
       voltswitch: ["8M", "7M"],
       workup: ["8M", "7M"],
       protect: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 cabiapod: {
@@ -99073,6 +99111,7 @@ cabiapod: {
 			brutalswing: ["8M", "7M"],
 			paraboliccharge: ["8M", "7M"],
 			fling: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 dwebbleintea: {
@@ -99138,6 +99177,7 @@ dwebbleintea: {
       dazzlinggleam: ["8M", "7M"],
 			clearlight: ["8M", "7M"],
 			lightwave: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 mashiris: {
@@ -99213,6 +99253,7 @@ mashiris: {
 			clearlight: ["8M", "7M"],
 			lightwave: ["8M", "7M"],
 			rainbowbash: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 kobyss: {
@@ -99268,6 +99309,7 @@ kobyss: {
       wingattack: ["8M", "7M"],
       return: ["8M", "7M"],
       frustration: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 amputabis: {
@@ -99326,6 +99368,7 @@ amputabis: {
       wingattack: ["8M", "7M"],
       return: ["8M", "7M"],
       frustration: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 illarague: {
@@ -99395,6 +99438,7 @@ illarague: {
 			hyperbeam: ["8M", "7M"],
 			frustration: ["8M", "7M"],
 			return: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 melmetalunova: {
@@ -99453,6 +99497,7 @@ melmetalunova: {
       enlightenment: ["8M", "7M"],
       endure: ["8M", "7M"],
       meanlook: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 hydreigonhoenn: {
@@ -99465,7 +99510,6 @@ hydreigonhoenn: {
       belch: ["8M", "7M"],
       bodyslam: ["8M", "7M"],
       bulldoze: ["8M", "7M"],
-      bulkup: ["8M", "7M"],
       clearsmog: ["8M", "7M"],
       darkpulse: ["8M", "7M"],
       dig: ["8M", "7M"],
@@ -99482,7 +99526,6 @@ hydreigonhoenn: {
       focusblast: ["8M", "7M"],
       focusenergy: ["8M", "7M"],
       gigaimpact: ["8M", "7M"],
-      gunkshot: ["8M", "7M"],
       headsmash: ["8M", "7M"],
       helpinghand: ["8M", "7M"],
       hydropump: ["8M", "7M"],
@@ -99541,6 +99584,7 @@ hydreigonhoenn: {
       workup: ["8M", "7M"],
       wrap: ["8M", "7M"],
 			zenheadbutt: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 
@@ -99647,6 +99691,7 @@ cisnevous: {
       hurricane: ["8M", "7M"],
 			swordsdance: ["8M", "7M"],
 			jetstream: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 jellop: {
@@ -99722,6 +99767,8 @@ jellop: {
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
 			waterfall: ["8M"],
+	  switcheroo: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 serpens: {
@@ -99789,6 +99836,7 @@ serpens: {
       ironhead: ["8M", "7M"],
       windblast: ["8M", "7M"],
       workup: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 shrimpulse: {
@@ -99856,6 +99904,7 @@ shrimpulse: {
       confide: ["8M", "7M"],
       toxic: ["8M", "7M"],
 			icywind: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 lavolley: {
@@ -99928,6 +99977,7 @@ lavolley: {
       doubleteam: ["8M", "7M"],
       round: ["8M", "7M"],
       confide: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 petripent: {
@@ -100010,6 +100060,7 @@ petripent: {
 			earthpower: ["8M"],
 			dig: ["8M", "7M"],
 			rockslide: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 moochick: {
@@ -100077,6 +100128,7 @@ moochick: {
 			payback: ["8M", "7M"],
 			suckerpunch: ["8M", "7M"],
 			switcheroo: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 choluster: {
@@ -100168,6 +100220,7 @@ choluster: {
 		 poweruppunch: ["8M", "7M"],
 		 radiantpunch: ["8M", "7M"],
 		 suckerpunch: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 crawdozer: {
@@ -100238,6 +100291,7 @@ crawdozer: {
 			dragonbreath: ["8M", "7M"],
 			dragonclaw: ["8M", "7M"],
 			outrage: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 porkano: {
@@ -100331,6 +100385,7 @@ porkano: {
       snarl: ["8M", "7M"],
 			lightwave: ["8M", "7M"],
 			wildernesswack: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 stallora: {
@@ -100474,6 +100529,7 @@ marshlugg: {
       round: ["8M", "7M"],
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 kleptick: {
@@ -100530,6 +100586,7 @@ kleptick: {
       talentshow: ["8M", "7M"],
       laserfocus: ["8M", "7M"],
       rollout: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 mugsqito: {
@@ -100603,6 +100660,7 @@ mugsqito: {
       sleeptalk: ["8M", "7M"],
       round: ["8M", "7M"],
       swagger: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 scarmata: {
@@ -100747,6 +100805,7 @@ scarmata: {
 			mysticalfire: ["8M", "7M"],
 			nastyplot: ["8M", "7M"],
 			wish: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
  scorpiohm: {
@@ -100825,6 +100884,7 @@ scarmata: {
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
       toxic: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 konipole: {
@@ -100883,6 +100943,7 @@ konipole: {
       watergun: ["8M", "7M"],
       wideguard: ["8M", "7M"],
       yawn: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 kroprinz: {
@@ -100955,6 +101016,7 @@ kroprinz: {
       yawn: ["8M", "7M"],
 			diamonddust: ["8M"],
 			magicdust: ["8M"],
+    terablast: ["9M"]
    },
 },
 bejrake: {
@@ -101181,8 +101243,9 @@ bejrake: {
       thrash: ["8M", "7M"],
       cometpunch: ["8M", "7M"],
       zenheadbutt: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	grandour: {
    learnset: {
       afteryou: ["8M", "7M"],
@@ -101308,8 +101371,9 @@ bejrake: {
       powergem: ["8M", "7M"],
       shiftgear: ["8M", "7M"],
       boomburst: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	pyrilum: {
    learnset: {
       absorb: ["8M", "7M"],
@@ -101420,8 +101484,9 @@ bejrake: {
       round: ["8M", "7M"],
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 shientis: {
    learnset: {
       aerialace: ["8M", "7M"],
@@ -101478,8 +101543,9 @@ shientis: {
       uturn: ["8M", "7M"],
       visegrip: ["8M", "7M"],
       xscissor: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	martiartis: {
    learnset: {
       aerialace: ["8M", "7M"],
@@ -101546,8 +101612,9 @@ shientis: {
       uturn: ["8M", "7M"],
       visegrip: ["8M", "7M"],
       xscissor: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	croagunklokura: {
    learnset: {
       bulldoze: ["8M", "7M"],
@@ -101613,8 +101680,9 @@ shientis: {
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
       toxic: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	toxicroaklokura: {
    learnset: {
       bulldoze: ["8M", "7M"],
@@ -101684,8 +101752,9 @@ shientis: {
       powerwhip: ["8M", "7M"],
       woodhammer: ["8M", "7M"],
       spikes: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	cucarecho: {
    learnset: {
       bugbite: ["8M", "7M"],
@@ -101749,8 +101818,9 @@ shientis: {
       confide: ["8M", "7M"],
       toxic: ["8M", "7M"],
 			jetstream: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	photorox: {
    learnset: {
       blindingflash: ["8M", "7M"],
@@ -101837,8 +101907,9 @@ shientis: {
       toxic: ["8M", "7M"],
 			clearlight: ["8M", "7M"],
 			lightwave: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	fauntasma: {
    learnset: {
       aquaring: ["8M", "7M"],
@@ -101937,8 +102008,9 @@ shientis: {
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
       toxic: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	phootoo: {
    learnset: {
       fly: ["8M", "7M"],
@@ -101997,8 +102069,9 @@ shientis: {
       toxic: ["8M", "7M"],
 			lightwave: ["8M", "7M"],
 			jetstream: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	nixtibius: {
    learnset: {
       fly: ["8M", "7M"],
@@ -102091,8 +102164,9 @@ shientis: {
       flashcannon: ["8M", "7M"],
 			lightwave: ["8M", "7M"],
 			jetstream: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	tadpot: {
    learnset: {
       earthpower: ["8M", "7M"],
@@ -102147,8 +102221,9 @@ shientis: {
 			toxic: ["8M", "7M"],
 			rest: ["8M", "7M"],
 			sleeptalk: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	tangelalokura: {
 		learnset: {
 			absorb: ["8L1", "8V", "7L10", "7V", "6L10", "5L8", "4L8", "3L10"],
@@ -102614,8 +102689,9 @@ shientis: {
       flashcannon: ["8M", "7M"],
       nightshade: ["8M", "7M"],
       payback: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	gluttoon: {
    learnset: {
       acidarmor: ["8M", "7M"],
@@ -102831,8 +102907,9 @@ shientis: {
 			fireblast: ["8M", "7M"],
 			hypervoice: ["8M", "7M"],
 			implosion: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	bhagaido: {
    learnset: {
       acrobatics: ["8M", "7M"],
@@ -102930,8 +103007,9 @@ shientis: {
 			lightwave: ["8M", "7M"],
 			starpierce: ["8M", "7M"],
 			swift: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	draconaut: {
    learnset: {
       signalbeam: ["8M", "7M"],
@@ -103079,8 +103157,9 @@ shientis: {
       waterpulse: ["8M", "7M"],
       watersport: ["8M", "7M"],
       whirlpool: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	chandelurekliro: {
    learnset: {
       aerialace: ["8M", "7M"],
@@ -103154,8 +103233,9 @@ shientis: {
       flash: ["8M", "7M"],
       glowingbeam: ["8M", "7M"],
 			clearlight: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	anistrake: {
    learnset: {
       megahorn: ["8M", "7M"],
@@ -103246,8 +103326,9 @@ shientis: {
       takedown: ["8M", "7M"],
       doubleedge: ["8M", "7M"],
 			wildernesswack: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	warphuyen: {
    learnset: {
       protect: ["8M", "7M"],
@@ -103325,8 +103406,9 @@ shientis: {
       withdraw: ["8M", "7M"],
       nostalgia: ["8M", "7M"],
       amnesia: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	crystalouros: {
    learnset: {
       spikyshield: ["8M", "7M"],
@@ -103409,8 +103491,9 @@ shientis: {
 			wildernesswack: ["8M", "7M"],
 			cut: ["8M", "7M"],
 			smartstrike: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	wallo: {
 		learnset: {
 			liquidation: ["8M", "7M"],
@@ -104990,6 +105073,7 @@ blazikenhyperspace: {
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
       toxic: ["8M", "7M"],
+    terablast: ["9M"]
    },
 },
 nebuluga: {
@@ -105227,8 +105311,9 @@ tazelle: {
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
       toxic: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	arboklokura: {
    learnset: {
       leechlife: ["8M", "7M"],
@@ -105322,8 +105407,9 @@ tazelle: {
       waterpulse: ["8M", "7M"],
       whirlpool: ["8M", "7M"],
       dualstrike: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	grumpiglokura: {
    learnset: {
       assurance: ["8M", "7M"],
@@ -105413,8 +105499,9 @@ tazelle: {
       hyperbeam: ["8M", "7M"],
       rockclimb: ["8M", "7M"],
       earthquake: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	bugaboogie: {
    learnset: {
       pound: ["8M", "7M"],
@@ -105506,8 +105593,9 @@ tazelle: {
       revengeblast: ["8M", "7M"],
       payback: ["8M", "7M"],
       extrasensory: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	sawcodil: {
    learnset: {
       attract: ["8M", "7M"],
@@ -105571,8 +105659,9 @@ tazelle: {
       frustration: ["8M", "7M"],
       workup: ["8M", "7M"],
 			visegrip: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	tundrago: {
    learnset: {
       amnesia: ["8M", "7M"],
@@ -105664,8 +105753,9 @@ tazelle: {
       triattack: ["8M", "7M"],
       workup: ["8M", "7M"],
       yawn: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	tectaur: {
    learnset: {
       muddywater: ["8M", "7M"],
@@ -105721,8 +105811,9 @@ tazelle: {
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
       toxic: ["8M", "7M"],
+    terablast: ["9M"]
    },
-	},
+},
 	venomicore: {
    learnset: {
       poisonsting: ["8M", "7M"],
@@ -105831,8 +105922,9 @@ tazelle: {
       blizzard: ["8M", "7M"],
       superfang: ["8M", "7M"],
       playrough: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	terrior: {
    learnset: {
       babydolleyes: ["8M", "7M"],
@@ -105904,8 +105996,9 @@ tazelle: {
       toxic: ["8M", "7M"],
       hyperbeam: ["8M", "7M"],
       gigaimpact: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	faebletaur: {
    learnset: {
       playrough: ["8M", "7M"],
@@ -106035,8 +106128,9 @@ tazelle: {
       swordsdance: ["8M", "7M"],
       earthquake: ["8M", "7M"],
       tripleaxel: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	prikall: {
    learnset: {
       spikes: ["8M", "7M"],
@@ -106074,8 +106168,9 @@ tazelle: {
       swagger: ["8M", "7M"],
       confide: ["8M", "7M"],
       toxic: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	mespine: {
    learnset: {
 		 spikes: ["8M", "7M"],
@@ -106137,13 +106232,15 @@ tazelle: {
       steelroller: ["8M", "7M"],
       metalclaw: ["8M", "7M"],
       metalburst: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	joebiden: {
 		learnset: {
 			brine: ["8M"],
+			terablast: ["9M"]
 		},
-	},
+	 },
 	gauchomander: {
    learnset: {
       firelash: ["8M", "7M"],
@@ -106229,8 +106326,9 @@ tazelle: {
       screech: ["8M", "7M"],
       secretpower: ["8M", "7M"],
       feint: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	velonadon: {
    learnset: {
       bugbite: ["8M", "7M"],
@@ -106326,8 +106424,9 @@ tazelle: {
       wringout: ["8M", "7M"],
 			jetstream: ["8M", "7M"],
 			twineedle: ["8M", "7M"],
-   },
-	},
+			terablast: ["9M"]
+		},
+	 },
 	neglecrow: {
 	   learnset: {
 	      bellydrum: ["8M", "7M"],
@@ -106417,8 +106516,9 @@ tazelle: {
       rockslide: ["8M", "7M"],
       ironhead: ["8M", "7M"],
       speedstrike: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	pyroterois: {
    learnset: {
       acidarmor: ["8M", "7M"],
@@ -106490,8 +106590,9 @@ tazelle: {
       willowisp: ["8M", "7M"],
       workup: ["8M", "7M"],
       swagger: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	ratautumn: {
    learnset: {
       aromatherapy: ["8M", "7M"],
@@ -106571,8 +106672,9 @@ tazelle: {
       yawn: ["8M", "7M"],
       bite: ["8M", "7M"],
       crunch: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	calvana: {
    learnset: {
       pound: ["8M", "7M"],
@@ -106678,18 +106780,21 @@ tazelle: {
       round: ["8M", "7M"],
       confide: ["8M", "7M"],
 			wildernesswack: ["8M", "7M"],
-   },
-	},
+			terablast: ["9M"]
+		},
+	 },
 	bikkubear: {
    learnset: {
       wildernesswack: ["8M", "7M"],
+	  terablast: ["9M"]
 		},
-	 },
+ 	},
 	 bonfaya: {
     learnset: {
        wildernesswack: ["8M", "7M"],
- 		},
- 	 },
+	   terablast: ["9M"]
+	},
+ 	},
 	 caporaptor: {
     learnset: {
        jumpkick: ["8M", "7M"],
@@ -106769,7 +106874,8 @@ tazelle: {
        swagger: ["8M", "7M"],
        confide: ["8M", "7M"],
        toxic: ["8M", "7M"],
-    },
+	   terablast: ["9M"]
+	},
  },
  jumplufforre: {
    learnset: {
@@ -106853,8 +106959,9 @@ tazelle: {
       workup: ["8M", "7M"],
       round: ["8M", "7M"],
       toxic: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	bunnula: {
    learnset: {
       cometpunch: ["8M", "7M"],
@@ -106937,8 +107044,9 @@ tazelle: {
       round: ["8M", "7M"],
       sleeptalk: ["8M", "7M"],
       confide: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	lepanova: {
    learnset: {
       cometpunch: ["8M", "7M"],
@@ -107032,8 +107140,9 @@ tazelle: {
       sleeptalk: ["8M", "7M"],
       confide: ["8M", "7M"],
       blazekick: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	icicroak: {
 		learnset: {
 			return: ["8M", "7M"],
@@ -107081,8 +107190,9 @@ tazelle: {
 			crunch: ["8M", "7M"],
 		//	grassyglide: ["8M", "7M"],
 			meteorbeam: ["8M", "7M"],
+			terablast: ["9M"]
 		},
-	},
+	 },
 	rascleaf: {
    learnset: {
       protect: ["8M", "7M"],
@@ -107144,8 +107254,9 @@ tazelle: {
       bite: ["8M", "7M"],
       assurance: ["8M", "7M"],
       crunch: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	breezeaf: {
    learnset: {
       hurricane: ["8M", "7M"],
@@ -107223,8 +107334,9 @@ tazelle: {
       bite: ["8M", "7M"],
       assurance: ["8M", "7M"],
       crunch: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	soarustle: {
    learnset: {
       focusblast: ["8M", "7M"],
@@ -107321,8 +107433,9 @@ tazelle: {
       bite: ["8M", "7M"],
       assurance: ["8M", "7M"],
       crunch: ["8M", "7M"],
-   },
+	  terablast: ["9M"]
 	},
+ },
 	doodbird: {
    learnset: {
       aerialace: ["8M", "7M"],
@@ -107379,6 +107492,7 @@ tazelle: {
       woodhammer: ["8M", "7M"],
 			wildernesswack: ["8M", "7M"],
 			dualchop: ["8M", "7M"],
-   },
-	},
+			terablast: ["9M"]
+		},
+	 },
 };

@@ -23532,5 +23532,76 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "ice",
 		zMove: {boost: {spa: 1}},
 		contestType: "Beautiful",
-	}
+	},
+	volcanicstrike: {
+		num: 998,
+		accuracy: 100,
+		basePower: 140,
+		category: "Physical",
+		name: "Volcanic Strike",
+		pp: 5,
+		priority: 0,
+		flags: {recharge: 1, protect: 1, mirror: 1, blade: 1},
+		self: {
+			volatileStatus: 'mustrecharge',
+		},
+		critRatio: 2,
+		secondary: null,
+		target: "normal",
+		type: "Fire",
+		contestType: "Beautiful",
+	},
+	voidshredder: {
+		num: 999,
+		accuracy: 80,
+		basePower: 100,
+		category: "Special",
+		name: "Void Shredder",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, contact: 1},
+		volatileStatus: 'partiallytrapped',
+		secondary: null,
+		target: "normal",
+		type: "cosmic",
+		contestType: "Beautiful",
+	},
+	danceoff: {
+		num: 583,
+		accuracy: 100,
+		basePower: 95,
+		category: "Physical",
+		name: "Play Rough",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, Dance: 1, Contact: 1},
+		secondary: {
+			onHit(target, source) {
+				target.addVolatile('torment', source);
+			}
+		},
+		target: "normal",
+		type: "Fairy",
+		contestType: "Cute",
+	},
+	divebomb: {
+		num: 413,
+		accuracy: 95,
+		basePower: 140,
+		category: "Physical",
+		name: "Dive Bomb",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, distance: 1},
+		recoil: [50, 100],
+		secondary: {
+			chance: 30,
+			onHit(target, source){
+				target.trySetStatus('brn', source);
+			}
+		},
+		target: "any",
+		type: "Fire",
+		contestType: "Cool",
+	},
 };

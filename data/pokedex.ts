@@ -8682,7 +8682,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	cresselia: {
 		num: 488,
 		name: "Cresselia",
-		types: ["Psychic"],
+		types: ["Cosmic"],
 		gender: "F",
 		baseStats: {hp: 120, atk: 70, def: 110, spa: 75, spd: 120, spe: 85},
 		abilities: {0: "Levitate"},
@@ -19348,7 +19348,7 @@ sneaselalmia: {
 		name: "Sneasel-Almia",
 		baseSpecies: "Sneasel",
 		forme: "Almia",
-		types: ["Light", "Ground"],
+		types: ["Ground"],
 		baseStats: {hp: 55, atk: 95, def: 55, spa: 35, spd: 75, spe: 115},
 		abilities: {0: "Pressure", 1: "Technician", H: "Sunray"},
 		heightm: 0.9,
@@ -19379,7 +19379,7 @@ shedinjagalar: {
 		name: "Shedinja-Galar",
 		baseSpecies: "Shedinja",
 		forme: "Galar",
-		types: ["Bug", "Light"],
+		types: ["Bug", "Fairy"],
 		gender: "N",
 		baseStats: {hp: 1, atk: 30, def: 20, spa: 90, spd: 35, spe: 60},
 		maxHP: 1,
@@ -19506,7 +19506,7 @@ weavilealmia: {
 		name: "Weavile-Almia",
 		baseSpecies: "Weavile",
 		forme: "Almia",
-		types: ["Light", "Ground"],
+		types: ["Ground"],
 		baseStats: {hp: 70, atk: 120, def: 65, spa: 45, spd: 85, spe: 125},
 		abilities: {0: "Pressure", 1: "Technician", H: "Sunray"},
 		heightm: 1.1,
@@ -19541,7 +19541,7 @@ dwebbleintea: {
 		name: "Dwebble-Intea",
 		baseSpecies: "Dwebble",
 		forme: "Intea",
-		types: ["Bug", "Light"],
+		types: ["Bug", "Water"],
 		baseStats: {hp: 40, atk: 85, def: 75, spa: 35, spd: 35, spe: 55},
 		abilities: {0: "Anticipation", 1: "Battle Armor", H: "Last Stand"},
 		heightm: 0.3,
@@ -19554,7 +19554,7 @@ dwebbleintea: {
 	mashiris: {
 		num: 10105,
 		name: "Mashiris",
-		types: ["Bug", "Light"],
+		types: ["Bug", "Water"],
 		baseStats: {hp: 65, atk: 150, def: 50, spa: 60, spd: 75, spe: 85},
 		abilities: {0: "Anticipation", 1: "Battle Armor", H: "Last Stand"},
 		heightm: 3.2,
@@ -19713,7 +19713,7 @@ pawniardalmia: {
 		name: "Pawniard-Kalos",
 		baseSpecies: "Pawniard",
 		forme: "Kalos",
-		types: ["Steel", "Light"],
+		types: ["Steel", "Fighting"],
 		baseStats: {hp: 55, atk: 75, def: 60, spa: 40, spd: 50, spe: 60},
 		abilities: {0: "Last Stand", 1: "Inner Focus", H: "Perseverance"},
 		heightm: 0.5,
@@ -19728,7 +19728,7 @@ pawniardalmia: {
 		name: "Bisharp-Kalos",
 		baseSpecies: "Bisharp",
 		forme: "Kalos",
-		types: ["Steel", "Light"],
+		types: ["Steel", "Fighting"],
 		baseStats: {hp: 75, atk: 125, def: 90, spa: 50, spd: 80, spe: 70},
 		abilities: {0: "Last Stand", 1: "Divinity", H: "Perseverance"},
 		heightm: 1.6,
@@ -19785,7 +19785,7 @@ hydreigonhoenn: {
 	scarmata: {
 		num: 1994,
 		name: "Scarmata",
-		types: ["Dark", "Light"],
+		types: ["Dark", "Fairy"],
 		baseStats: {hp: 80, atk: 85, def: 74, spa: 115, spd: 110, spe: 75},
 		abilities: {0: "Technician", 1: "Oblivious", H: "Filter"},
 		heightm: 1.8,
@@ -19978,6 +19978,7 @@ hydreigonhoenn: {
 		eggGroups: ["Field"],
 		newmeta: "true",
 	},
+	/*
 	lustreon: {
 		num: 10012,
 		name: "Lustreon",
@@ -19994,6 +19995,7 @@ hydreigonhoenn: {
 		eggGroups: ["Field"],
 		newmeta: "true",
 	},
+	*/
 	durantsinnoh: {
 		num: 632,
 		baseSpecies: "Durant",
@@ -20024,7 +20026,7 @@ hydreigonhoenn: {
 	serprism: {
 		num: 10014,
 		name: "Serprism",
-		types: ["Poison", "Light"],
+		types: ["Poison", "Electric"],
 		baseStats: {hp: 90, atk: 50, def: 70, spa: 120, spd: 70, spe: 100},
 		abilities: {0: "Poison Point", 1: "Illuminate", H: "Dazzling"},
 		heightm: 1,
@@ -20317,7 +20319,7 @@ hydreigonhoenn: {
 	sunbardier: {
 		num: 10033,
 		name: "Sunbardier",
-		types: ["Grass", "Light"],
+		types: ["Grass", "Fire"],
 		baseStats: {hp: 125, atk: 85, def: 75, spa: 135, spd: 100, spe: 5},
 		abilities: {0: "Artillery", 1: "Solar Power", H: "Sunray"},
 		heightm: 1.7,
@@ -20858,7 +20860,7 @@ hydreigonhoenn: {
 	solanca:{
 		num: 10071,
 		name: "Solanca",
-		types: ["Psychic", "Light"],
+		types: ["Psychic", "Fairy"],
 		baseStats: {hp: 85, atk: 55, def: 60, spa: 75, spd: 110, spe:100},
 		abilities: {0: "Psychic Surge", 1: "Forewarn"},
 		heightm: 0.5,
@@ -20895,7 +20897,7 @@ hydreigonhoenn: {
 	resolucent: {
 		num: 10076,
 		name: "Resolucent",
-		types: ["Light"],
+		types: ["Fairy"],
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Perseverance"},
 		heightm: 0.4,
@@ -20987,7 +20989,7 @@ hydreigonhoenn: {
 	larvivid: {
 		num:10082,
 		name: "Larvivid",
-		types: ["Bug", "Light"],
+		types: ["Bug", "Pscyhic"],
 		baseStats: {hp: 30, atk: 30, def: 45, spa: 57, spd: 59, spe: 39},
 		abilities: {0: "Analytic", 1: "Illuminate", H: "Frisk"},
 		heightm: 0.4,
@@ -21000,7 +21002,7 @@ hydreigonhoenn: {
 	shimmerse: {
 		num:10083,
 		name: "Shimmerse",
-		types: ["Bug", "Light"],
+		types: ["Bug", "Psychic"],
 		baseStats: {hp: 50, atk: 35, def: 79, spa: 78, spd: 79, spe: 39},
 		abilities: {0: "Analytic", 1: "Mirror Armor", H: "Frisk"},
 		heightm: 0.6,
@@ -21014,7 +21016,7 @@ hydreigonhoenn: {
 	reflettle: {
 		num:10084,
 		name: "Reflettle",
-		types: ["Bug", "Light"],
+		types: ["Bug", "Psychic"],
 		baseStats: {hp: 60, atk: 55, def: 89, spa: 122, spd: 89, spe: 70},
 		abilities: {0: "Analytic", 1: "Mirror Armor", H: "Perseverance"},
 		heightm: 1.7,
@@ -21113,7 +21115,7 @@ hydreigonhoenn: {
 	roedrunna: {
 		num: 10092,
 		name: "Roedrunna",
-		types: ["Light", "Psychic"],
+		types: ["Normal", "Psychic"],
 		baseStats: {hp: 75, atk: 61, def: 101, spa: 103, spd: 64, spe: 76},
 		abilities: {0: "Analytic", 1: "Keen Eye", H: "Stakeout"},
 		heightm: 0.3,
@@ -21227,7 +21229,7 @@ hydreigonhoenn: {
 	leerror: {
 		num: 10101,
 		name: "Leerror",
-		types: ["Light", "Steel"],
+		types: ["Ghost", "Steel"],
 		baseStats: {hp: 60, atk: 70, def: 115, spa: 115, spd: 70, spe: 40},
 		abilities: {0: "Magic Bounce", 1: "Mirror Armor", H: "Unnerve"},
 		heightm: 1.1,
@@ -21429,7 +21431,7 @@ hydreigonhoenn: {
 	choluster: {
 		num: 10118,
 		name: "Choluster",
-		types: ["Ghost", "Light"],
+		types: ["Ghost", "Fairy"],
 		baseStats: {hp: 55, atk: 70, def: 85, spa: 70, spd: 85, spe: 115},
 		abilities: {0: "Illuminate", H: "Prankster"},
 		heightm: 0.5,
@@ -21647,7 +21649,7 @@ hydreigonhoenn: {
 	photorox: {
 		num: 10135,
 		name: "Photorox",
-		types: ["Light", "Fire"],
+		types: ["Fire"],
 		baseStats: {hp: 97, atk: 83, def: 59, spa: 129, spd: 99, spe: 73},
 		abilities: {0: "Illuminate", 1: "Sunray", H: "Flash Fire"},
 		heightm: 1.3,
@@ -21671,7 +21673,7 @@ hydreigonhoenn: {
 	phootoo: {
 		num: 10137,
 		name: "Phootoo",
-		types: ["Flying", "Light"],
+		types: ["Flying", "Fairy"],
 		baseStats: {hp: 40, atk: 31, def: 45, spa: 52, spd: 63, spe: 44},
 		abilities: {0: "Illuminate", 1: "Unnerve", H: "Keen Eye"},
 		heightm: 0.4,
@@ -21684,7 +21686,7 @@ hydreigonhoenn: {
 	nixtibius: {
 		num: 10138,
 		name: "Nixtibius",
-		types: ["Flying", "Light"],
+		types: ["Flying", "Fairy"],
 		baseStats: {hp: 65, atk: 51, def: 75, spa: 95, spd: 103, spe: 94},
 		abilities: {0: "Illuminate", 1: "Unnerve", H: "Radiance"},
 		heightm: 0.8,
@@ -21829,7 +21831,7 @@ hydreigonhoenn: {
 	pengestial: {
 		num: 10148,
 		name: "Pengestial",
-		types: ["Cosmic", "Light"],
+		types: ["Cosmic", "Fire"],
 		baseStats: {hp: 105, atk: 52, def: 82, spa: 120, spd: 83, spe: 83},
 		abilities: {0: "Radiance", 1: "Competitive", H: "Flare Boost"},
 		heightm: 1.9,
@@ -21843,7 +21845,7 @@ hydreigonhoenn: {
 	bhagaido: {
 		num: 10149,
 		name: "Bhagaido",
-		types: ["Light", "Dragon"],
+		types: ["Fairy", "Dragon"],
 		baseStats: {hp: 85, atk: 79, def: 89, spa: 89, spd: 99, spe: 79},
 		abilities: {0: "Clear Body", 1: "Serene Grace", H: "Natural Cure"},
 		heightm: 12.8,
@@ -21869,7 +21871,7 @@ hydreigonhoenn: {
 		name: "Chandelure-Kliro",
 		baseSpecies: "Chandelure",
 		forme: "Kliro",
-		types: ["Fairy", "Light"],
+		types: ["Fairy"],
 		baseStats: {hp: 90, atk: 55, def: 95, spa: 115, spd: 95, spe: 70},
 		abilities: {0: "Illuminate", 1: "Enchantment", H: "Dazzling"},
 		heightm: 1,
@@ -21993,7 +21995,7 @@ hydreigonhoenn: {
 	denkyujin: {
 		num: 10162,
 		name: "Denkyujin",
-		types: ["Normal", "Light"],
+		types: ["Normal", "Electric"],
 		baseStats: {hp: 70, atk: 50, def: 65, spa: 99, spd: 94, spe: 105},
 		abilities: {0: "Illuminate", 1: "Transistor", H: "Dazzling"},
 		heightm: 0.5,

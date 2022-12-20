@@ -5175,7 +5175,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "normal",
-		type: "Light",
+		type: "Normal",
 		zMove: {boost: {evasion: 1}},
 		contestType: "Beautiful",
 	},
@@ -9436,7 +9436,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "self",
-		type: "Light",
+		type: "Normal",
 		zMove: {boost: {atk: 1}},
 		contestType: "Cool",
 	},
@@ -9698,7 +9698,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		recoil: [1, 2],
 		secondary: null,
 		target: "normal",
-		type: "Light",
+		type: "Psychic",
 		contestType: "Beautiful",
 	},
 	lightscreen: {
@@ -9739,7 +9739,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "allySide",
-		type: "Light",
+		type: "Psychic",
 		zMove: {boost: {spd: 1}},
 		contestType: "Beautiful",
 	},
@@ -11339,7 +11339,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		target: "normal",
-		type: "Light",
+		type: "Steel",
 		contestType: "Beautiful",
 	},
 	mist: {
@@ -11586,7 +11586,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "self",
-		type: "Light",
+		type: "Normal",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
 	},
@@ -12533,7 +12533,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		ignoreAbility: true,
 		secondary: null,
 		target: "normal",
-		type: "Light",
+		type: "Psychic",
 		contestType: "Cool",
 	},
 	pikapapow: {
@@ -13076,7 +13076,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "normal",
-		type: "Light",
+		type: "Psychic",
 		contestType: "Cool",
 	},
 	protect: {
@@ -13900,7 +13900,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "allySide",
-		type: "Light",
+		type: "Psychic",
 		zMove: {boost: {def: 1}},
 		contestType: "Clever",
 	},
@@ -16732,7 +16732,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "normal",
-		type: "Light",
+		type: "Normal",
 		zMove: {boost: {spd: 1}},
 		contestType: "Cute",
 	},
@@ -17701,7 +17701,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "self",
-		type: "Light",
+		type: "Bug",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
 	},
@@ -21120,7 +21120,7 @@ pressurize: {
 		target: "any",
 		type: "Dragon",
 		contestType: "Cool",
-	},
+	},/*
 	deepfreeze: {
 		num: 59,
 		accuracy: 95,
@@ -21137,7 +21137,7 @@ pressurize: {
 		target: "normal",
 		type: "Ice",
 		contestType: "Beautiful",
-	},
+	},*/
 	deserthex: {
 		num: 523,
 		accuracy: 95,
@@ -21156,7 +21156,7 @@ pressurize: {
 		target: "allAdjacent",
 		type: "Ghost",
 		contestType: "Tough",
-	},
+	},/*
 	hivesiege: {
 		num: 523,
 		accuracy: 95,
@@ -21173,7 +21173,7 @@ pressurize: {
 		target: "normal",
 		type: "Bug",
 		contestType: "Tough",
-	},
+	},*/
 	leadsplash: {
 		num: 523,
 		accuracy: 95,
@@ -21449,7 +21449,7 @@ pressurize: {
 		type: "Normal",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Cute",
-	},
+	},/*
 	darkeningbolt: {
 		num: 242,
 		accuracy: 100,
@@ -21485,7 +21485,7 @@ pressurize: {
 		target: "any",
 		type: "Sound",
 		contestType: "Cool",
-	},
+	},*/
 	enchantingsong: {
 		num: 605,
 		accuracy: 100,
@@ -21704,7 +21704,7 @@ pressurize: {
 		type: "Water",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Cool",
-	},
+	},/*
 	overdrives: {
 		num: 349,
 		accuracy: true,
@@ -21723,7 +21723,7 @@ pressurize: {
 		type: "Electric",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Cool",
-	},
+	},*/
 	dragonaria: {
 		num: 832,
 		accuracy: true,
@@ -21900,7 +21900,7 @@ pressurize: {
 		target: "normal",
 		type: "Psychic",
 		contestType: "Cool",
-	},
+	},/*
 	dragonbeat: {
 		num: 1201,
 		accuracy: 90,
@@ -21919,7 +21919,7 @@ pressurize: {
 		target: "normal",
 		type: "Dragon",
 		contestType: "Beautiful",
-	},
+	},*/
 	ragingflame: {
 		num: 315,
 		accuracy: 100,
@@ -21976,7 +21976,7 @@ pressurize: {
 		target: "normal",
 		type: "Ground",
 		contestType: "Beautiful",
-	},
+	},/*
 	terrablast: {
 		num: 414,
 		accuracy: 100,
@@ -21991,7 +21991,7 @@ pressurize: {
 		target: "normal",
 		type: "Ground",
 		contestType: "Beautiful",
-	},
+	},*/
 	bonesweep: {
 		num: 89,
 		accuracy: 100,
@@ -22005,7 +22005,7 @@ pressurize: {
 		target: "allAdjacent",
 		type: "Ground",
 		contestType: "Tough",
-	},
+	},/*
 	snowyterrain: {
 		num: 604,
 		accuracy: true,
@@ -22109,7 +22109,7 @@ pressurize: {
 		target: "normal",
 		type: "Flying",
 		contestType: "Cool",
-	},
+	},*/
 	hardfeelings: {
 		num: 263,
 		accuracy: 100,
@@ -22561,7 +22561,7 @@ pressurize: {
 		target: "normal",
 		type: "Water",
 		contestType: "Cool",
-	},
+	},/*
 	magmarush: {
 		num: 488,
 		accuracy: 100,
@@ -22582,7 +22582,7 @@ pressurize: {
 		target: "normal",
 		type: "Fire",
 		contestType: "Cool",
-	},
+	},*/
 	blazepepper: {
 		num: 53,
 		accuracy: 100,
@@ -22917,23 +22917,6 @@ terrorize: {
 		type: "Ghost",
 		contestType: "Cool",
 	},
-	starfreeze: {
-		num: 411,
-		accuracy: 70,
-		basePower: 120,
-		category: "Physical",
-		name: "Starfreeze",
-		pp: 5,
-		priority: 0,
-		flags: {protect: 1, mirror: 1},
-		secondary: {
-			chance: 30,
-			status: 'par',
-		},
-		target: "normal",
-		type: "Ice",
-		contestType: "Cool",
-	},
 	trickytoxins: {
 		num: 492,
 		accuracy: 100,
@@ -23047,7 +23030,7 @@ terrorize: {
 		target: "normal",
 		type: "Ice",
 		contestType: "Clever",
-	},
+	},/*
 	voidstar: {
 		num: 202,
 		accuracy: 100,
@@ -23077,7 +23060,7 @@ terrorize: {
 		target: "normal",
 		type: "Poison",
 		contestType: "Clever",
-	},
+	},*/
 	thunderstruck: {
 		num: 416,
 		accuracy: 90,
@@ -23094,7 +23077,7 @@ terrorize: {
 		target: "normal",
 		type: "Electric",
 		contestType: "Tough",
-	},
+	},/*
 	perfectglare: {
 		num: 137,
 		accuracy: 90,
@@ -23110,7 +23093,7 @@ terrorize: {
 		type: "Normal",
 		zMove: {boost: {spd: 1}},
 		contestType: "Tough",
-	},
+	},*/
 	gravitywave: {
 		num: 447,
 		accuracy: 100,
@@ -23644,7 +23627,7 @@ terrorize: {
 		target: "normal",
 		type: "Water",
 		contestType: "Cool",
-	},
+	},/*
 	thunderslash: {
 		num: 348,
 		accuracy: 100,
@@ -23659,7 +23642,7 @@ terrorize: {
 		target: "normal",
 		type: "Electric",
 		contestType: "Cool",
-	},
+	},*/
 	chiburst: {
 		num: 437,
 		accuracy: 100,
@@ -23716,7 +23699,7 @@ terrorize: {
 		target: "normal",
 		type: "Water",
 		contestType: "Beautiful",
-	},
+	},/*
 	bravepunch: {
 		num: 710,
 		accuracy: 95,
@@ -23735,7 +23718,7 @@ terrorize: {
 		target: "normal",
 		type: "Fighting",
 		contestType: "Cool",
-	},
+	},*/
 	psypierce: {
 		num: 710,
 		accuracy: 100,
@@ -23885,7 +23868,7 @@ terrorize: {
 		type: "Electric",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Clever",
-	},
+	},/*
 	deepthought: {
 		num: 417,
 		accuracy: true,
@@ -23903,7 +23886,7 @@ terrorize: {
 		type: "Dragon",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Clever",
-	},
+	},*/
 	dreamdance: {
 		num: 417,
 		accuracy: true,
@@ -24129,7 +24112,7 @@ terrorize: {
 		target: "normal",
 		type: "Sound",
 		contestType: "Cool",
-	},
+	},/*
 	tessenjutsu: {
 		num: 612,
 		accuracy: 95,
@@ -24171,7 +24154,7 @@ terrorize: {
 		target: "normal",
 		type: "Fighting",
 		contestType: "Tough",
-	},
+	},*/
 	frostslash: {
 		num: 427,
 		accuracy: 100,
@@ -24252,7 +24235,7 @@ terrorize: {
 		target: "normal",
 		type: "Ghost",
 		contestType: "Beautiful",
-	},
+	},/*
 	shiverdance: {
 		num: 483,
 		accuracy: true,
@@ -24331,7 +24314,7 @@ terrorize: {
 		secondary: null,
 		target: "normal",
 		type: "Normal",
-	},
+	},*/
 	ancientroar: {
 		num: 828,
 		accuracy: 100,
@@ -24344,7 +24327,7 @@ terrorize: {
 		secondary: null,
 		target: "normal",
 		type: "Rock"
-	},
+	},/*
 	corrode: {
 		num: 829,
 		accuracy: 100,
@@ -24366,7 +24349,7 @@ terrorize: {
 		secondary: null,
 		target: "normal",
 		type: "Poison"
-	},
+	},*/
 	darkmatter: {
 		num: 850,
 		accuracy: 90,
@@ -24454,7 +24437,7 @@ terrorize: {
 		secondary: null,
 		target: "normal",
 		type: "Dragon"
-	},
+	},/*
 	lunarcannon: {
 		num: 855,
 		accuracy: 100,
@@ -24490,7 +24473,7 @@ terrorize: {
 		target: "normal",
 		type: "Dark",
 		contestType: "Cool"
-	},
+	},*/
 	medusaray: {
 		num: 856,
 		accuracy: 100,
@@ -24511,7 +24494,7 @@ terrorize: {
 		target: "normal",
 		type: "Rock",
 		zMove: {boost: {spa: 1}}
-	},
+	},/*
 	newmoon: {
 		num: 858,
 		accuracy: 100,
@@ -24526,7 +24509,7 @@ terrorize: {
 		target: "all",
 		type: "Dark",
 		zMove: {boost: {spa: 1}}
-	},
+	},*/
 	spiritaway: {
 		num: 864,
 		accuracy: 100,
@@ -24757,7 +24740,7 @@ terrorize: {
 		target: "normal",
 		type: "Ghost",
 		contestType: "Cool",
-	},
+	},/*
 	powerscreen: {
 		num: 115,
 		accuracy: true,
@@ -24829,7 +24812,7 @@ terrorize: {
 		type: "Psychic",
 		zMove: {boost: {def: 1}},
 		contestType: "Clever",
-	},
+	},*/
 	meateat: {
 		num: 105,
 		accuracy: true,
@@ -24939,7 +24922,7 @@ terrorize: {
 		target: "normal",
 		type: "Water",
 		contestType: "Tough",
-	},
+	},/*
 	heartattack: {
 		num: 247,
 		accuracy: 95,
@@ -24978,7 +24961,7 @@ terrorize: {
 		target: "normal",
 		type: "Steel",
 		contestType: "Clever",
-	},
+	},*/
 	shinebomb: {
 		num: 247,
 		accuracy: 100,
@@ -25120,7 +25103,7 @@ terrorize: {
 		target: "any",
 		type: "Bug",
 		contestType: "Cool",
-	},
+	},/*
 	slag: {
 		num: 188,
 		accuracy: 100,
@@ -25137,7 +25120,7 @@ terrorize: {
 		target: "normal",
 		type: "Steel",
 		contestType: "Tough",
-	},
+	},*/
 	venomswipe: {
 		num: 188,
 		accuracy: 90,
@@ -25206,7 +25189,7 @@ terrorize: {
 		target: "normal",
 		type: "Psychic",
 		contestType: "Tough",
-	},
+	},/*
 	megatyphoon: {
 		num: 460,
 		accuracy: 95,
@@ -25221,7 +25204,7 @@ terrorize: {
 		target: "normal",
 		type: "Water",
 		contestType: "Beautiful",
-	},
+	},*/
 	bluenote: {
 		num: 147,
 		accuracy: 100,
@@ -25237,7 +25220,7 @@ terrorize: {
 		type: "Sound",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
-	},
+	},/*
 	velvetscales: {
 		num: 446,
 		accuracy: true,
@@ -25299,7 +25282,7 @@ terrorize: {
 		target: "foeSide",
 		type: "Fire",
 		contestType: "Cool",
-	},
+	},*/
 	bittermalice: {
 		num: 860,
 		accuracy: 100,
@@ -25456,7 +25439,7 @@ terrorize: {
 		type: "Ground",
 		desc: "Lowers the user's Defense and Special Defense by 1 stage.",
 		shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
-	},
+	},/*
 	forbiddenspell: {
 		num: 853,
 		accuracy: true,
@@ -25475,7 +25458,7 @@ terrorize: {
 		},
 		desc: "Uses of one of these 8 moves: Shell Smash, Healing Wish, Dark Hole, Tail Glow, Roar of Time, Quiver Dance, No Retreat, or Soul Robbery",
 		shortDesc: "Isn't RNG fun?",
-	},
+	},*/
 	esperwing: {
 		num: 866,
 		name: "Esper Wing",
@@ -25496,6 +25479,7 @@ terrorize: {
 		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
 				shortDesc: "Usually goes first. 10% chance to lower Sp. Def by 1.",
 	},
+	/*
 	dracobarrage: {
 		name: "Draco Barrage",
 		type: "Dragon",
@@ -25531,7 +25515,7 @@ terrorize: {
 			status: 'slp',
 		},
 		shortDesc: "40% chance to inflict sleep, bypasses substitute.",
-	},
+	},*/
 	chloroblast: {
 		num: 864,
 		accuracy: 100,
@@ -25606,7 +25590,7 @@ terrorize: {
 		secondary: null,
 		target: "normal",
 		type: "Normal",
-	},
+	},/*
 	scorchedashes: {
 		num: 564,
 		accuracy: true,
@@ -25635,7 +25619,7 @@ terrorize: {
 		type: "Fire",
 		zMove: {boost: {atk: 1}},
 		contestType: "Tough",
-	},
+	},*/
 	cheapshot: {
 		num: 480,
 		accuracy: 100,
@@ -25865,13 +25849,13 @@ terrorize: {
 		secondary: {
 			chance: 100,
 			boosts: {
-				accuracy: -1,
+				evasion: -1,
 			},
 		},
 		target: "normal",
 		type: "Flying",
 		contestType: "Cool",
-	},
+	},/*
 	tartantrum: {
 		num: 9,
 		accuracy: 90,
@@ -25890,7 +25874,7 @@ terrorize: {
 		target: "normal",
 		type: "Rock",
 		contestType: "Cool",
-	},
+	},*/
 	electroswing: {
 		num: 86,
 		accuracy: 100,
@@ -25907,7 +25891,7 @@ terrorize: {
 		type: "Sound",
 		zMove: {boost: {spd: 1}},
 		contestType: "Cool",
-	},
+	},/*
 	iceboltwave: {
 		num: 161,
 		accuracy: 80,
@@ -25959,7 +25943,7 @@ terrorize: {
 		target: "allAdjacent",
 		type: "Cosmic",
 		contestType: "Beautiful",
-	},
+	},*/
 	summersunder: {
 		num: 369,
 		accuracy: 100,
@@ -26045,7 +26029,7 @@ terrorize: {
 		target: "normal",
 		type: "Psychic",
 		contestType: "Cool",
-	},
+	},/*
 	novainferno: {
 		num: 557,
 		accuracy: 95,
@@ -26086,7 +26070,7 @@ terrorize: {
 		target: "normal",
 		type: "Fire",
 		contestType: "Beautiful",
-	},
+	},*/
 	sublimate: {
 		num: 358,
 		accuracy: 90,
@@ -26136,7 +26120,7 @@ terrorize: {
 		secondary: null,
 		target: "normal",
 		type: "Fire",
-	},
+	},/*
 	astrallance: {
 		num: 817,
 		accuracy: 100,
@@ -26150,7 +26134,7 @@ terrorize: {
 		secondary: null,
 		target: "normal",
 		type: "Steel",
-	},
+	},*/
 	currentcrash: {
 		num: 528,
 		accuracy: 100,
@@ -26180,7 +26164,7 @@ terrorize: {
 		target: "normal",
 		type: "Psychic",
 		contestType: "Tough",
-	},
+	},/*
 	flashfreeze: {
 		num: 261,
 		accuracy: 60,
@@ -26248,7 +26232,7 @@ terrorize: {
 		target: "normal",
 		type: "Rock",
 		contestType: "Tough",
-	},
+	},*/
 	bedrockbreaker: {
 		num: 452,
 		accuracy: 100,
@@ -26263,7 +26247,7 @@ terrorize: {
 		target: "normal",
 		type: "Rock",
 		contestType: "Tough",
-	},
+	},/*
 	crashdive: {
 		num: 452,
 		accuracy: 100,
@@ -26295,7 +26279,7 @@ terrorize: {
 		target: "normal",
 		type: "Cosmic",
 		contestType: "Clever",
-	},
+	},*/
 	coralbreak: {
 		num: -1,
 		accuracy: 95,
@@ -26310,7 +26294,7 @@ terrorize: {
 		target: "normal",
 		type: "Water",
 		contestType: "Cool",
-	},
+	},/*
 	atomicpunch: {
 		num: -2,
 		accuracy: 95,
@@ -26327,7 +26311,7 @@ terrorize: {
 		target: "normal",
 		type: "Nuclear",
 		contestType: "Cool",
-	},
+	},*/
 	metalwhip: {
 		num: -3,
 		accuracy: 90,
@@ -26342,7 +26326,7 @@ terrorize: {
 		target: "normal",
 		type: "Steel",
 		contestType: "Cool",
-	},
+	},/*
 	nuclearwaste: {
 		num: -4,
 		accuracy: 85,
@@ -26388,7 +26372,7 @@ terrorize: {
 		target: "normal",
 		type: "Nuclear",
 		contestType: "Cool",
-	},
+	},*/
 	skyfall: {
 		num: -7,
 		accuracy: 100,
@@ -26405,7 +26389,7 @@ terrorize: {
 		target: "normal",
 		type: "Flying",
 		contestType: "Cool",
-	},
+	},/*
 	flameimpact: {
 		num: -8,
 		accuracy: 100,
@@ -26419,7 +26403,7 @@ terrorize: {
 		target: "normal",
 		type: "Fire",
 		contestType: "Cool",
-	},
+	},*/
 	nostrilflare: {
 		num: -8,
 		accuracy: 100,
@@ -26433,7 +26417,7 @@ terrorize: {
 		target: "normal",
 		type: "Fire",
 		contestType: "Cool",
-	},
+	},/*
 	subduction: {
 		num: -9,
 		accuracy: 90,
@@ -26486,7 +26470,7 @@ terrorize: {
 		target: "normal",
 		type: "Psychic",
 		contestType: "Cool",
-	},
+	},*/
 	darkresolve: {
 		num: -11,
 		accuracy: 100,
@@ -26521,7 +26505,7 @@ terrorize: {
 		target: "normal",
 		type: "Psychic",
 		contestType: "Cool",
-	},
+	},/*
 	bugnoise: {
 		num: -11,
 		accuracy: 90,
@@ -26539,7 +26523,7 @@ terrorize: {
 		target: "normal",
 		type: "Bug",
 		contestType: "Cool",
-	},
+	},*/
 	laserpulse: {
 		num: -12,
 		accuracy: 100,
@@ -26557,7 +26541,7 @@ terrorize: {
 		target: "normal",
 		type: "Normal",
 		contestType: "Cool",
-	},
+	},/*
 	halflife: {
 		num: -13,
 		accuracy: 90,
@@ -26589,7 +26573,7 @@ terrorize: {
 		target: "allAdjacent",
 		type: "Nuclear",
 		contestType: "Cool",
-	},
+	},*/
 	causticbreath: {
 		num: -15,
 		accuracy: 100,
@@ -26609,7 +26593,7 @@ terrorize: {
 		target: "allAdjacentFoes",
 		type: "Dragon",
 		contestType: "Cool",
-	},
+	},/*
 	nuclearslash: {
 		num: -16,
 		accuracy: 90,
@@ -26639,7 +26623,7 @@ terrorize: {
 		target: "all",
 		type: "Electric",
 		contestType: "Cool",
-	},
+	},*/
 	suddenstrike: {
 		num: -18,
 		accuracy: 100,
@@ -26653,7 +26637,7 @@ terrorize: {
 		target: "normal",
 		type: "Dark",
 		contestType: "Cool",
-	},
+	},/*
 	expunge: {
 		num: -19,
 		accuracy: 70,
@@ -26707,7 +26691,7 @@ terrorize: {
 		target: "normal",
 		type: "Nuclear",
 		contestType: "Cool",
-	},
+	},/*
 	infernalblade: {
 		num: -22,
 		accuracy: 95,
@@ -26776,7 +26760,7 @@ terrorize: {
 		target: "normal",
 		type: "Steel",
 		contestType: "Cool",
-	},
+	},*/
 	drainlife: {
 		num: -25,
 		accuracy: 100,
@@ -26791,7 +26775,7 @@ terrorize: {
 		target: "normal",
 		type: "Dark",
 		contestType: "Cool",
-	},
+	},/*
 	stickyterrain: {
 		num: -26,
 		accuracy: true,
@@ -26862,7 +26846,7 @@ terrorize: {
 		target: "normal",
 		type: "Nuclear",
 		contestType: "Cool",
-	},
+	},*/
 	gemstoneglimmer: {
 		num: -28,
 		accuracy: 95,
@@ -26990,7 +26974,7 @@ terrorize: {
 		target: "normal",
 		type: "Fighting",
 		contestType: "Tough",
-	},
+	},/*
 	slay: {
 		num: -22,
 		accuracy: 100,
@@ -27007,7 +26991,7 @@ terrorize: {
 		target: "normal",
 		type: "Steel",
 		contestType: "Cool",
-	},
+	},*/
 	chiblock: {
 		num: 86,
 		accuracy: 90,
@@ -28465,25 +28449,6 @@ terrorize: {
 		zMove: {boost: {def: 1}},
 		contestType: "Beautiful",
 	},
-	prismbeam: {
-        num: 895,
-        accuracy: 100,
-        basePower: 115,
-        category: "Special",
-        name: "Prism Beam",
-        pp: 10,
-        priority: 0,
-        flags: {protect: 1, mirror: 1},
-        self: {
-            boosts: {
-                spa: -1,
-            },
-        },
-        secondary: null,
-        target: "normal",
-        type: "Light",
-        contestType: "Beautiful",
-    },
 	callout: {
         num: 896,
         accuracy: true,
@@ -28605,10 +28570,11 @@ terrorize: {
 		},
 		secondary: null,
 		target: "self",
-		type: "Light",
+		type: "Fairy",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Tough",
 	},
+	/*
 	lightspeed: {
 		num: 901,
 		accuracy: 100,
@@ -28622,7 +28588,7 @@ terrorize: {
 		target: "normal",
 		type: "Light",
 		contestType: "Cool",
-	},
+	},*/
 	// blindingblast: {
 	// 	num: 902,
 	// 	accuracy: 100,
@@ -28651,6 +28617,7 @@ terrorize: {
 	// 	type: "Dark",
 	// 	contestType: "Beautiful",
 	// },
+	/*
 	lightwave: {
 		num: 904,
 		accuracy: 100,
@@ -28686,7 +28653,7 @@ terrorize: {
 		target: "normal",
 		type: "Light",
 		contestType: "Beautiful",
-	},
+	},*/
 	cometstorm: {
 		num: 906,
 		accuracy: 80,
@@ -28756,7 +28723,7 @@ terrorize: {
 		secondary: null,
 		target: "self",
 		type: "Cosmic",
-	},
+	},/*
 	radiantpunch: {
 		num: 908,
 		accuracy: 100,
@@ -28794,7 +28761,7 @@ terrorize: {
 		target: "allAdjacent",
 		type: "Light",
 		contestType: "Cool",
-	},
+	},*/
 	meteorshower: {
 		num: 910,
 		accuracy: 100,
@@ -28811,7 +28778,7 @@ terrorize: {
 		zMove: {basePower: 140},
 		maxMove: {basePower: 130},
 		contestType: "Beautiful",
-	},
+	},/*
 	flashbeam: {
 		num: 911,
 		accuracy: 100,
@@ -28842,7 +28809,7 @@ terrorize: {
 		target: "normal",
 		type: "Light",
 		contestType: "Cute",
-	},
+	},*/
 	moonritual: {
 		num: 913,
 		accuracy: true,
@@ -29094,7 +29061,7 @@ terrorize: {
 		target: "normal",
 		type: "Dragon",
 		contestType: "Clever",
-	},
+	},/*
 	blindingflash: {
 		num: 921,
 		accuracy: 100,
@@ -29111,7 +29078,7 @@ terrorize: {
 		target: "any",
 		type: "Light",
 		contestType: "Cool",
-	},
+	},*/
 	starpierce: {
 		num: 922,
 		accuracy: 100,
@@ -29125,7 +29092,7 @@ terrorize: {
 		target: "normal",
 		type: "Cosmic",
 		contestType: "Tough",
-	},
+	},/*
 	solarflare: {
 		num: 923,
 		accuracy: 100,
@@ -29172,7 +29139,7 @@ terrorize: {
 		target: "normal",
 		type: "Light",
 		contestType: "Tough",
-	},
+	},*/
 	vacuumray: {
 		num: 925,
 		accuracy: 100,
@@ -29201,7 +29168,7 @@ terrorize: {
 		target: "normal",
 		type: "Cosmic",
 		contestType: "Beautiful",
-	},
+	},/*
 	sunhammer: {
 		num: 927,
 		accuracy: 90,
@@ -29237,7 +29204,7 @@ terrorize: {
 		target: "normal",
 		type: "Light",
 		contestType: "Cool",
-	},
+	},*/
 	wormhole: {
 		num: 929,
 		accuracy: true,
@@ -29466,7 +29433,7 @@ terrorize: {
 		type: "Psychic",
 		zMove: {boost: {spa: 2}},
 		contestType: "Clever",
-	},
+	},/*
 	solarhymn: {
 		num: 939,
 		accuracy: 90,
@@ -29487,7 +29454,7 @@ terrorize: {
 		target: "normal",
 		type: "Light",
 		contestType: "Cool",
-	},
+	},*/
 	heartbreak: {
 		num: 940,
 		accuracy: 100,
@@ -29775,7 +29742,7 @@ terrorize: {
 		zMove: {basePower: 180},
 		maxMove: {basePower: 130},
 		contestType: "Cool",
-	},
+	},/*
 	brightclaw: {
 		num: 951,
 		accuracy: 100,
@@ -29828,7 +29795,7 @@ terrorize: {
 		target: "normal",
 		type: "Light",
 		contestType: "Beautiful",
-	},
+	},*/
 	freezingcomet: {
 		num: 954,
 		accuracy: 90,
@@ -30071,6 +30038,7 @@ terrorize: {
 		zMove: {boost: {spe: 1}},
 		contestType: "Beautiful",
 	},
+	/*
 	veiloflight: {
 		num: 965,
 		accuracy: 100,
@@ -30118,6 +30086,7 @@ terrorize: {
 		zMove: {boost: {def: 1}},
 		contestType: "Tough",
 	},
+	*/
 	nosedive: {
 		num: 966,
 		accuracy: 90,
@@ -30382,7 +30351,7 @@ terrorize: {
 		},
 		secondary: null,
 		target: "normal",
-		type: "Light",
+		type: "Psychic",
 		contestType: "Tough",
 	},
 	aquaticgift: {
@@ -30550,7 +30519,7 @@ terrorize: {
 		target: "normal",
 		type: "Flying",
 		contestType: "Cool",
-	},
+	},/*
 	enlightenment: {
 		num: 989,
 		accuracy: true,
@@ -30606,7 +30575,7 @@ terrorize: {
 		target: "allySide",
 		type: "Light",
 		contestType: "Cool",
-	},
+	},*/
 	treasurehoard: {
 		num: 990,
 		accuracy: true,
@@ -30723,7 +30692,7 @@ terrorize: {
 		},
 		secondary: null,
 		target: "self",
-		type: "Light",
+		type: "Fairy",
 		contestType: "Beautiful",
 	},
 	fail: {
@@ -30803,7 +30772,7 @@ terrorize: {
 		},
 		secondary: null,
 		target: "normal",
-		type: "Light",
+		type: "Normal",
 		contestType: "Tough",
 	},
 	twintrunkwallop: {
@@ -30825,7 +30794,7 @@ terrorize: {
 		target: "normal",
 		type: "Grass",
 		contestType: "Smart",
-	},
+	},/*
 	occultaura: {
 		num: 997,
 		accuracy: 100,
@@ -30840,7 +30809,7 @@ terrorize: {
 		target: "normal",
 		type: "Light",
 		contestType: "Clever",
-	},
+	},*/
 	astralprojections: {
 		num: 987,
 		accuracy: 100,

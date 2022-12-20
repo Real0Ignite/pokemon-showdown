@@ -7104,17 +7104,8 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 2,
 		isNonstandard: "Past",
 	},
-	poisonrock: {
-		name: "Poison Rock",
-		spritenum: 34,
-		fling: {
-			basePower: 60,
-		},
-		num: 10000,
-		gen: 4,
-	},
-	ngunishield: {
-		name: "Nguni Shield",
+	strikevest: {
+		name: "Strike Vest",
 		spritenum: 581,
 		fling: {
 			basePower: 80,
@@ -7133,8 +7124,8 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 10001,
 		gen: 6,
 	},
-	shockorb: {
-		name: "Shock Orb",
+	boltorb: {
+		name: "Bolt Orb",
 		spritenum: 252,
 		fling: {
 			basePower: 30,

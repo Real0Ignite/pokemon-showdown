@@ -2334,8 +2334,8 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "PSN Cure Berry",
 		desc: "(Gen 2) Holder is cured if it is poisoned. Single use.",
 	},
-	ngunishield: {
-		name: "Nguni Shield",
+	strikevest: {
+		name: "Strike Vest",
 		desc: "Holder's Def is 1.5x, but it can only select damaging moves.",
 		newmeta: "true",
 	},
@@ -2344,8 +2344,8 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "When the user holding this faints a layer of spikes is set-up on the opponent's side of the field.",
 		newmeta: "true",
 	},
-	shockorb: {
-		name: "Shock Orb",
+	boltorb: {
+		name: "Bolt Orb",
 		desc: "At the end of every turn, this item attempts to paralyze the holder.",
 		newmeta: "true",
 	},

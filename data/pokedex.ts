@@ -21732,4 +21732,15 @@ nebuluga: {
 		eggGroups: ["Flying", "Human-Like"],
 		newmeta: "true",
 	},
+	cladite: {
+		num: 10193,
+		name: "Cladite",
+		types: ["Water", "Fairy"],
+		baseStats: {hp: 80, atk: 95, def: 100, spa: 95, spd: 100, spe: 110},
+		abilities: {0: "Shell Armor", 1: "Cute Charm", H: "Pantheon"},
+		heightm: 1.1,
+		weightkg: 110
+		color: "Pink",
+		eggGroups: ["Undiscovered"]
+		newmeta: "true",
 };
